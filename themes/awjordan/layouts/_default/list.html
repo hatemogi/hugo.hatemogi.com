@@ -1,0 +1,30 @@
+{{ template "theme/partials/header.html" . }}
+{{ template "partials/header.html" . }}
+<div class="pure-g layout">
+  <div class="pure-u-1">
+    <div id="article">
+      <div class="posts">
+          {{ range .Data.Pages }}
+            <h2 class="post-header">
+            <a href="{{ .Permalink }}">{{ .Title }}</a>
+            </h2>
+            <p class="post-meta">
+              <p class="meta">
+                <small>&nbsp;<i class="fa fa-calendar-o"></i>
+                {{ .Date.Format  "2006-01-02" }}
+                </small>
+              </p>
+            </p>
+            <div class="post-description">
+              {{ .Summary }}
+              {{ if .Truncated }}
+              <a class="pure-button button-xsmall" href="{{ .Permalink }}">더보기</a>
+              {{ end }}
+            </div>
+          {{ end }}
+      </div>
+    </div>
+  </div>
+</div>
+
+{{ template "theme/partials/footer.html" . }}
