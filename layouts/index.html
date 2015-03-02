@@ -1,0 +1,28 @@
+{{ partial "header.html" . }}
+{{ partial "navigation.html" . }}
+
+<div class="splash-container">
+  <div class="splash">
+    <h1 class="splash-head">hatemogi</h1>
+    <p class="splash-subhead">제주의 소프트웨어 개발자</p>
+  </div>
+</div>
+<div class="splashed-content-wrapper">
+  <div class="pure-g layout">
+    <div class="pure-u-1">
+      <section id="main">
+      <div>
+        {{ range first 10 .Data.Pages }}
+          <li>{{ .Title}}</li>
+        {{ end }}
+      </div>
+      </section>
+      <footer>
+        copyright(c) 2015 hatemogi
+      </footer>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

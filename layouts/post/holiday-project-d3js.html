@@ -1,0 +1,42 @@
+{{ partial "header.html" . }}
+{{ partial "navigation.html" . }}
+
+<div class="pure-g layout">
+  <div class="pure-u-1">
+    <!-- A wrapper for all the blog posts -->
+    <div class="posts">
+      <!-- A single blog post -->
+      <section class="post">
+        <header class="post-header">
+          <h2 class="post-title">
+            {{ .Title }}
+          </h2>
+
+          <p class="post-meta">
+            <i class="fa fa-calendar-o"></i>
+            {{ .Date.Format  "2006-01-02" }}
+            {{ range .Params.tags }}
+            <a class="post-tag post-tag-{{.}}" href="#">{{.}}</a>
+            {{ end }}
+          </p>
+        </header>
+
+        <div class="post-description">
+          {{ .Content }}
+        </div>
+      </section>
+    </div>
+  </div>
+  <div class="pure-u-1">
+    {{ partial "holiday-project-list.html" }}
+  </div>
+  <div class="content pure-u-1">
+    <ul class="pure-paginator">
+     {{with .Prev}} &nbsp;<li><a class="pure-button" href="{{.Permalink}}"> {{.Title}}</a></li>{{end}}
+     {{with .Next}} &nbsp;<li><a class="pure-button" href="{{.Permalink}}"> {{.Title}}</a></li>{{end}}
+    </ul>
+  </div>
+</div>
+
+
+{{ partial "footer.html" }}
