@@ -20,7 +20,7 @@ h1, h2, h3 {
   float: left;
 }
 
-.navigation {
+nav {
   position: absolute;
   z-index: 3;
   background-color: #2d3e50;
@@ -32,46 +32,46 @@ h1, h2, h3 {
   padding: 5px;
 }
 
-.navigation ul {
+nav ul {
   list-style-image: none;
   list-style-position: outside;
   list-style-type: none;
 }
 
-.navigation ul.site-links {
+nav ul.site-links {
   display: block;
   float: left;
   padding: 0px;
   margin: 0px;
 }
 
-.navigation ul.site-links li {
+nav ul.site-links li {
   display: block;
   float: left;
   padding: 12px 10px;
 }
 
-.navigation ul.social-links {
+nav ul.social-links {
   display: block;
   float: right;
   padding: 11px;
   margin: 0;
 }
 
-.navigation ul.social-links li {
+nav ul.social-links li {
   float: left;
   padding: 0 5px;
 }
 
-.navigation a:hover,
-.navigation a:visited,
-.navigation a:active,
-.navigation a {
+nav a:hover,
+nav a:visited,
+nav a:active,
+nav a {
   text-decoration: none;
   color: white;
 }
 
-.navigation a:hover {
+nav a:hover {
   color: #aecfe5;
 }
 
@@ -212,13 +212,12 @@ blockquote p {
 
 /* This is the main heading that appears on the blue section */
 .splash-head {
-    font-size: 20px;
+    font-family: "Impact";
+    font-size: 40px;
     font-weight: bold;
     color: white;
-    border: 3px solid white;
     padding: 1em 1.6em;
     font-weight: 100;
-    border-radius: 5px;
     line-height: 1em;
 }
 
