@@ -87,6 +87,10 @@ nav a:hover {
   background-color: #f8f8f8;
 }
 
+.posts img {
+  max-width: 100%;
+}
+
 .post-title {
   border-bottom: 1px solid teal;
   font-size: 1.8em;
