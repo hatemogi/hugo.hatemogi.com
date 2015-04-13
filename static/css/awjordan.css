@@ -1,11 +1,7 @@
-html, button, input, select, textarea,
-.pure-g [class *= "pure-u"] {
+html, button, input, select, textarea {
     /* Set your content font stack here: */
     font-family: Georgia, "NanumGothic", Times, "Times New Roman", serif;
 }
-
-@import url(http://fonts.googleapis.com/earlyaccess/kopubbatang.css);
-@import url(http://fonts.googleapis.com/earlyaccess/jejugothic.css);
 
 h1, h2, h3 {
   font-family: "Helvetica Neue", "NanumGothic", sans-serif;
@@ -20,14 +16,13 @@ h1, h2, h3 {
   float: left;
 }
 
-nav {
+/*nav {
   position: absolute;
   z-index: 3;
   background-color: #2d3e50;
   color: white;
   width: 100%;
   top: 0;
-  height: 40px;
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   padding: 5px;
 }
@@ -74,7 +69,7 @@ nav a {
 nav a:hover {
   color: #aecfe5;
 }
-
+*/
 .post-description {
   font-family: "NanumMyeongjo", "Times New Roman", serif;
   line-height: 1.4em;
@@ -104,24 +99,15 @@ nav a:hover {
 }
 
 footer {
-  float: right;
+  display: block;
+  text-align: right;
   font-size: small;
   color: gray;
-  margin: 20px;
-}
-
-a {
-  color: rgb(66, 139, 232);
-  text-decoration: none;
-}
-
-a:visited {
-  color: rgb(66, 139, 202);
-}
-
-a:hover {
-  color: rgb(42, 100, 150);
-  text-decoration: underline;
+  background-color: #eee;
+  margin-top: 100px;
+  padding: 30px;
+  width: 100%;
+  height: 120px;
 }
 
 blockquote {
@@ -145,103 +131,11 @@ blockquote p {
 }
 
 .layout {
-  margin: 40px auto;
+  margin: 20px auto;
   padding: 0 10px;
   max-width: 800px;
 }
 
-.button-success,
-.button-error,
-.button-warning,
-.button-secondary {
-  color: white;
-  border-radius: 4px;
-  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
-}
-
-.button-success {
-  background: rgb(28, 184, 65); /* this is a green */
-}
-
-.button-error {
-  background: rgb(202, 60, 60); /* this is a maroon */
-}
-
-.button-warning {
-  background: rgb(223, 117, 20); /* this is an orange */
-}
-
-.button-secondary {
-  background: rgb(66, 184, 221); /* this is a light blue */
-}
-
-.button-xsmall {
-  font-size: 70%;
-}
-
-.button-small {
-  font-size: 85%;
-}
-
-.button-large {
-  font-size: 110%;
-}
-
-.button-xlarge {
-  font-size: 125%;
-}
-
-.splash-container {
-    background: #1f8dd6;
-    z-index: 1;
-    overflow: hidden;
-    /* The following styles are required for the "scroll-over" effect */
-    width: 100%;
-    height: 300px;
-    top: 0;
-    left: 0;
-    position: fixed !important;
-}
-
-.splash {
-    /* absolute center .splash within .splash-container */
-    width: 60%;
-    height: 200px;
-    margin: auto;
-    position: absolute;
-    top: 50px; left: 0; bottom: 0; right: 0;
-    text-align: center;
-    text-transform: uppercase;
-}
-
-/* This is the main heading that appears on the blue section */
-.splash-head {
-    font-family: "Impact";
-    font-size: 40px;
-    font-weight: bold;
-    color: white;
-    padding: 1em 1.6em;
-    font-weight: 100;
-    line-height: 1em;
-}
-
-/* This is the subheading that appears on the blue section */
-.splash-subhead {
-    color: white;
-    letter-spacing: 0.05em;
-    opacity: 0.8;
-}
-
-/*
- * -- CONTENT STYLES --
- * This represents the content area (everything below the blue section)
- */
-.splashed-content-wrapper {
-    /* These styles are required for the "scroll-over" effect */
-    position: absolute;
-    top: 87%;
-    width: 100%;
-    min-height: 12%;
-    z-index: 2;
-    background: white;
+img {
+  max-width: 100%;
 }

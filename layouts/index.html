@@ -1,31 +1,27 @@
 {{ partial "header.html" . }}
 {{ partial "navigation.html" . }}
 
-<div class="splash-container">
-  <div class="splash">
-    <h1 class="splash-head">hatemogi</h1>
-    <p class="splash-subhead">제주의 소프트웨어 개발자
-    소프트웨어 개발자. 어려서 Apple IIe로 독학 프로그래밍에 빠져든 이래 개발을 취미이자 직업으로 삼았습니다. 홍익대에서 컴퓨터공학을 전공했고, 다음커뮤니케이션 클라우드기술팀 팀장을 거치며 만 10년 근무후 독립했습니다.
-    </p>
-
-  </div>
-</div>
-<div class="splashed-content-wrapper">
-  <div class="pure-g layout">
-    <div class="pure-u-1">
-      <section id="main">
-      <div>
-        {{ range first 10 .Data.Pages }}
-          <li>{{ .Title}}</li>
-        {{ end }}
-      </div>
-      </section>
-      <footer>
-        copyright(c) 2015 hatemogi
-      </footer>
+<main class="layout">
+  <div class="container-fluid">
+    <div class="jumbotron">
+      <img src="/img/profile.jpg" class="img-rounded pull-right" style="width: 200px;">
+      <h1>hatemogi</h1>
+      <p>프리랜서 소프트웨어 개발자</p>
+      <a class="btn btn-info btn-lg" href="/about" role="button">소개</a>
+      <a class="btn btn-success btn-lg" href="/post" role="button">블로그</a>
+      <a class="btn btn-warning btn-lg" href="/project" role="button">프로젝트</a>
     </div>
   </div>
-</div>
 
-</body>
-</html>
+  <div class="container-fluid">
+    <div class="center-block" style="text-align: center;">
+    <h2>
+      <a href="https://github.com/hatemogi"><i class="fa fa-github fa-lg"></i></a>
+      <a href="https://medium.com/hatemogi"><i class="fa fa-medium fa-lg"></i></a>
+      <a href="https://twitter.com/@hatemogi"><i class="fa fa-twitter fa-lg"></i></a>
+    </h2>
+    </div>
+  </div>
+</main>
+
+{{ partial "footer.html" . }}

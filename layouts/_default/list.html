@@ -1,11 +1,11 @@
 {{ partial "header.html" . }}
 {{ partial "navigation.html" . }}
-<main class="pure-g layout">
-  <div class="pure-u-1">
+<main class="layout">
+  <div class="container-fluid">
     <div id="article">
       <div class="posts">
           {{ range .Data.Pages }}
-            <h2 class="post-header">
+            <h2 class="post-title">
             <a href="{{ .Permalink }}">{{ .Title }}</a>
             </h2>
             <p class="post-meta">
