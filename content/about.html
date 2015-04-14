@@ -1,14 +1,23 @@
-+++
-date = "2015-04-11"
-draft = false
-title = "소개"
-keywords = ["about"]
-+++
+---
+date: "2015-04-11"
+draft: false
+title: "소개"
+keywords: ["about"]
+
+tags: ["tag1", "tag2"]
+parents:
+  -
+    title: 홈
+    link: /
+  -
+    title: 다음
+    link: /next
+---
 
 <div class="container-fluid">
   <div class="row">
     <div class="col-sm-3 col-xs-3">
-      <img src="/img/profile.jpg" class="img-rounded">
+      <img src="/img/profile.jpg">
       <h4>김대현</h4>
       <i class="fa fa-server"></i> 서버 프로그래머
     </div>

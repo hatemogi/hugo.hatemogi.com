@@ -1,8 +1,13 @@
 {{ partial "header.html" . }}
 {{ partial "navigation.html" . }}
 
-<main class="layout">
-{{ .Content }}
-</main>
 
+<main class="layout">
+  {{ partial "breadcrumb.html" .}}
+  <div class="page-header">
+  <h2>{{ .Title }}</h2>
+  </div>
+  {{ .Content }}
+</main>
+{{ partial "prevnext.html" . }}
 {{ partial "footer.html" }}

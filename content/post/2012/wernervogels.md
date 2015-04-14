@@ -2,7 +2,6 @@
 title: 'Amazon CTO, Werner Vogels와의 저녁식사'
 kind: article
 date: 2012-07-05
-layout: article
 ---
 
 블로그에 남겨야겠다고 생각한 내용이었는데, 벌써 한달이 넘게 지난 일이군요. 지난 얘기지만, 꼭 남겨두고 싶은 얘기들이 있어서 메모를 뒤적이며 기억을 되살려 남겨봅니다. 5월말 Werner Vogels박사 방한에 관련한 내용입니다.

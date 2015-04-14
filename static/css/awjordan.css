@@ -1,78 +1,13 @@
-html, button, input, select, textarea {
+html, button, input, select, textarea, main {
     /* Set your content font stack here: */
-    font-family: Georgia, "NanumGothic", Times, "Times New Roman", serif;
+    font-family: Georgia, "NanumMyeongjo", Times, "Times New Roman", serif;
 }
 
 h1, h2, h3 {
-  font-family: "Helvetica Neue", "NanumGothic", sans-serif;
+  font-weight: bold;
 }
-
-.site-logo {
-  font-family: "American Typewriter", "Courier New";
-  font-size: 24px;
-  margin: 0 10px;
-  padding: 5px;
-  display: block;
-  float: left;
-}
-
-/*nav {
-  position: absolute;
-  z-index: 3;
-  background-color: #2d3e50;
-  color: white;
-  width: 100%;
-  top: 0;
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  padding: 5px;
-}
-
-nav ul {
-  list-style-image: none;
-  list-style-position: outside;
-  list-style-type: none;
-}
-
-nav ul.site-links {
-  display: block;
-  float: left;
-  padding: 0px;
-  margin: 0px;
-}
-
-nav ul.site-links li {
-  display: block;
-  float: left;
-  padding: 12px 10px;
-}
-
-nav ul.social-links {
-  display: block;
-  float: right;
-  padding: 11px;
-  margin: 0;
-}
-
-nav ul.social-links li {
-  float: left;
-  padding: 0 5px;
-}
-
-nav a:hover,
-nav a:visited,
-nav a:active,
-nav a {
-  text-decoration: none;
-  color: white;
-}
-
-nav a:hover {
-  color: #aecfe5;
-}
-*/
-.post-description {
-  font-family: "NanumMyeongjo", "Times New Roman", serif;
-  line-height: 1.4em;
+h1, h2, h3, ol, ul {
+  font-family: "Helvetica Neue", sans-serif;
 }
 
 .posts code {
@@ -80,10 +15,6 @@ nav a:hover {
   border: 1px solid #ddd;
   padding: 1px;
   background-color: #f8f8f8;
-}
-
-.posts img {
-  max-width: 100%;
 }
 
 .post-title {
@@ -98,18 +29,6 @@ nav a:hover {
   font-size: 90%;
 }
 
-footer {
-  display: block;
-  text-align: right;
-  font-size: small;
-  color: gray;
-  background-color: #eee;
-  margin-top: 100px;
-  padding: 30px;
-  width: 100%;
-  height: 120px;
-}
-
 blockquote {
   border-left: 4px solid #aaa;
   background: #fafafa;
@@ -119,6 +38,10 @@ blockquote {
 
 blockquote p {
   margin: 0;
+}
+
+.logo {
+  font-family: "Chalkduster", "Marker Felt", serif;
 }
 
 .post-tag {
@@ -133,7 +56,26 @@ blockquote p {
 .layout {
   margin: 20px auto;
   padding: 0 10px;
-  max-width: 800px;
+  max-width: 760px;
+  min-height: 500px;
+}
+
+.breadcrumb > li + li::before {
+  font-family: 'FontAwesome';
+  content:"\f105"; /* angle-right */
+  /* content:"\f101"; /* angle-double-right */
+  /* content:"\f0da"; /* caret-right */
+}
+
+footer {
+  display: block;
+  text-align: right;
+  font-size: small;
+  background-color: #CCD1D9;
+  margin-top: 50px;
+  padding: 30px;
+  width: 100%;
+  height: 120px;
 }
 
 img {
