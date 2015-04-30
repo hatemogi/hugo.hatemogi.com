@@ -1,13 +1,25 @@
 {{ partial "header.html" . }}
 {{ partial "navigation.html" . }}
 
-
 <main class="layout">
   {{ partial "breadcrumb.html" .}}
-  <div class="page-header">
-  <h2>{{ .Title }}</h2>
-  </div>
-  {{ .Content }}
+  <article>
+    <div class="post-header">
+      <h2>
+        {{ .Title }}
+      </h2>
+      <div class="post-meta clearfix">
+        <div class="pull-right"><i class="fa fa-calendar-o"></i> {{ .Date.Format  "2006-01-02" }}</div>
+        <div class="keywords">
+        {{ range .Keywords }}
+          <span class="label label-info">{{ . }}</span>
+        {{ end}}
+        </div>
+      </div>
+    </div>
+    {{ .Content }}
+
+  </article>
 </main>
 {{ partial "prevnext.html" . }}
 {{ partial "footer.html" }}

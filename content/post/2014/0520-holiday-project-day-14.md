@@ -9,10 +9,13 @@ description: '프로젝트 14일째, 오늘은 데모 웹사이트를 만들어 
 
 프로젝트 14일째, 오늘은 데모 웹사이트를 만들어 올리기 위해, (1) 노드용 템플릿 엔진인 [Jade]를 잠깐 써보고, (2) Heroku에 지금까지 만들고 있는 [express 웹앱](https://github.com/hatemogi/holiday-project)을 배포해봤다.
 
+<!--more-->
+
 Node.js 템플릿 엔진 - Jade
 -----------------------
 
 루비 쪽의 [Haml]과 같은 템플릿 엔진이다. 간결한 문법과 들여쓰기로, HTML/XML 태그를 여닫는 번거로움 없이 간편하게 결과 페이지를 만들 수 있다. 이하는 오늘 작성한 템플릿 레이아웃의 일부다.
+
 
 ### [layout.jade](https://github.com/hatemogi/holiday-project/blob/day-14/views/layout.jade)의 일부
 

@@ -14,7 +14,7 @@ description: 'AngularJS 코드 스쿨 강의를 듣기 전에는 AngularJS는 �
 
 21일째에는 AngularJS 코드를 테스트하려는 노력을 기울이다가, 블로그로 정리해야 할, 밤늦은 시간에 회사 동료들을 만나러 나갔다. 합병 소식에 허전해서였을까? 같은 단지에 사는 후배이자 동료를 불러봤는데, 마침 나올 수 있다고 했고, 그렇게 한 명 두 명 즉흥적으로 불러봤는데, 결국 5명이 모여서 늦은 시간까지 시끄럽게 떠들었다.
 
-<img src="/img/holiday-project/kcircle_hagun_jhban.jpg" style="width: 400px;"/>
+<img src="/img/post/holiday-project/kcircle_hagun_jhban.jpg" style="width: 400px;"/>
 
 한 명 더 왔었는데, 그가 왔을 때 이미 난 사진을 찍을 만한 상황이 아니었던지라, 이 사진이 전부다. 사진 잘 나왔다. 모두 다음의 탑클래스 개발자들이다. 치맥을 먹으면서도 ```git stash```와 Scala의 immutable 변수 ```val```을 논하는 천상 개발자들이다.
 

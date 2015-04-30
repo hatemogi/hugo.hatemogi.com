@@ -32,11 +32,10 @@ h1, h2, h3, ol, ul {
 blockquote {
   border-left: 4px solid #aaa;
   background: #fafafa;
-  margin: 0;
   padding: 10px;
 }
 
-blockquote p {
+blockquotea p {
   margin: 0;
 }
 

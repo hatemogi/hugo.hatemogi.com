@@ -2,29 +2,27 @@
 {{ partial "navigation.html" . }}
 <main class="layout">
   <div class="container-fluid">
-    <div id="article">
-      <div class="posts">
-          {{ range .Data.Pages }}
-            <h2 class="post-title">
-            <a href="{{ .Permalink }}">{{ .Title }}</a>
-            </h2>
-            <p class="post-meta">
-              <p class="meta">
-                <small>&nbsp;<i class="fa fa-calendar-o"></i>
-                {{ .Date.Format  "2006-01-02" }}
-                </small>
-              </p>
-            </p>
-            <div class="post-description">
-              {{ .Summary }}
-              {{ if .Truncated }}
-              <p>
-              <a class="pure-button button-xsmall" href="{{ .Permalink }}">더보기</a>
-              </p>
-              {{ end }}
-            </div>
+    <div class="posts">
+      {{ range .Data.Pages }}
+        <div>
+        <h2>
+          <a href="{{ .Permalink }}">{{ .Title }}</a>
+          <small class="pull-right"><i class="fa fa-calendar-o"></i>
+          {{ .Date.Format  "2006-01-02" }}
+          </small>
+        </h2>
+        </div>
+        <div class="post-meta">
+          <p class="meta">
+          </p>
+        </div>
+        <div class="post-description">
+          {{ .Summary }}
+          {{ if .Truncated }}
+          ... <a class="btn btn-default btn-xs" href="{{ .Permalink }}">더 읽기</a>
           {{ end }}
-      </div>
+        </div>
+      {{ end }}
     </div>
   </div>
 </main>
