@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta property="og:title" content="2015 블로그 업데이트와 근황">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="">
+  <meta property="og:url" content="http://localhost:1313/post/2015/0430-update/">
+  <meta property="og:description" content="소프트웨어 개발자, 김대현의 블로그">
+  <title>2015 블로그 업데이트와 근황</title>
+  <link rel="canonical" href="http://localhost:1313/post/2015/0430-update/">
+  <link rel="stylesheet" href="/css/bootstrap.flatly.css">
+  <link rel="stylesheet" href="/css/bootstrap-social.css">
+  <link rel="stylesheet" href="/css/highlight/github.css">
+  <link rel="stylesheet" href="/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/css/awjordan.css">
+  <script src="/js/jquery.min.js"></script>
+  <script src="/js/bootstrap.min.js"></script>
+  <script src="/js/highlight.pack.js"></script>
+  <script src="/js/d3.min.js"></script>
+  <script src="/js/hatemogi.js"></script>
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-static-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand logo" href="/">
+      hatemogi
+      </a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li><a href="/about">소개</a></li>
+      <li><a href="/post">블로그</a></li>
+      
+      
+    </ul>
+    <ul class="nav navbar-nav hidden-xs navbar-right">
+      <li><a href="https://twitter.com/@hatemogi"><i class="fa fa-twitter fa-lg"></i></a></li>
+      <li><a href="https://github.com/hatemogi"><i class="fa fa-github fa-lg"></i></a></li>
+      <li><a href="https://medium.com/hatemogi"><i class="fa fa-medium fa-lg"></i></a></li>
+    </ul>
+  </div>
+</nav>
+
+<main class="layout">
+    <ol class="breadcrumb">
+    <li><a href="/">홈</a></li>
+    <li><a href="/post"> 블로그</a></li>
+    <li class="active"> 2015 블로그 업데이트와 근황</li>
+  </ol>
+
+  <article>
+    <div class="post-header">
+      <h2>
+        2015 블로그 업데이트와 근황
+      </h2>
+      <div class="post-meta clearfix">
+        <div class="pull-right"><i class="fa fa-calendar-o"></i> 2015-04-30</div>
+        <div class="keywords">
+        
+          <span class="label label-info">근황</span>
+        
+          <span class="label label-info">블로그</span>
+        
+        </div>
+      </div>
+    </div>
+    
+
+<h3 id="hugo로-웹사이트-만들기:f123e9123c0e692add538cc883c04f28">Hugo로 웹사이트 만들기</h3>
+
+<p>오랜만에 블로그를 정돈했습니다. 저는 개인 홈페이지를 <strong>정적 사이트 생성기 (static site generator)</strong>를 사용해서 만드는데, 원래는 Ruby언어 기반의 <a href="http://middlemanapp.com">middleman</a>을 써서 만들다가, 이번에 Go언어 기반의 <a href="http://gohugo.io">Hugo</a>로 바꿔서 만들어 봤습니다.</p>
+
+<p>어차피 제 개인 홈페이지는 방문자와의 동적인 연동이 필요 없어서, 별도로 웹서버를 만들어 띄울 필요가 없습니다. 혹시나 댓글을 달 수 있는 기능 정도를 넣을지도 모르겠지만, 그렇다 하더라도, <a href="https://disqus.com">Disqus</a>등을 붙이면 프론트엔드에서 다 처리할 수 있어서, 번거롭게 웹서버를 따로 둘 필요가 없는 것이지요.</p>
+
+<p>쓰기 편한 <strong>정적 사이트 생성기</strong>를 적당히 가져다가 Markdown으로 작성한 글들을 적당한 뼈대를 입혀 HTML파일로 다 만들고, 그렇게 만든 정적 파일들을 GitHub Pages나 S3에 올려서 사용자의 웹브라우저가 접근할 수 있도록 준비하면 그만입니다.</p>
+
+<p>Middleman이나 Hugo말고도 <strong>정적 사이트 생성기</strong>는 매우 많습니다.</p>
+
+<blockquote>
+<p><a href="https://staticsitegenerators.net">https://staticsitegenerators.net</a></p>
+</blockquote>
+
+<p>아마도, GitHub Pages에서 곧바로 지원하는 <a href="http://jekyllrb.com">Jekyll</a>이 가장 널리 쓰이는 생성기일 것입니다.</p>
+
+<p>얼마전에 <a href="http://golang.org">Go 언어</a>에 대한 관심이 높아져서, Go 언어에 대한 맛도 좀 더 볼 생각으로 개인 사이트를 Hugo로 만들어 봤습니다만, 한참 살펴보다보니, 정작 Go 언어에 대한 관심이 확 식어버렸습니다. 당분간 Hugo를 쓰다가, 결국 또다른 생성기로 바꾸게 될지도 모르겠네요.</p>
+
+<h3 id="개인-근황:f123e9123c0e692add538cc883c04f28">개인 근황</h3>
+
+<p>꽤 오래 근무하던 회사를 그만두었습니다. 다니던 회사는 그만 둘 때가 된 것 같고, 제주에는 계속 있고 싶어서 이런 저런 고민을 하던 찰나, 의미 있는 개발 프로젝트에 재택으로 근무할 수 있는 기회가 생겨서, 계속 제주에서 일하게 되었습니다.</p>
+
+<p>원격 재택 근무의 절차상, 여차저차하다보니 개인사업자 형태로 일하게 됐고, 얼떨결에 예상보다 빠르게 사업자가 됐습니다. 주계약 프로젝트는 Java로 개발하는 것이 위주라, 오랫동안 하지 않던 Java개발도 다시 하고 있습니다. 다행히도 Java 8을 쓸 수 있어서 lambda로 비교적 편하게 개발하고 있고, 비록 Scala가 아닌 Java로 쓰고 있지만, Play와 Akka도 쓰면서 그럭저럭 견뎌내고 있습니다. 써야하는 언어는 개인 성향과 맞지 않지만, 프로젝트 자체는 의미가 크기에 잘 해볼만 한 것 같습니다.</p>
+
+<p>메인 프로젝트와는 별개로, 개인적 성향을 만족시키기 위해, <strong>개인적으로 Clojure를 공부</strong>하고 있습니다. Compojure를 써서 가볍게 웹서비스를 개발할 수 있다보니, Play로 덩치 크게 해야하는 이런 저런 욕구 불만을 다소나마 해결해가며 지내고 있습니다. 원래 즐겨쓰던 Ruby쪽 Sinatra의 느낌도 있고 좋습니다. 게다가 Lisp계열의 언어는 로망의 언어여서 좀 더 파고들어 보려합니다. 어차피 혼자 파고드는 것이니 제약 없이 이런 저런 언어와 프레임워크를 마구 써볼 수 있는 점을 만끽하고 있습니다. 어차피 혼자 개발하는 상황이라면, 주 언어를 Clojure나 Racket으로 가져가도 괜찮지 않을까 생각합니다.</p>
+
+<p>별다른 거 없이 이렇게 지내고 있습니다.</p>
+
+
+  </article>
+</main>
+<nav class="container">
+  <ul class="pager">
+    
+      <li class="previous"><a href="http://localhost:1313/post/2014/0713-no-more-managing/"><i class="fa fa-chevron-left"></i> 팀장직 내려놓기 </a></li>
+    
+    
+  </ul>
+</nav>
+
+  <footer>
+    copyright(c) 2015 hatemogi
+  </footer>
+  <script type="text/javascript">
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-8995709-3', 'auto');
+  ga('send', 'pageview');
+  </script>
+<script>document.write('<script src="http://'
+        + (location.host || 'localhost').split(':')[0]
+		+ ':1313/livereload.js?mindelay=10"></'
+        + 'script>')</script></body>
+</html>

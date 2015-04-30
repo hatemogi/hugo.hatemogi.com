@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tag1 on hatemogi&#39;s blog</title>
-    <link>http://hatemogi.com/tags/tag1/</link>
+    <link>http://localhost:1313/tags/tag1/</link>
     <description>Recent content in Tag1 on hatemogi&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <lastBuildDate>Sat, 11 Apr 2015 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://hatemogi.com/tags/tag1/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/tag1/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title></title>
-      <link>http://hatemogi.com/about/</link>
+      <link>http://localhost:1313/about/</link>
       <pubDate>Sat, 11 Apr 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://hatemogi.com/about/</guid>
+      <guid>http://localhost:1313/about/</guid>
       <description>&lt;div class=&#34;container-fluid&#34;&gt;
   &lt;div class=&#34;row&#34;&gt;
     &lt;div class=&#34;col-sm-3 col-xs-3&#34;&gt;
-      &lt;img src=&#34;http://hatemogi.com/img/profile.jpg&#34;&gt;
+      &lt;img src=&#34;http://localhost:1313/img/profile.jpg&#34;&gt;
       &lt;h4&gt;김대현&lt;/h4&gt;
       &lt;i class=&#34;fa fa-server&#34;&gt;&lt;/i&gt; 서버 프로그래머
     &lt;/div&gt;

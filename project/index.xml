@@ -2,28 +2,28 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects on hatemogi&#39;s blog</title>
-    <link>http://hatemogi.com/project/</link>
+    <link>http://localhost:1313/project/</link>
     <description>Recent content in Projects on hatemogi&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <lastBuildDate>Tue, 11 Nov 2014 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://hatemogi.com/project/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/project/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>30일간의 웹개발 프로젝트</title>
-      <link>http://hatemogi.com/project/30days/</link>
+      <link>http://localhost:1313/project/30days/</link>
       <pubDate>Tue, 11 Nov 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://hatemogi.com/project/30days/</guid>
+      <guid>http://localhost:1313/project/30days/</guid>
       <description></description>
     </item>
     
     <item>
       <title>애월입력기</title>
-      <link>http://hatemogi.com/project/aewolinput/</link>
+      <link>http://localhost:1313/project/aewolinput/</link>
       <pubDate>Tue, 11 Nov 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://hatemogi.com/project/aewolinput/</guid>
+      <guid>http://localhost:1313/project/aewolinput/</guid>
       <description>&lt;p&gt;어쩌다 멀쩡히 잘 쓰던 기본 영문 자판을 두고 Dvorak이라는 생소한 자판 배열에 관심을 두게 됐을까요? 괜한 고생문을 연 것 같아서 이제라도 그냥 기본 키보드 배열을 다시 쓸까도 생각했지만, 직업이 프로그래머인지라 괜한 오기가 발동했습니다.&lt;/p&gt;
 
 &lt;p&gt;같은 문제 상황에 처한 사람은 얼마 없겠지만, 그래도 나름 개발자인데 나만을 위해서라도 직접 문제를 해결해볼까?
@@ -37,10 +37,10 @@
     
     <item>
       <title>LaborTimer</title>
-      <link>http://hatemogi.com/project/babytimer/en/</link>
+      <link>http://localhost:1313/project/babytimer/en/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://hatemogi.com/project/babytimer/en/</guid>
+      <guid>http://localhost:1313/project/babytimer/en/</guid>
       <description>&lt;div class=&#34;jumbotron&#34;&gt;
   &lt;h1&gt;LaborTimer&lt;/h1&gt;
   for iPhone, iPod touch, or iPad
@@ -68,10 +68,10 @@
 
 &lt;h3&gt;Screenshot&lt;/h3&gt;
 
-&lt;img src=&#34;http://hatemogi.com/img/babytimer/iPhone_5s_Vert_screenshot.png&#34; style=&#34;width:390px; height: auto;&#34;/&gt;
+&lt;img src=&#34;http://localhost:1313/img/babytimer/iPhone_5s_Vert_screenshot.png&#34; style=&#34;width:390px; height: auto;&#34;/&gt;
 
 &lt;a href=&#34;https://itunes.apple.com/us/app/jintongtaimeo/id828849070?l=en&amp;amp;ls=1&amp;amp;mt=8&#34;&gt;
-  &lt;img src=&#34;http://hatemogi.com/img/babytimer/appstore_badge_135x40.svg&#34; style=&#34;width:135px; height: auto;&#34;/&gt;
+  &lt;img src=&#34;http://localhost:1313/img/babytimer/appstore_badge_135x40.svg&#34; style=&#34;width:135px; height: auto;&#34;/&gt;
 &lt;/a&gt;
 
 &lt;div class=&#34;panel panel-warning&#34;&gt;
@@ -86,10 +86,10 @@
     
     <item>
       <title>유의적 버전 2.0.0-ko2</title>
-      <link>http://hatemogi.com/project/semver/</link>
+      <link>http://localhost:1313/project/semver/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://hatemogi.com/project/semver/</guid>
+      <guid>http://localhost:1313/project/semver/</guid>
       <description>
 
 &lt;p&gt;&lt;a href=&#34;https://github.com/hatemogi/semver&#34;&gt;&lt;img style=&#34;position: absolute; top: 0; right: 0; border: 0;&#34; src=&#34;https://camo.githubusercontent.com/652c5b9acfaddf3a9c326fa6bde407b87f7be0f4/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6f72616e67655f6666373630302e706e67&#34; alt=&#34;Fork me on GitHub&#34; data-canonical-src=&#34;https://s3.amazonaws.com/github/ribbons/forkme_right_orange_ff7600.png&#34;&gt;&lt;/a&gt;&lt;/p&gt;
@@ -279,10 +279,10 @@ Preston-Werner)&lt;/a&gt;가 작성했다.&lt;/p&gt;
     
     <item>
       <title>이력서</title>
-      <link>http://hatemogi.com/project/resume/</link>
+      <link>http://localhost:1313/project/resume/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://hatemogi.com/project/resume/</guid>
+      <guid>http://localhost:1313/project/resume/</guid>
       <description>
 
 &lt;h2 id=&#34;김대현:c59a67a3c7bc5faa453847420267045e&#34;&gt;김대현&lt;/h2&gt;
@@ -415,10 +415,10 @@ Preston-Werner)&lt;/a&gt;가 작성했다.&lt;/p&gt;
     
     <item>
       <title>작업 목록</title>
-      <link>http://hatemogi.com/project/show-your-work/</link>
+      <link>http://localhost:1313/project/show-your-work/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://hatemogi.com/project/show-your-work/</guid>
+      <guid>http://localhost:1313/project/show-your-work/</guid>
       <description>
 
 &lt;p&gt;개인 프로젝트 리스트. 업무로 진행한 프로젝트는 적지 않습니다.&lt;/p&gt;
@@ -507,10 +507,10 @@ Preston-Werner)&lt;/a&gt;가 작성했다.&lt;/p&gt;
     
     <item>
       <title>진통타이머</title>
-      <link>http://hatemogi.com/project/babytimer/</link>
+      <link>http://localhost:1313/project/babytimer/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://hatemogi.com/project/babytimer/</guid>
+      <guid>http://localhost:1313/project/babytimer/</guid>
       <description>&lt;div class=&#34;jumbotron&#34;&gt;
   &lt;h1&gt;진통타이머 앱&lt;/h1&gt;
   iPhone, iPod touch, 또는 iPad용
@@ -558,10 +558,10 @@ Preston-Werner)&lt;/a&gt;가 작성했다.&lt;/p&gt;
 
 &lt;h3&gt;스크린샷&lt;/h3&gt;
 
-&lt;img src=&#34;http://hatemogi.com/img/babytimer/iPhone_5s_Vert_screenshot.png&#34; style=&#34;width:390px; height: auto;&#34;/&gt;
+&lt;img src=&#34;http://localhost:1313/img/babytimer/iPhone_5s_Vert_screenshot.png&#34; style=&#34;width:390px; height: auto;&#34;/&gt;
 
 &lt;a href=&#34;https://itunes.apple.com/us/app/jintongtaimeo/id828849070?l=ko&amp;amp;ls=1&amp;amp;mt=8&#34;&gt;
-  &lt;img src=&#34;http://hatemogi.com/img/babytimer/appstore_badge_135x40.svg&#34; style=&#34;width:135px; height: auto;&#34;/&gt;
+  &lt;img src=&#34;http://localhost:1313/img/babytimer/appstore_badge_135x40.svg&#34; style=&#34;width:135px; height: auto;&#34;/&gt;
 &lt;/a&gt;
 
 

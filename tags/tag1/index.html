@@ -4,8 +4,13 @@
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta property="og:title" content="Tag1">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="">
+  <meta property="og:url" content="http://localhost:1313/tags/tag1/">
+  <meta property="og:description" content="소프트웨어 개발자, 김대현의 블로그">
   <title>Tag1</title>
-  <link rel="canonical" href="http://hatemogi.com/tags/tag1/">
+  <link rel="canonical" href="http://localhost:1313/tags/tag1/">
   <link rel="stylesheet" href="/css/bootstrap.flatly.css">
   <link rel="stylesheet" href="/css/bootstrap-social.css">
   <link rel="stylesheet" href="/css/highlight/github.css">
@@ -45,7 +50,7 @@
       
         <div>
         <h2>
-          <a href="http://hatemogi.com/about/"></a>
+          <a href="http://localhost:1313/about/"></a>
           <small class="pull-right"><i class="fa fa-calendar-o"></i>
           2015-04-11
           </small>
@@ -58,7 +63,7 @@
         <div class="post-description">
           김대현 서버 프로그래머 소프트웨어 개발자. 어려서 Apple IIe로 독학 프로그래밍에 빠져든 이래 개발을 취미이자 직업으로 삼았습니다. 홍익대에서 컴퓨터공학을 전공하고, 다음커뮤니케이션에서 클라우드기술팀 팀장을 거치며 만 10년 근무한 뒤, 지금은 프리랜서로 활동합니다. Ruby나 Java로 서버사이드 개발을 해왔고, Angular.js를 다루는 프론트엔드 기술이나, iOS 애플리케이션을 만드는 일도 마다하지 않습니다. 최근에는 로망의 언어 Lisp 패밀리, 그중에서도 Clojure에 관심을 갖고 유심히 살피고 있습니다. 이 개인 사이트는 관심있는 기술 주제를 정리하는 공간으로 활용하려고 합니다. 아래의 소셜 사이트에서도 종종 활동합니다.
           
-          ... <a class="btn btn-default btn-xs" href="http://hatemogi.com/about/">더 읽기</a>
+          ... <a class="btn btn-default btn-xs" href="http://localhost:1313/about/">더 읽기</a>
           
         </div>
       
@@ -78,5 +83,8 @@
   ga('create', 'UA-8995709-3', 'auto');
   ga('send', 'pageview');
   </script>
-</body>
+<script>document.write('<script src="http://'
+        + (location.host || 'localhost').split(':')[0]
+		+ ':1313/livereload.js?mindelay=10"></'
+        + 'script>')</script></body>
 </html>
