@@ -6,665 +6,671 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Posts</title>
   <link rel="canonical" href="http://hatemogi.com/post/">
-  <link rel="stylesheet" href="/css/pure/pure-min.css">
-  <link rel="stylesheet" href="/css/pure/grids-responsive-min.css">
+  <link rel="stylesheet" href="/css/bootstrap.flatly.css">
+  <link rel="stylesheet" href="/css/bootstrap-social.css">
   <link rel="stylesheet" href="/css/highlight/github.css">
   <link rel="stylesheet" href="/css/font-awesome.min.css">
   <link rel="stylesheet" href="/css/awjordan.css">
+  <script src="/js/jquery.min.js"></script>
+  <script src="/js/bootstrap.min.js"></script>
   <script src="/js/highlight.pack.js"></script>
   <script src="/js/d3.min.js"></script>
-  <script src="/js/jquery.min.js"></script>
-  <script>hljs.initHighlightingOnLoad();</script>
+  <script src="/js/hatemogi.js"></script>
 </head>
 <body>
 
-<nav>
-  <h1 class="site-logo"><a href="/">hatemogi</a></h1>
-  <ul class="site-links">
-    <li><a href="/about">소개</a></li>
-    <li><a href="/post">블로그</a></li>
-    <li><a href="/project">프로젝트</a></li>
-    
+<nav class="navbar navbar-default navbar-static-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand logo" href="/">
+      hatemogi
+      </a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li><a href="/about">소개</a></li>
+      <li><a href="/post">블로그</a></li>
+      
+      
     </ul>
-  <ul class="social-links">
-    <li><a href="https://twitter.com/@hatemogi"><i class="fa fa-twitter fa-lg"></i></a></li>
-    <li><a href="https://github.com/hatemogi"><i class="fa fa-github fa-lg"></i></a></li>
-    <li><a href="https://medium.com/hatemogi"><i class="fa fa-medium fa-lg"></i></a></li>
-  </ul>
+    <ul class="nav navbar-nav hidden-xs navbar-right">
+      <li><a href="https://twitter.com/@hatemogi"><i class="fa fa-twitter fa-lg"></i></a></li>
+      <li><a href="https://github.com/hatemogi"><i class="fa fa-github fa-lg"></i></a></li>
+      <li><a href="https://medium.com/hatemogi"><i class="fa fa-medium fa-lg"></i></a></li>
+    </ul>
+  </div>
 </nav>
-<main class="pure-g layout">
-  <div class="pure-u-1">
-    <div id="article">
-      <div class="posts">
+<main class="layout">
+  <div class="container-fluid">
+    <div class="posts">
+      
+        <div>
+        <h2>
+          <a href="http://hatemogi.com/post/2014/0713-no-more-managing/">팀장직 내려놓기</a>
+          <small class="pull-right"><i class="fa fa-calendar-o"></i>
+          2014-07-13
+          </small>
+        </h2>
+        </div>
+        <div class="post-meta">
+          <p class="meta">
+          </p>
+        </div>
+        <div class="post-description">
+          2년 남짓 맡아왔던 개발팀장직을 내려놓았다. 연초부터 고민했던 일인데, 출산휴가와 안식휴가 2달을 틈타 고민도 더 하고, 결정도 미뤄왔던 일이다. 주변에 보면 적지 않은 개발자가, 순수(?) 개발 일을 계속하고자 하지만, 결국 나이가 들면 안팍의 압력에 못 이기고, 매니저의 길로 들어서는 모습을 흔히 볼 수 있다. 나역시 어느정도 우리회사에서의 적정 나이(?)가 되어 팀장직을 맡게된 것이기도 했던 것같다. 개발력이 뛰어난 팀원들과 함께 일할 수 있어 즐거운 시간이었고, 나름의 성과도 잘 드러났던 것 같아서 감사한 마음이 크다.
           
-            <h2 class="post-header">
-            <a href="http://hatemogi.com/post/2014/0713-no-more-managing/">팀장직 내려놓기</a>
-            </h2>
-            <p class="post-meta">
-              <p class="meta">
-                <small>&nbsp;<i class="fa fa-calendar-o"></i>
-                2014-07-13
-                </small>
-              </p>
-            </p>
-            <div class="post-description">
-              2년 남짓 맡아왔던 개발팀장직을 내려놓았다. 연초부터 고민했던 일인데, 출산휴가와 안식휴가 2달을 틈타 고민도 더 하고, 결정도 미뤄왔던 일이다. 주변에 보면 적지 않은 개발자가, 순수(?) 개발 일을 계속하고자 하지만, 결국 나이가 들면 안팍의 압력에 못 이기고, 매니저의 길로 들어서는 모습을 흔히 볼 수 있다. 나역시 어느정도 우리회사에서의 적정 나이(?)가 되어 팀장직을 맡게된 것이기도 했던 것같다. 개발력이 뛰어난 팀원들과 함께 일할 수 있어 즐거운 시간이었고, 나름의 성과도 잘 드러났던 것 같아서 감사한 마음이 크다.
-              
-              <p>
-              <a class="pure-button button-xsmall" href="http://hatemogi.com/post/2014/0713-no-more-managing/">더보기</a>
-              </p>
-              
-            </div>
+          ... <a class="btn btn-default btn-xs" href="http://hatemogi.com/post/2014/0713-no-more-managing/">더 읽기</a>
           
-            <h2 class="post-header">
-            <a href="http://hatemogi.com/holiday-project-day-last/">프로젝트 마지막날: 결과물 미리보기</a>
-            </h2>
-            <p class="post-meta">
-              <p class="meta">
-                <small>&nbsp;<i class="fa fa-calendar-o"></i>
-                2014-06-08
-                </small>
-              </p>
-            </p>
-            <div class="post-description">
-              지금은 30여 일간의 휴가 마지막 날 밤이다. 한 달여 동안 알아보고 싶었던 주제들을 간략히나마 공부했고, 마지막 며칠 동안은 그 공부한 내용을 활용해보고자 간단한 웹서비스를 개발해 보고자 했다. 처음의 목표 중 하나는 30일 동안 매일 블로그 글을 남기는 것도 있었는데, 마지막에 잘 지키지 못해서 아쉽지만, 그래도, 한가지 개발 주제도 잡았고, AngularJS나 D3같은 앞으로도 깊이 살펴볼 주제들을 찾게 돼서 좋았다. gvDoodle 어떤 것을 개발할까 몇가지 머릿속으로만 고민하다가, 결국 주제로 잡은 것은 웹에서 Graphviz 파일을 작성하고, 바로 확인해보고, 링크로 공유할 수 있는 서비스 이다.
-              
-              <p>
-              <a class="pure-button button-xsmall" href="http://hatemogi.com/holiday-project-day-last/">더보기</a>
-              </p>
-              
-            </div>
+        </div>
+      
+        <div>
+        <h2>
+          <a href="http://hatemogi.com/holiday-project-day-last/">프로젝트 마지막날: 결과물 미리보기</a>
+          <small class="pull-right"><i class="fa fa-calendar-o"></i>
+          2014-06-08
+          </small>
+        </h2>
+        </div>
+        <div class="post-meta">
+          <p class="meta">
+          </p>
+        </div>
+        <div class="post-description">
+          지금은 30여 일간의 휴가 마지막 날 밤이다. 한 달여 동안 알아보고 싶었던 주제들을 간략히나마 공부했고, 마지막 며칠 동안은 그 공부한 내용을 활용해보고자 간단한 웹서비스를 개발해 보고자 했다. 처음의 목표 중 하나는 30일 동안 매일 블로그 글을 남기는 것도 있었는데, 마지막에 잘 지키지 못해서 아쉽지만, 그래도, 한가지 개발 주제도 잡았고, AngularJS나 D3같은 앞으로도 깊이 살펴볼 주제들을 찾게 돼서 좋았다. gvDoodle 어떤 것을 개발할까 몇가지 머릿속으로만 고민하다가, 결국 주제로 잡은 것은 웹에서 Graphviz 파일을 작성하고, 바로 확인해보고, 링크로 공유할 수 있는 서비스 이다.
           
-            <h2 class="post-header">
-            <a href="http://hatemogi.com/holiday-project-day-22/">프로젝트 22일: Promise와 Async.js로 작성해본 콜백 코드 비교</a>
-            </h2>
-            <p class="post-meta">
-              <p class="meta">
-                <small>&nbsp;<i class="fa fa-calendar-o"></i>
-                2014-05-31
-                </small>
-              </p>
-            </p>
-            <div class="post-description">
-              오늘은 프로젝트 22일째 작성한 Async.js 코드와 Promise 코드를 비교해본다. 콜백 중첩의 늪 자바스크립트 자체만으로도 그렇지만, 특히 Node.js 환경은 비동기 I/O가 중요해서, 콜백 방식의 함수 호출이 자주 활용되며, 그 호출 간의 중첩도 잦다. 즉, 콜백에서 다시 콜백 걸고 또 콜백 거는, 계속 타고들어가는 콜백이 필요한 경우가 많다. 이 연속되는 콜백을 그냥 평범하게 코딩하면, 마치 예외처리 (try-catch-finally) 구문 없이 코딩하는 것처럼, 예외 처리에 대한 코드가 중간중간 끼어들어서 정상적인 로직 코드가 묻혀버리기 쉽다. 10일째 작성했던 코드를 다시 예로 들어보자.
-              
-              <p>
-              <a class="pure-button button-xsmall" href="http://hatemogi.com/holiday-project-day-22/">더보기</a>
-              </p>
-              
-            </div>
+          ... <a class="btn btn-default btn-xs" href="http://hatemogi.com/holiday-project-day-last/">더 읽기</a>
           
-            <h2 class="post-header">
-            <a href="http://hatemogi.com/holiday-project-day-21/">프로젝트 21일: AngularJS 컨트롤러 테스트</a>
-            </h2>
-            <p class="post-meta">
-              <p class="meta">
-                <small>&nbsp;<i class="fa fa-calendar-o"></i>
-                2014-05-29
-                </small>
-              </p>
-            </p>
-            <div class="post-description">
-              이 글을 작성하는 지금은, 개인 프로젝트 23일째, 지난 21일째부터 정리하지 못한 밀린 숙제를 한다. 숙제가 밀린 이유 21일째에는 AngularJS 코드를 테스트하려는 노력을 기울이다가, 블로그로 정리해야 할, 밤늦은 시간에 회사 동료들을 만나러 나갔다. 합병 소식에 허전해서였을까? 같은 단지에 사는 후배이자 동료를 불러봤는데, 마침 나올 수 있다고 했고, 그렇게 한 명 두 명 즉흥적으로 불러봤는데, 결국 5명이 모여서 늦은 시간까지 시끄럽게 떠들었다. 한 명 더 왔었는데, 그가 왔을 때 이미 난 사진을 찍을 만한 상황이 아니었던지라, 이 사진이 전부다.
-              
-              <p>
-              <a class="pure-button button-xsmall" href="http://hatemogi.com/holiday-project-day-21/">더보기</a>
-              </p>
-              
-            </div>
+        </div>
+      
+        <div>
+        <h2>
+          <a href="http://hatemogi.com/holiday-project-day-22/">프로젝트 22일: Promise와 Async.js로 작성해본 콜백 코드 비교</a>
+          <small class="pull-right"><i class="fa fa-calendar-o"></i>
+          2014-05-31
+          </small>
+        </h2>
+        </div>
+        <div class="post-meta">
+          <p class="meta">
+          </p>
+        </div>
+        <div class="post-description">
+          오늘은 프로젝트 22일째 작성한 Async.js 코드와 Promise 코드를 비교해본다. 콜백 중첩의 늪 자바스크립트 자체만으로도 그렇지만, 특히 Node.js 환경은 비동기 I/O가 중요해서, 콜백 방식의 함수 호출이 자주 활용되며, 그 호출 간의 중첩도 잦다. 즉, 콜백에서 다시 콜백 걸고 또 콜백 거는, 계속 타고들어가는 콜백이 필요한 경우가 많다. 이 연속되는 콜백을 그냥 평범하게 코딩하면, 마치 예외처리 (try-catch-finally) 구문 없이 코딩하는 것처럼, 예외 처리에 대한 코드가 중간중간 끼어들어서 정상적인 로직 코드가 묻혀버리기 쉽다. 10일째 작성했던 코드를 다시 예로 들어보자.
           
-            <h2 class="post-header">
-            <a href="http://hatemogi.com/holiday-project-day-20/">프로젝트 20일: 회사의 합병 소식</a>
-            </h2>
-            <p class="post-meta">
-              <p class="meta">
-                <small>&nbsp;<i class="fa fa-calendar-o"></i>
-                2014-05-26
-                </small>
-              </p>
-            </p>
-            <div class="post-description">
-              개인 프로젝트 20일째, 오늘은 내가 근무하는 회사가 다른 회사와 합병한다고 공시가 났다. 겉으로야 합병이지만, 사실상 내용을 열어보면 우리가 인수당하는 입장이고, 앞으로 어떻게 될지는 알 수 없다. 당장 직속상관이 바뀌어도 업무가 확 바뀌는 것이 당연한데, 심지어 최대 주주가 바뀌는 일이니, 변화가 없을 수야 없겠지. 10년간 우리 회사가 다른 회사를 인수하거나 분사하는 것을 지켜봐 왔지만, 피인수는 처음이다. 나름 다채로운 근로자 생활이 되려나 보다. 회사 분위기도 살피고, 사장님 발표도 들으러 잠시 출근했다. 출근한 김에, 팀원들에게 어제 알아본 RequireJS와, Async와 Promise에 대해서도 물어봤다.
-              
-              <p>
-              <a class="pure-button button-xsmall" href="http://hatemogi.com/holiday-project-day-20/">더보기</a>
-              </p>
-              
-            </div>
+          ... <a class="btn btn-default btn-xs" href="http://hatemogi.com/holiday-project-day-22/">더 읽기</a>
           
-            <h2 class="post-header">
-            <a href="http://hatemogi.com/holiday-project-day-19/">프로젝트 19일: RequireJS - 비동기(async) JS 로더</a>
-            </h2>
-            <p class="post-meta">
-              <p class="meta">
-                <small>&nbsp;<i class="fa fa-calendar-o"></i>
-                2014-05-25
-                </small>
-              </p>
-            </p>
-            <div class="post-description">
-              개인 프로젝트 19일째, 오늘은 비동기식 자바스크립트 로더, RequireJS에 대해 살펴봤다. 비동기 모듈 선언 (AMD) 오늘 고생된 작업의 시작은, 오전에 지금까지 진행한 프로젝트 데모 사이트에서, 크롬 브라우저의 PageSpeed를 돌려본 것이 화근이었다. 웹페이지 로딩 속도에 관련한 각종 검사를 하고 개선할 방안을 추천해주는 PageSpeed가 내게 권장하기를, 자바스크립트 파일들을 비동기식으로 로딩하시죠~! 라고 하는 게 아닌가?! 음, 비동기식 로딩이라&hellip; &lt;body&gt; 태그의 가장 마지막에 자바스크립트 파일들을 로딩하면 되는건가? 아니면, &lt;script&gt; 태그에 async 속성을 주면 되는 건가? 조금 찾아보니, AMD라고 비동기 모듈 선언(Asynchronous Module Definition)이라는 주제를 찾을 수 있었다.
-              
-              <p>
-              <a class="pure-button button-xsmall" href="http://hatemogi.com/holiday-project-day-19/">더보기</a>
-              </p>
-              
-            </div>
+        </div>
+      
+        <div>
+        <h2>
+          <a href="http://hatemogi.com/holiday-project-day-21/">프로젝트 21일: AngularJS 컨트롤러 테스트</a>
+          <small class="pull-right"><i class="fa fa-calendar-o"></i>
+          2014-05-29
+          </small>
+        </h2>
+        </div>
+        <div class="post-meta">
+          <p class="meta">
+          </p>
+        </div>
+        <div class="post-description">
+          이 글을 작성하는 지금은, 개인 프로젝트 23일째, 지난 21일째부터 정리하지 못한 밀린 숙제를 한다. 숙제가 밀린 이유 21일째에는 AngularJS 코드를 테스트하려는 노력을 기울이다가, 블로그로 정리해야 할, 밤늦은 시간에 회사 동료들을 만나러 나갔다. 합병 소식에 허전해서였을까? 같은 단지에 사는 후배이자 동료를 불러봤는데, 마침 나올 수 있다고 했고, 그렇게 한 명 두 명 즉흥적으로 불러봤는데, 결국 5명이 모여서 늦은 시간까지 시끄럽게 떠들었다. 한 명 더 왔었는데, 그가 왔을 때 이미 난 사진을 찍을 만한 상황이 아니었던지라, 이 사진이 전부다.
           
-            <h2 class="post-header">
-            <a href="http://hatemogi.com/holiday-project-day-18/">프로젝트 18일: Grunt - 자바스크립트 작업 실행기</a>
-            </h2>
-            <p class="post-meta">
-              <p class="meta">
-                <small>&nbsp;<i class="fa fa-calendar-o"></i>
-                2014-05-24
-                </small>
-              </p>
-            </p>
-            <div class="post-description">
-              개인 프로젝트 18일째, 오늘은 자바스크립트 작업 실행기(task runner), Grunt를 프로젝트에 적용했다. 자동화 테스트를 실행하거나, 자바스크립트 파일들을 합치거나 최소화하는 일처럼 자주 반복하는 프로젝트 수반 작업을 편리하게 실행할 수 있게 해주는 도구다. Node 환경에서는, npm만으로도 충분할 수 있는데, Grunt에 몇 가지 마음에 드는 플러그인이 있어서, 곧바로 적용해 보기로 했다. 우선 npm으로 간단히 Grunt를 설치한다. npm install -g grunt Gruntfile 기본 Make를 쓸 때 Makefile이나 Rake를 쓸 때 Rakefile이 있듯, Grunt를 위해서는 Gruntfile.js가 있다.
-              
-              <p>
-              <a class="pure-button button-xsmall" href="http://hatemogi.com/holiday-project-day-18/">더보기</a>
-              </p>
-              
-            </div>
+          ... <a class="btn btn-default btn-xs" href="http://hatemogi.com/holiday-project-day-21/">더 읽기</a>
           
-            <h2 class="post-header">
-            <a href="http://hatemogi.com/holiday-project-day-17/">프로젝트 17일: Travis CI, 지속적 통합 서비스</a>
-            </h2>
-            <p class="post-meta">
-              <p class="meta">
-                <small>&nbsp;<i class="fa fa-calendar-o"></i>
-                2014-05-23
-                </small>
-              </p>
-            </p>
-            <div class="post-description">
-              개인 프로젝트 17일째, 오늘은 지속적 통합 서비스인 Travis CI를 살펴보고, 개인 프로젝트에 적용해봤다. Travis CI 소개 Travis CI는 GitHub과 연동해 지속적 통합(Continuous Integration)을 호스팅해주는 서비스다. 지속적 통합의 정확한 의미는 조금 더 넓을 수 있지만, Travis CI로 한정해서 쉽게 생각하자면, GitHub 저장소에 새로운 커밋이 push되었을 때 CI 서버가 뒤에서 자동으로 새로운 커밋을 가져와서 빌드 테스트를 수행하고, 그 결과를 리포팅 해주는 서비스다. C, C++, Clojure, Erlang, Go, Groovy, Haskell, Java, JavaScript (Node.js), Objective-C, Perl, PHP, Python, Ruby, Scala 이상의 다양한 언어 환경에서의 빌드 테스트를 대행해주고, 더불어 다양한 데이터스토어와 메시지 브로커 같은 툴들도 미리 설치돼 있어서, 테스트를 위해 활용할 수 있다.
-              
-              <p>
-              <a class="pure-button button-xsmall" href="http://hatemogi.com/holiday-project-day-17/">더보기</a>
-              </p>
-              
-            </div>
+        </div>
+      
+        <div>
+        <h2>
+          <a href="http://hatemogi.com/holiday-project-day-20/">프로젝트 20일: 회사의 합병 소식</a>
+          <small class="pull-right"><i class="fa fa-calendar-o"></i>
+          2014-05-26
+          </small>
+        </h2>
+        </div>
+        <div class="post-meta">
+          <p class="meta">
+          </p>
+        </div>
+        <div class="post-description">
+          개인 프로젝트 20일째, 오늘은 내가 근무하는 회사가 다른 회사와 합병한다고 공시가 났다. 겉으로야 합병이지만, 사실상 내용을 열어보면 우리가 인수당하는 입장이고, 앞으로 어떻게 될지는 알 수 없다. 당장 직속상관이 바뀌어도 업무가 확 바뀌는 것이 당연한데, 심지어 최대 주주가 바뀌는 일이니, 변화가 없을 수야 없겠지. 10년간 우리 회사가 다른 회사를 인수하거나 분사하는 것을 지켜봐 왔지만, 피인수는 처음이다. 나름 다채로운 근로자 생활이 되려나 보다. 회사 분위기도 살피고, 사장님 발표도 들으러 잠시 출근했다. 출근한 김에, 팀원들에게 어제 알아본 RequireJS와, Async와 Promise에 대해서도 물어봤다.
           
-            <h2 class="post-header">
-            <a href="http://hatemogi.com/holiday-project-day-16/">프로젝트 16일: 중간 점검 - 왜 이 프로젝트를 하나?</a>
-            </h2>
-            <p class="post-meta">
-              <p class="meta">
-                <small>&nbsp;<i class="fa fa-calendar-o"></i>
-                2014-05-22
-                </small>
-              </p>
-            </p>
-            <div class="post-description">
-              30일의 휴가 동안 개인적으로 진행하고 있는 프로젝트, 그 절반의 시간이 지났다. 사실 프로젝트라고 말하기는 어려울 수 있는 것이, 딱히 정해진 목표 결과물 없이, 그간 알아보고 싶었던 기술 주제를 공부해보고 있는 성격이 강해서, 정확히 말하면, &ldquo;다양한 웹 개발 기술 셋 훑어보기 프로젝트&rdquo;라고 해야 맞는 건지도 모르겠다. 지난주에 딸내미 100일 떡을 돌리러 회사에 잠깐 들렀고, 오늘 또 잠시 들렀다. 그러면 지금까지 보름 동안 벌써 두 번 들른 것이다. 고작 며칠 집에서 쉬었는데, 뜻밖에도, 회사에 가고 싶었다.
-              
-              <p>
-              <a class="pure-button button-xsmall" href="http://hatemogi.com/holiday-project-day-16/">더보기</a>
-              </p>
-              
-            </div>
+          ... <a class="btn btn-default btn-xs" href="http://hatemogi.com/holiday-project-day-20/">더 읽기</a>
           
-            <h2 class="post-header">
-            <a href="http://hatemogi.com/holiday-project-day-15/">프로젝트 15일: AngularJS 코드스쿨 강좌 소개</a>
-            </h2>
-            <p class="post-meta">
-              <p class="meta">
-                <small>&nbsp;<i class="fa fa-calendar-o"></i>
-                2014-05-21
-                </small>
-              </p>
-            </p>
-            <div class="post-description">
-              프로젝트 15일째, 오늘은 드디어 AngularJS를 살펴봤다. AngularJS는 구글에서 만든 웹앱 개발을 돕는 자바스크립트 프레임워크로, 복잡한 웹애플리케이션을 만들기 쉽도록 도와준다. 호평을 들어온 터라 나도 언제 한번 써봐야지 생각했었는데, 때마침 Code School에 Angular 강의가 새로 올라와서 아주 편리하게 기초를 배워볼 수 있었다. Shaping up with Angular.js 그전에는 AngularJS 공식사이트의 튜토리얼을 조금 따라 해보다가 말았는데, 이번에는 훨씬 쉽게 기본 개념을 익혀볼 수 있었다. 잠깐 다른 얘기로, 영어권 개발자에게는 이런 학습 자료와 잘 정리된 온라인 강의 사이트가 유용할 것 같아 참 부럽다.
-              
-              <p>
-              <a class="pure-button button-xsmall" href="http://hatemogi.com/holiday-project-day-15/">더보기</a>
-              </p>
-              
-            </div>
+        </div>
+      
+        <div>
+        <h2>
+          <a href="http://hatemogi.com/holiday-project-day-19/">프로젝트 19일: RequireJS - 비동기(async) JS 로더</a>
+          <small class="pull-right"><i class="fa fa-calendar-o"></i>
+          2014-05-25
+          </small>
+        </h2>
+        </div>
+        <div class="post-meta">
+          <p class="meta">
+          </p>
+        </div>
+        <div class="post-description">
+          개인 프로젝트 19일째, 오늘은 비동기식 자바스크립트 로더, RequireJS에 대해 살펴봤다. 비동기 모듈 선언 (AMD) 오늘 고생된 작업의 시작은, 오전에 지금까지 진행한 프로젝트 데모 사이트에서, 크롬 브라우저의 PageSpeed를 돌려본 것이 화근이었다. 웹페이지 로딩 속도에 관련한 각종 검사를 하고 개선할 방안을 추천해주는 PageSpeed가 내게 권장하기를, 자바스크립트 파일들을 비동기식으로 로딩하시죠~! 라고 하는 게 아닌가?! 음, 비동기식 로딩이라&hellip; &lt;body&gt; 태그의 가장 마지막에 자바스크립트 파일들을 로딩하면 되는건가? 아니면, &lt;script&gt; 태그에 async 속성을 주면 되는 건가? 조금 찾아보니, AMD라고 비동기 모듈 선언(Asynchronous Module Definition)이라는 주제를 찾을 수 있었다.
           
-            <h2 class="post-header">
-            <a href="http://hatemogi.com/holiday-project-day-14/">프로젝트 14일: Heroku에 Node.js 애플리케이션 배포</a>
-            </h2>
-            <p class="post-meta">
-              <p class="meta">
-                <small>&nbsp;<i class="fa fa-calendar-o"></i>
-                2014-05-20
-                </small>
-              </p>
-            </p>
-            <div class="post-description">
-              프로젝트 14일째, 오늘은 데모 웹사이트를 만들어 올리기 위해, (1) 노드용 템플릿 엔진인 Jade를 잠깐 써보고, (2) Heroku에 지금까지 만들고 있는 express 웹앱을 배포해봤다. Node.js 템플릿 엔진 - Jade 루비 쪽의 Haml과 같은 템플릿 엔진이다. 간결한 문법과 들여쓰기로, HTML/XML 태그를 여닫는 번거로움 없이 간편하게 결과 페이지를 만들 수 있다. 이하는 오늘 작성한 템플릿 레이아웃의 일부다. layout.jade의 일부 doctype html html head(prefix=&quot;og: http://ogp.me/ns#&quot;) meta(charset=&quot;utf-8&quot;) meta(name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;) title= title link(rel='stylesheet' href='/bower_components/bootstrap/dist/css/bootstrap.min.css') script(src='/bower_components/jquery/dist/jquery.min.js') script(src='/bower_components/bootstrap/dist/js/bootstrap.min.js') body block content include ga include github_badge 위와 같은 모습인데, HTML 문서의 태그를 들여쓰기로 어느 부분까지 감싸는 것인지 표현한다.
-              
-              <p>
-              <a class="pure-button button-xsmall" href="http://hatemogi.com/holiday-project-day-14/">더보기</a>
-              </p>
-              
-            </div>
+          ... <a class="btn btn-default btn-xs" href="http://hatemogi.com/holiday-project-day-19/">더 읽기</a>
           
-            <h2 class="post-header">
-            <a href="http://hatemogi.com/holiday-project-day-13/">프로젝트 13일: 컨테이너 기반 가상화 프레임워크 - Docker</a>
-            </h2>
-            <p class="post-meta">
-              <p class="meta">
-                <small>&nbsp;<i class="fa fa-calendar-o"></i>
-                2014-05-19
-                </small>
-              </p>
-            </p>
-            <div class="post-description">
-              어제는 그래프 그리기의 벽을 만났다. 그래프를 본격적으로 공부하자니, 목표로 한 30일 내에는 결과가 나올 것 같지 않다. 한가지 소득이 있다면, 새로 공부할 거리를 장전했다는 것. 이번 휴가가 끝나도 틈틈이 공부할 주제다. 혹시나 Coursera에 관련 수업이 있지는 않나 해서 찾아봤는데, 8월과 10월에 그래프 그리는 것과 연관이 있어 보이는 수업이 있어서 바로 등록했다. 8월, Interactive Computer Graphics 10월, Social Network Analysis 어떤 주제에 대해 처음으로 알아볼 때 가장 어려운 점은 어디서 무엇부터 공부하는지를 파악하는 것이 아닐까?
-              
-              <p>
-              <a class="pure-button button-xsmall" href="http://hatemogi.com/holiday-project-day-13/">더보기</a>
-              </p>
-              
-            </div>
+        </div>
+      
+        <div>
+        <h2>
+          <a href="http://hatemogi.com/holiday-project-day-18/">프로젝트 18일: Grunt - 자바스크립트 작업 실행기</a>
+          <small class="pull-right"><i class="fa fa-calendar-o"></i>
+          2014-05-24
+          </small>
+        </h2>
+        </div>
+        <div class="post-meta">
+          <p class="meta">
+          </p>
+        </div>
+        <div class="post-description">
+          개인 프로젝트 18일째, 오늘은 자바스크립트 작업 실행기(task runner), Grunt를 프로젝트에 적용했다. 자동화 테스트를 실행하거나, 자바스크립트 파일들을 합치거나 최소화하는 일처럼 자주 반복하는 프로젝트 수반 작업을 편리하게 실행할 수 있게 해주는 도구다. Node 환경에서는, npm만으로도 충분할 수 있는데, Grunt에 몇 가지 마음에 드는 플러그인이 있어서, 곧바로 적용해 보기로 했다. 우선 npm으로 간단히 Grunt를 설치한다. npm install -g grunt Gruntfile 기본 Make를 쓸 때 Makefile이나 Rake를 쓸 때 Rakefile이 있듯, Grunt를 위해서는 Gruntfile.js가 있다.
           
-            <h2 class="post-header">
-            <a href="http://hatemogi.com/holiday-project-day-12">프로젝트 12일: 그래프 그리기 도전 #2</a>
-            </h2>
-            <p class="post-meta">
-              <p class="meta">
-                <small>&nbsp;<i class="fa fa-calendar-o"></i>
-                2014-05-18
-                </small>
-              </p>
-            </p>
-            <div class="post-description">
-              어제 D3.js의 Force Layout을 써서, Git 커밋 그래프를 그려봤다. 아무 생각 없이, 전체 커밋을 넣어서 실행해 봤더니, 마구 엉킨 그래프가 보였다. 오늘은 이 그래프의 모양을 어떻게 조금 아름답게 꾸밀 수 있을까를 고민했다. 우선, 이제 와 고백하건대, 그래프에 대해 잘 모르겠다. 그래프? 그거 노드와 엣지가 있는 자료구조 아니던가? 이 정도가 내가 알고 있는 수준 전부이다. Git의 커밋 그래프는 일종의 DAG인데, Directed-Acyclic-Graph의 약자이며, 방향이 있는 그래프인데, 방향의 순환참조가 없는 그래프를 말한다. Git의 내부 구조는 이 DAG가 핵심이다.
-              
-              <p>
-              <a class="pure-button button-xsmall" href="http://hatemogi.com/holiday-project-day-12">더보기</a>
-              </p>
-              
-            </div>
+          ... <a class="btn btn-default btn-xs" href="http://hatemogi.com/holiday-project-day-18/">더 읽기</a>
           
-            <h2 class="post-header">
-            <a href="http://hatemogi.com/holiday-project-day-11">프로젝트 11일: Git 커밋 그래프 그리기 도전</a>
-            </h2>
-            <p class="post-meta">
-              <p class="meta">
-                <small>&nbsp;<i class="fa fa-calendar-o"></i>
-                2014-05-17
-                </small>
-              </p>
-            </p>
-            <div class="post-description">
-              나는 30일 동안 휴가 중이다. 휴가 동안 개인 개발 프로젝트를 진행하고 있다. D3.js의 Layout 기능 오늘 새벽 5시쯤 일찍 잠에서 깼는데 다시 잠이 오지 않아, 침대에 누운 채로 D3.js 문서를 좀 읽었다. Force Layout 부분을 보아하니, 원래 계획하던 그래프를 그리는 데에 사용할 수 있을 것 같은 느낌이 왔다. 문서를 마저 읽고, 설레는 마음을 품고, 책상에 앉아서 코딩을 시작했고, 잠깐의 몰입 후에 기본 코드가 완성됐다. 개발이 즐거운 이유는, 몰입(flow)의 경험이 가장 크지 않나 싶다.
-              
-              <p>
-              <a class="pure-button button-xsmall" href="http://hatemogi.com/holiday-project-day-11">더보기</a>
-              </p>
-              
-            </div>
+        </div>
+      
+        <div>
+        <h2>
+          <a href="http://hatemogi.com/holiday-project-day-17/">프로젝트 17일: Travis CI, 지속적 통합 서비스</a>
+          <small class="pull-right"><i class="fa fa-calendar-o"></i>
+          2014-05-23
+          </small>
+        </h2>
+        </div>
+        <div class="post-meta">
+          <p class="meta">
+          </p>
+        </div>
+        <div class="post-description">
+          개인 프로젝트 17일째, 오늘은 지속적 통합 서비스인 Travis CI를 살펴보고, 개인 프로젝트에 적용해봤다. Travis CI 소개 Travis CI는 GitHub과 연동해 지속적 통합(Continuous Integration)을 호스팅해주는 서비스다. 지속적 통합의 정확한 의미는 조금 더 넓을 수 있지만, Travis CI로 한정해서 쉽게 생각하자면, GitHub 저장소에 새로운 커밋이 push되었을 때 CI 서버가 뒤에서 자동으로 새로운 커밋을 가져와서 빌드 테스트를 수행하고, 그 결과를 리포팅 해주는 서비스다. C, C++, Clojure, Erlang, Go, Groovy, Haskell, Java, JavaScript (Node.js), Objective-C, Perl, PHP, Python, Ruby, Scala 이상의 다양한 언어 환경에서의 빌드 테스트를 대행해주고, 더불어 다양한 데이터스토어와 메시지 브로커 같은 툴들도 미리 설치돼 있어서, 테스트를 위해 활용할 수 있다.
           
-            <h2 class="post-header">
-            <a href="http://hatemogi.com/holiday-project-day-10">프로젝트 10일: Async.js로 콜백 중첩을 풀기</a>
-            </h2>
-            <p class="post-meta">
-              <p class="meta">
-                <small>&nbsp;<i class="fa fa-calendar-o"></i>
-                2014-05-16
-                </small>
-              </p>
-            </p>
-            <div class="post-description">
-              나는 30일의 휴가 중이다. 휴가 동안 개인 개발 프로젝트를 진행하고 있고, 오늘은 그 열흘째다. Async.js 어제 Node.js로 Git 저장소의 커밋 오브젝트를 찾아보면서, 콜백 폭포에 대한 어색함을 토로했다. 출근하면, 회사 동료들에게 관련 내용을 물어보려 했는데, 오늘 마침 회사에 잠깐 들를 일이 있었다. 딸내미 100일 떡을 돌리라는 명(?)을 받들어 회사에 가서 막 쪄온 떡을 돌리고, 오랜만에 본 팀원 분들과 얘기를 나누며 관련 문의를 했고, 곧바로 속 시원하게 들은 해결안은 Async.js를 사용해보라는 것! 집에 와서 살펴보니, Async.js는 여러 가지 비동기 호출에 편리한 기능을 제공하는데, 그중에서 waterfall 함수를 사용하면 자꾸 중첩되는 콜백 함수들을 명시적으로 표현해 호출하기에 좋다.
-              
-              <p>
-              <a class="pure-button button-xsmall" href="http://hatemogi.com/holiday-project-day-10">더보기</a>
-              </p>
-              
-            </div>
+          ... <a class="btn btn-default btn-xs" href="http://hatemogi.com/holiday-project-day-17/">더 읽기</a>
           
-            <h2 class="post-header">
-            <a href="http://hatemogi.com/holiday-project-day-09">프로젝트 9일: Node.js로 Git저장소 다루기</a>
-            </h2>
-            <p class="post-meta">
-              <p class="meta">
-                <small>&nbsp;<i class="fa fa-calendar-o"></i>
-                2014-05-15
-                </small>
-              </p>
-            </p>
-            <div class="post-description">
-              나는 30일간의 안식휴가 중이다. 휴가 동안 개인 개발 프로젝트를 진행하고 있고, 오늘은 그 9일째다. GitHub API 오전에, GitHub API: Getting Started를 비롯해, API 설명서를 읽었다. 프로젝트에서 사용할 기능을 깃헙이 제공하는 API를 써서 구현 가능한지 판단하는 것이 주요목표였고, 결론을 먼저 말하면, 당연히 사용할 수 있었다. 문제없이 진행할 수 있겠다. 살펴보면서 느낀 점은 &ldquo;깃헙 개발자 API 설명이 참 잘 돼있다&rdquo;는 것이다. 눈으로 쭉 읽기만 해도 어떻게 돌아갈지 잘 와 닿았고, 특히 그 어렵고 복잡한 OAuth 테스트를 위해서 개발자용 토큰을 웹에서 발급 받을 수 있다는 점이 마음에 들었다.
-              
-              <p>
-              <a class="pure-button button-xsmall" href="http://hatemogi.com/holiday-project-day-09">더보기</a>
-              </p>
-              
-            </div>
+        </div>
+      
+        <div>
+        <h2>
+          <a href="http://hatemogi.com/holiday-project-day-16/">프로젝트 16일: 중간 점검 - 왜 이 프로젝트를 하나?</a>
+          <small class="pull-right"><i class="fa fa-calendar-o"></i>
+          2014-05-22
+          </small>
+        </h2>
+        </div>
+        <div class="post-meta">
+          <p class="meta">
+          </p>
+        </div>
+        <div class="post-description">
+          30일의 휴가 동안 개인적으로 진행하고 있는 프로젝트, 그 절반의 시간이 지났다. 사실 프로젝트라고 말하기는 어려울 수 있는 것이, 딱히 정해진 목표 결과물 없이, 그간 알아보고 싶었던 기술 주제를 공부해보고 있는 성격이 강해서, 정확히 말하면, &ldquo;다양한 웹 개발 기술 셋 훑어보기 프로젝트&rdquo;라고 해야 맞는 건지도 모르겠다. 지난주에 딸내미 100일 떡을 돌리러 회사에 잠깐 들렀고, 오늘 또 잠시 들렀다. 그러면 지금까지 보름 동안 벌써 두 번 들른 것이다. 고작 며칠 집에서 쉬었는데, 뜻밖에도, 회사에 가고 싶었다.
           
-            <h2 class="post-header">
-            <a href="http://hatemogi.com/holiday-project-day-08">프로젝트 8일: D3.js 트랜지션(Transitions)</a>
-            </h2>
-            <p class="post-meta">
-              <p class="meta">
-                <small>&nbsp;<i class="fa fa-calendar-o"></i>
-                2014-05-14
-                </small>
-              </p>
-            </p>
-            <div class="post-description">
-              나는 30일간의 안식휴가 중이다. 휴가 동안 개인 개발 프로젝트를 진행하고 있다. 어제와 오늘, D3.js API 레퍼런스의 Selections 부분과 Transitions 부분을 읽었다. 그제 처음으로 D3.js를 연습해보며 대충만 추측하고 넘어갔던 부분들이 조금은 더 이해가 되기 시작했다. Selections의 한쪽에, selection#data() 함수를 설명하는 부분에 데이터 바인딩과 관련해서 소개된 글, Thinking With Joins도 읽어보게 됐는데, 본문에 아래와 같은 내용이 있었다. Here’s the deal. Instead of telling D3 how to do something, tell D3 what you want.
-              
-              <p>
-              <a class="pure-button button-xsmall" href="http://hatemogi.com/holiday-project-day-08">더보기</a>
-              </p>
-              
-            </div>
+          ... <a class="btn btn-default btn-xs" href="http://hatemogi.com/holiday-project-day-16/">더 읽기</a>
           
-            <h2 class="post-header">
-            <a href="http://hatemogi.com/holiday-project-day-07">프로젝트 7일:  graphviz 노드에 웹 링크 걸기</a>
-            </h2>
-            <p class="post-meta">
-              <p class="meta">
-                <small>&nbsp;<i class="fa fa-calendar-o"></i>
-                2014-05-13
-                </small>
-              </p>
-            </p>
-            <div class="post-description">
-              나는 30일간의 안식휴가 중이다. 휴가 동안 개인 개발 프로젝트를 진행하고 있다. 원래는 어제 해결하려다, 다른 주제 D3.js에 마음을 빼앗겨 해결하지 못했던 문제로 돌아왔다. graphviz의 노드에 웹 링크(href)를 걸기 찾아보니 싱겁게도, 설명서의 각종 속성을 지정하는 부분에 너무도 간단히, 그것도 아주 뻔한 href라는 속성으로 지정할 수 있다고 쓰여있었다. 지정할 수 있는 속성이 너무 많아서 일일이 살펴보기 어렵다는 점이 있다고 핑계를 대고 싶지만, 아, 너무도 뻔한 속성값이다. 어쨌든, 한번 연습 삼아서 링크를 걸어서 graphviz로 svg 그래프 하나 그려보는 걸로 일단락하기로 한다.
-              
-              <p>
-              <a class="pure-button button-xsmall" href="http://hatemogi.com/holiday-project-day-07">더보기</a>
-              </p>
-              
-            </div>
+        </div>
+      
+        <div>
+        <h2>
+          <a href="http://hatemogi.com/holiday-project-day-15/">프로젝트 15일: AngularJS 코드스쿨 강좌 소개</a>
+          <small class="pull-right"><i class="fa fa-calendar-o"></i>
+          2014-05-21
+          </small>
+        </h2>
+        </div>
+        <div class="post-meta">
+          <p class="meta">
+          </p>
+        </div>
+        <div class="post-description">
+          프로젝트 15일째, 오늘은 드디어 AngularJS를 살펴봤다. AngularJS는 구글에서 만든 웹앱 개발을 돕는 자바스크립트 프레임워크로, 복잡한 웹애플리케이션을 만들기 쉽도록 도와준다. 호평을 들어온 터라 나도 언제 한번 써봐야지 생각했었는데, 때마침 Code School에 Angular 강의가 새로 올라와서 아주 편리하게 기초를 배워볼 수 있었다. Shaping up with Angular.js 그전에는 AngularJS 공식사이트의 튜토리얼을 조금 따라 해보다가 말았는데, 이번에는 훨씬 쉽게 기본 개념을 익혀볼 수 있었다. 잠깐 다른 얘기로, 영어권 개발자에게는 이런 학습 자료와 잘 정리된 온라인 강의 사이트가 유용할 것 같아 참 부럽다.
           
-            <h2 class="post-header">
-            <a href="http://hatemogi.com/holiday-project-day-06">프로젝트 6일: 그래프 그리기 - graphviz &amp; D3.js</a>
-            </h2>
-            <p class="post-meta">
-              <p class="meta">
-                <small>&nbsp;<i class="fa fa-calendar-o"></i>
-                2014-05-12
-                </small>
-              </p>
-            </p>
-            <div class="post-description">
-              나는 30일간의 안식휴가 중이다. 휴가 동안 개인 개발 프로젝트를 진행하고 있고, 오늘은 그 엿새째로, 웹 페이지에서 그래프를 그려서 보여주는 방법을 알아보려 한다. graphviz 예전에, 그래프를 그리는 소프트웨어로 graphviz를 간단히 써봤었다. 그래프를 dot이라는 도메인 특화 언어(DSL)로 작성하고 명령어를 실행하면, png, pdf, svg 파일로 시각화해서 보여준다. 예를 들어, 아래와 같은 sample.dot 파일을 준비하고, sample.dot digraph G { node [style=filled, fillcolor=steelblue, fontsize=10]; 가 -&gt; 나; 가 -&gt; 다; 다 -&gt; 나 [constraint=false]; } 아래의 dot 명령어로 SVG파일을 만들 수 있다.
-              
-              <p>
-              <a class="pure-button button-xsmall" href="http://hatemogi.com/holiday-project-day-06">더보기</a>
-              </p>
-              
-            </div>
+          ... <a class="btn btn-default btn-xs" href="http://hatemogi.com/holiday-project-day-15/">더 읽기</a>
           
-            <h2 class="post-header">
-            <a href="http://hatemogi.com/holiday-project-day-05">프로젝트 5일: 문법 하이라이팅 - highlight.js</a>
-            </h2>
-            <p class="post-meta">
-              <p class="meta">
-                <small>&nbsp;<i class="fa fa-calendar-o"></i>
-                2014-05-11
-                </small>
-              </p>
-            </p>
-            <div class="post-description">
-              나는 30일간의 안식휴가 중이다. 휴가 동안 개인 개발 프로젝트를 진행하고 있고, 오늘은 그 닷새째다. 어제까지 기본적인 웹 브라우저 측과 서버 측의 테스트 환경을 구축하고 웹 패키지 매니저 bower의 기본 사용법을 살펴봤다. 개인 블로그에 일지를 적다 보니, 소스코드가 아무런 색상 없이 밋밋하게 보이는 것이 눈에 걸렸다. 당장 쓰임새가 있는 주제는 아닌데, 종종 필요로 하는 주제고, 당장 이 일지에 필요하다고 여겨서, 오늘은 소스 코드에 문법 색상을 적용해서 보이는 방법을 연습해보기로 한다. 정확한 용어는 아마도 문법 하이라이팅(Syntax Highlighting)일테고, 텍스트 편집기나 IDE 등에서는 Color Scheme이나 Color Theme을 지정해서 보이는 문법에 따른 색상 기능이라고 보면 될 것 같다.
-              
-              <p>
-              <a class="pure-button button-xsmall" href="http://hatemogi.com/holiday-project-day-05">더보기</a>
-              </p>
-              
-            </div>
+        </div>
+      
+        <div>
+        <h2>
+          <a href="http://hatemogi.com/holiday-project-day-14/">프로젝트 14일: Heroku에 Node.js 애플리케이션 배포</a>
+          <small class="pull-right"><i class="fa fa-calendar-o"></i>
+          2014-05-20
+          </small>
+        </h2>
+        </div>
+        <div class="post-meta">
+          <p class="meta">
+          </p>
+        </div>
+        <div class="post-description">
+          <p>프로젝트 14일째, 오늘은 데모 웹사이트를 만들어 올리기 위해, (1) 노드용 템플릿 엔진인 [Jade]를 잠깐 써보고, (2) Heroku에 지금까지 만들고 있는 <a href="https://github.com/hatemogi/holiday-project">express 웹앱</a>을 배포해봤다.</p>
+
           
-            <h2 class="post-header">
-            <a href="http://hatemogi.com/holiday-project-day-04">프로젝트 4일: 웹 환경 패키지 매니저 - bower</a>
-            </h2>
-            <p class="post-meta">
-              <p class="meta">
-                <small>&nbsp;<i class="fa fa-calendar-o"></i>
-                2014-05-10
-                </small>
-              </p>
-            </p>
-            <div class="post-description">
-              나는 30일간의 안식휴가 중이다. 휴가 동안 개인 개발 프로젝트를 진행하고 있고, 오늘은 그 나흘째다. 어제까지는 기본적인 테스트 환경을 구축했다. 절묘하게도 어젯밤 자정, 테스트 환경 준비에 열을 올린 최근에 걸맞은 타이밍으로, &ldquo;Is TDD Dead?&ldquo;라는 주제로 온라인 토론회가 진행되었다. 개발자들 사이에 연예인이라고 봐도 무방할 유명인들인 마틴 파울러(Martin Fowler), 켄트 벡(Kent Beck), 데이비드 하이네마이어 한슨(David Heinemeier Hansson)이 구글 행아웃으로 모여 각자의 주장을 펼쳤으며, TDD를 창시한 켄트 벡과, 최근 TDD는 죽었다고 블로깅한 DHH간의 설전으로 이어지지 않을까 기대했던 이벤트였다.
-              
-              <p>
-              <a class="pure-button button-xsmall" href="http://hatemogi.com/holiday-project-day-04">더보기</a>
-              </p>
-              
-            </div>
+          ... <a class="btn btn-default btn-xs" href="http://hatemogi.com/holiday-project-day-14/">더 읽기</a>
           
-            <h2 class="post-header">
-            <a href="http://hatemogi.com/holiday-project-day-03">프로젝트 3일: express 테스트 환경 - supertest</a>
-            </h2>
-            <p class="post-meta">
-              <p class="meta">
-                <small>&nbsp;<i class="fa fa-calendar-o"></i>
-                2014-05-09
-                </small>
-              </p>
-            </p>
-            <div class="post-description">
-              나는 30일간의 안식휴가 중이다. 휴가 동안 개인 개발 프로젝트를 진행하고 있고, 오늘은 그 사흘째다. 첫날과 어제는, 클라이언트 측과 서버사이드에서의 자바스크립트 테스팅 환경을 구축했다. 하나 더 테스트를 위해 고려할만한 사항이 있다면, 이것을 유닛테스트라고 부르든 통합테스트라고 부르든, express로 제공할 HTTP 요청에 대한 테스트 환경도 준비해보고자 한다. 일일이 HTTP 요청을 별도로 보내 보는 것이 아니라, 가짜(mock) 요청을 테스팅 프레임워크 수준에서 보내보고 결과를 확인하는 일이다. express의 모태인 Ruby Sinatra의 경우 Rack::Test를 사용해서 했던 일이다. express 사이트에 테스트는 어떻게 하는지 설명이 있을 거라고 예상했는데, 아쉽게도 찾지 못했다.
-              
-              <p>
-              <a class="pure-button button-xsmall" href="http://hatemogi.com/holiday-project-day-03">더보기</a>
-              </p>
-              
-            </div>
+        </div>
+      
+        <div>
+        <h2>
+          <a href="http://hatemogi.com/holiday-project-day-13/">프로젝트 13일: 컨테이너 기반 가상화 프레임워크 - Docker</a>
+          <small class="pull-right"><i class="fa fa-calendar-o"></i>
+          2014-05-19
+          </small>
+        </h2>
+        </div>
+        <div class="post-meta">
+          <p class="meta">
+          </p>
+        </div>
+        <div class="post-description">
+          어제는 그래프 그리기의 벽을 만났다. 그래프를 본격적으로 공부하자니, 목표로 한 30일 내에는 결과가 나올 것 같지 않다. 한가지 소득이 있다면, 새로 공부할 거리를 장전했다는 것. 이번 휴가가 끝나도 틈틈이 공부할 주제다. 혹시나 Coursera에 관련 수업이 있지는 않나 해서 찾아봤는데, 8월과 10월에 그래프 그리는 것과 연관이 있어 보이는 수업이 있어서 바로 등록했다. 8월, Interactive Computer Graphics 10월, Social Network Analysis 어떤 주제에 대해 처음으로 알아볼 때 가장 어려운 점은 어디서 무엇부터 공부하는지를 파악하는 것이 아닐까?
           
-            <h2 class="post-header">
-            <a href="http://hatemogi.com/holiday-project-day-02">프로젝트 2일: 서버 측 JS 테스트 환경</a>
-            </h2>
-            <p class="post-meta">
-              <p class="meta">
-                <small>&nbsp;<i class="fa fa-calendar-o"></i>
-                2014-05-08
-                </small>
-              </p>
-            </p>
-            <div class="post-description">
-              나는 30일간의 안식휴가 중이다. 휴가 동안 개인 개발 프로젝트를 진행하고 있고, 오늘은 그 둘째 날이다. 첫날은, 클라이언트 측에서의 자바스크립트 테스팅환경을 엉성하게나마 만들었다. 출발이 좋다. 좋다. 그럼 서버사이드에서의 테스팅은 어쩐다? Node.js로 돌아가는 express로 웹사이트를 구축하려 마음먹은 상태이니, Node.js용 테스팅 프레임워크를 찾아봤다. mocha, vows, expresso, should.js, nodeunit, jasmine 대충 찾아봐도 우후죽순 쏟아진다. 루비용 테스팅 프레임워크를 고를 때도, 기본 RSpec을 쓸지 MiniTest를 쓸지 Shoulda를 쓸지 고민해보았지만, 결론은, 많이 쓰이는 프레임워크는 다 좋다. 워낙 다들 수준이 높아서, 약간의 개인적 호불호가 나뉠 뿐, 우열을 가르는 것이 큰 의미 없어 보인다.
-              
-              <p>
-              <a class="pure-button button-xsmall" href="http://hatemogi.com/holiday-project-day-02">더보기</a>
-              </p>
-              
-            </div>
+          ... <a class="btn btn-default btn-xs" href="http://hatemogi.com/holiday-project-day-13/">더 읽기</a>
           
-            <h2 class="post-header">
-            <a href="http://hatemogi.com/holiday-project-day-01">프로젝트 1일: 웹 브라우저 JS 테스트 환경</a>
-            </h2>
-            <p class="post-meta">
-              <p class="meta">
-                <small>&nbsp;<i class="fa fa-calendar-o"></i>
-                2014-05-07
-                </small>
-              </p>
-            </p>
-            <div class="post-description">
-              나는 30일간의 안식휴가 중이다. 오늘은 그 첫날이다. 근무하는 회사는 여러모로 개발자로 일하기에 참 좋은 환경을 갖추고 있다. 그중에서도 가장 감사한 것은 &ldquo;안식 휴가 제도&rdquo;다. 직원들이 근속연수와 상관없이 매년 15일의 유급 휴가를 사용할 수 있고, 추가로, 3년마다 안식휴가를 준다. 3년 근속 시 10일, 6년 근속 시 30일, 그리고 9년 근속 시 60일의 유급 휴가를 준다. 9년 차 안식휴가의 경우, 30일씩 두 번에 나누어 사용할 수 있고, 나는 9년 차 안식휴가를 30일로 나눠서 사용 중이다.
-              
-              <p>
-              <a class="pure-button button-xsmall" href="http://hatemogi.com/holiday-project-day-01">더보기</a>
-              </p>
-              
-            </div>
+        </div>
+      
+        <div>
+        <h2>
+          <a href="http://hatemogi.com/holiday-project-day-12">프로젝트 12일: 그래프 그리기 도전 #2</a>
+          <small class="pull-right"><i class="fa fa-calendar-o"></i>
+          2014-05-18
+          </small>
+        </h2>
+        </div>
+        <div class="post-meta">
+          <p class="meta">
+          </p>
+        </div>
+        <div class="post-description">
+          어제 D3.js의 Force Layout을 써서, Git 커밋 그래프를 그려봤다. 아무 생각 없이, 전체 커밋을 넣어서 실행해 봤더니, 마구 엉킨 그래프가 보였다. 오늘은 이 그래프의 모양을 어떻게 조금 아름답게 꾸밀 수 있을까를 고민했다. 우선, 이제 와 고백하건대, 그래프에 대해 잘 모르겠다. 그래프? 그거 노드와 엣지가 있는 자료구조 아니던가? 이 정도가 내가 알고 있는 수준 전부이다. Git의 커밋 그래프는 일종의 DAG인데, Directed-Acyclic-Graph의 약자이며, 방향이 있는 그래프인데, 방향의 순환참조가 없는 그래프를 말한다. Git의 내부 구조는 이 DAG가 핵심이다.
           
-            <h2 class="post-header">
-            <a href="http://hatemogi.com/semver">유의적 버전 (Semantic Versioning) 번역</a>
-            </h2>
-            <p class="post-meta">
-              <p class="meta">
-                <small>&nbsp;<i class="fa fa-calendar-o"></i>
-                2014-05-06
-                </small>
-              </p>
-            </p>
-            <div class="post-description">
-              node.js용 모듈이나 ruby gem 패키지를 살펴보다 보면, &lsquo;해당 패키지는 SemVer를 따르고 있다&rsquo;라는 표현을 종종 접하게 된다. 해당 패키지가 버전을 정하는 모종의 규칙을 따르고 있으므로, 쓰는 사람도 그 의미를 파악해서 잘 쓰라는 의미인데, 원문를 참조하라고 적힌 곳이 더러 있었다. 해당 사이트를 살펴보니, 버전을 정하고 올리는 규칙이 잘 정리돼 있었으며, 그 취지가 설득력 있게 느껴져서, 따라해서 사용하고 싶어졌다. 한편 아쉽게도, 다른 여러 나라의 언어로 번역이 되어있으면서도, 아직 한국어 번역이 링크돼있지 않았다. 이런 상황을 볼 때마다 아쉬운 마음이 들지만, 이걸 번역을 하는 수고보다는, 그냥 차근히 해석해가며 읽는 것이 더 부담이 적은 것이 당연한 일이다.
-              
-              <p>
-              <a class="pure-button button-xsmall" href="http://hatemogi.com/semver">더보기</a>
-              </p>
-              
-            </div>
+          ... <a class="btn btn-default btn-xs" href="http://hatemogi.com/holiday-project-day-12">더 읽기</a>
           
-            <h2 class="post-header">
-            <a href="http://hatemogi.com/post/2012/wernervogels/">Amazon CTO, Werner Vogels와의 저녁식사</a>
-            </h2>
-            <p class="post-meta">
-              <p class="meta">
-                <small>&nbsp;<i class="fa fa-calendar-o"></i>
-                2012-07-05
-                </small>
-              </p>
-            </p>
-            <div class="post-description">
-              블로그에 남겨야겠다고 생각한 내용이었는데, 벌써 한달이 넘게 지난 일이군요. 지난 얘기지만, 꼭 남겨두고 싶은 얘기들이 있어서 메모를 뒤적이며 기억을 되살려 남겨봅니다. 5월말 Werner Vogels박사 방한에 관련한 내용입니다. Werner Vogels 아마존닷컴의 부사장이자 CTO인 Werner Vogels 박사님이 방한했습니다. All Things Distributed라는 테크니컬 블로그를 통해, 많은 개발자가 익히 알고 있는 분입니다. 모든 NoSQL 바람의 시초라고 할 수 있는 Amazon Dynamo 논문을 알게된 이래로, 블로그 피드도 구독하고 있으며, 그의 업적으로 전세계에 서비스중인 Amazon Web Services도 큰 관심을 두고 있습니다.
-              
-              <p>
-              <a class="pure-button button-xsmall" href="http://hatemogi.com/post/2012/wernervogels/">더보기</a>
-              </p>
-              
-            </div>
+        </div>
+      
+        <div>
+        <h2>
+          <a href="http://hatemogi.com/holiday-project-day-11">프로젝트 11일: Git 커밋 그래프 그리기 도전</a>
+          <small class="pull-right"><i class="fa fa-calendar-o"></i>
+          2014-05-17
+          </small>
+        </h2>
+        </div>
+        <div class="post-meta">
+          <p class="meta">
+          </p>
+        </div>
+        <div class="post-description">
+          나는 30일 동안 휴가 중이다. 휴가 동안 개인 개발 프로젝트를 진행하고 있다. D3.js의 Layout 기능 오늘 새벽 5시쯤 일찍 잠에서 깼는데 다시 잠이 오지 않아, 침대에 누운 채로 D3.js 문서를 좀 읽었다. Force Layout 부분을 보아하니, 원래 계획하던 그래프를 그리는 데에 사용할 수 있을 것 같은 느낌이 왔다. 문서를 마저 읽고, 설레는 마음을 품고, 책상에 앉아서 코딩을 시작했고, 잠깐의 몰입 후에 기본 코드가 완성됐다. 개발이 즐거운 이유는, 몰입(flow)의 경험이 가장 크지 않나 싶다.
           
-            <h2 class="post-header">
-            <a href="http://hatemogi.com/post/2012/saas_score/">Software Engineering for SaaS 수료</a>
-            </h2>
-            <p class="post-meta">
-              <p class="meta">
-                <small>&nbsp;<i class="fa fa-calendar-o"></i>
-                2012-04-16
-                </small>
-              </p>
-            </p>
-            <div class="post-description">
-              소프트웨어 공학 수업 수료 지난 포스트에서 소개드렸던 &lsquo;Software Engineering for SaaS&rsquo; 수업의 5주과정이 모두 끝났습니다. 총 2만여명이 하나 이상의 강의 영상을 보았고, 1만여명이 한 번 이상의 과제 제출이나 퀴즈 응시를 했다는군요. 수료 기준은 총 과제 점수의 절반 이상, 그리고 총 퀴즈 점수의 절반 이상을 받는 것이었으며, 약 3,500명 정도가 수료 대상이라고 합니다. 저랑 같이 일하는 개발자 한 분도 이 수업 내용을 극찬했었는데요, 이렇게 좋은 수업의 내용을 전세계에서 3,500명이 열심히 들었다고 하니, 현업 종사자로서 위기감이 들기까지 합니다.
-              
-              <p>
-              <a class="pure-button button-xsmall" href="http://hatemogi.com/post/2012/saas_score/">더보기</a>
-              </p>
-              
-            </div>
+          ... <a class="btn btn-default btn-xs" href="http://hatemogi.com/holiday-project-day-11">더 읽기</a>
           
-            <h2 class="post-header">
-            <a href="http://hatemogi.com/post/2012/saas_class/">Software Engineering for SaaS</a>
-            </h2>
-            <p class="post-meta">
-              <p class="meta">
-                <small>&nbsp;<i class="fa fa-calendar-o"></i>
-                2012-03-05
-                </small>
-              </p>
-            </p>
-            <div class="post-description">
-              클라우드환경의 소프트웨어공학 수업 Coursera라는 단체(?)를 통해 무료로 제공되는 공개 수업을 소개합니다. 공개 수업 제목은 &lsquo;Software Engineering for Software as a Service&rsquo;입니다. 총 5주 과정으로, 현재 3주차과정이 진행되고 있습니다. 루비온레일스로 Software-as-a-Service 애플리케이션을 개발하고 배포하는 애자일 개발에 대해 알려줍니다. 버클리 대학에서 실제 했던 수업내용을 녹화해서 제공하는것 같구요, 버클리 학생들은 이 수업을 위해 주당 5~10시간정도를 할애했다고 합니다. 강의 내용은 약간의 프로그래밍을 해 본 사람이 웹서비스 애플리케이션을 개발해서 배포하는 것까지 다 해볼 수 있도록 탄탄하게 구성된 것 같습니다.
-              
-              <p>
-              <a class="pure-button button-xsmall" href="http://hatemogi.com/post/2012/saas_class/">더보기</a>
-              </p>
-              
-            </div>
+        </div>
+      
+        <div>
+        <h2>
+          <a href="http://hatemogi.com/holiday-project-day-10">프로젝트 10일: Async.js로 콜백 중첩을 풀기</a>
+          <small class="pull-right"><i class="fa fa-calendar-o"></i>
+          2014-05-16
+          </small>
+        </h2>
+        </div>
+        <div class="post-meta">
+          <p class="meta">
+          </p>
+        </div>
+        <div class="post-description">
+          나는 30일의 휴가 중이다. 휴가 동안 개인 개발 프로젝트를 진행하고 있고, 오늘은 그 열흘째다. Async.js 어제 Node.js로 Git 저장소의 커밋 오브젝트를 찾아보면서, 콜백 폭포에 대한 어색함을 토로했다. 출근하면, 회사 동료들에게 관련 내용을 물어보려 했는데, 오늘 마침 회사에 잠깐 들를 일이 있었다. 딸내미 100일 떡을 돌리라는 명(?)을 받들어 회사에 가서 막 쪄온 떡을 돌리고, 오랜만에 본 팀원 분들과 얘기를 나누며 관련 문의를 했고, 곧바로 속 시원하게 들은 해결안은 Async.js를 사용해보라는 것! 집에 와서 살펴보니, Async.js는 여러 가지 비동기 호출에 편리한 기능을 제공하는데, 그중에서 waterfall 함수를 사용하면 자꾸 중첩되는 콜백 함수들을 명시적으로 표현해 호출하기에 좋다.
           
-            <h2 class="post-header">
-            <a href="http://hatemogi.com/post/2012/gcj2012kr/">Google Code Jam Korea 2012 참가후기</a>
-            </h2>
-            <p class="post-meta">
-              <p class="meta">
-                <small>&nbsp;<i class="fa fa-calendar-o"></i>
-                2012-02-28
-                </small>
-              </p>
-            </p>
-            <div class="post-description">
-              2000년도, 첫 직장에 다니던 때에는 &lsquo;10년 경력&rsquo;이라는 표현은 나와는 상관 없는 일이었습니다. 그저 &lsquo;10년 경력이면 대단한 실력의 프로그래머가 되겠구나&rsquo;라고 막연히 생각했었죠. 그야말로 어느덧 시간이 흘러 경력 햇수는 쌓였는데, 꼭 그만한 실력이 함께 쌓이는 것은 아닌가 봅니다. 10년 내내 열심히 실력을 연마하지 않은거겠죠. 이 글은, 그런 10년 경력의 프로그래머가 구글 코드 잼 코리아 2012(Google Code Jam Korea 2012)에 참가한 뒤 쓰는 후기입니다. Google Code Jam Google Code Jam는 2003년 부터 매년 구글에서 개최하는 프로그래밍 경진 대회로, 참가자가 본인이 선호하는 프로그래밍 언어로 제한된 시간 안에 주어진 복잡한 알고리즘 문제를 해결하는 대회입니다.
-              
-              <p>
-              <a class="pure-button button-xsmall" href="http://hatemogi.com/post/2012/gcj2012kr/">더보기</a>
-              </p>
-              
-            </div>
+          ... <a class="btn btn-default btn-xs" href="http://hatemogi.com/holiday-project-day-10">더 읽기</a>
           
-            <h2 class="post-header">
-            <a href="http://hatemogi.com/post/2012/koreangit/">한국의 Git 소셜 코딩 커뮤니티가 필요할까요?</a>
-            </h2>
-            <p class="post-meta">
-              <p class="meta">
-                <small>&nbsp;<i class="fa fa-calendar-o"></i>
-                2012-02-22
-                </small>
-              </p>
-            </p>
-            <div class="post-description">
-              GitHub을 소개한 글 엊그제 류광님의 웹 항해일지 - GitHub 특집을 읽었습니다. GitHub에 관련한 소개와 함께 유용한 관련 링크를 알려주셨습니다. 덕분에 GitHub/git에 관심있는 다른 분들의 블로그도 찾아가 볼 수 있었지요. 그 글에도 처음으로 언급돼있듯이, 석찬님이 이미 2009년 1월에 Github, 코드 개발 기반 소셜 네트웍이라는 글로 아주 상세하게 잘 설명해 주셨더군요. 두 글을 읽어보시면, 아 &lsquo;나도 Git/GitHub을 써야겠구나&rsquo;하는 생각이 들게끔 잘 소개해주신 것 같습니다. Git: 분산 버전 관리 시스템 Git의 장점은 여러가지가 있지만, 저는 강력한 브랜치/머지 기능과 GitHub의 존재를 가장 먼저 꼽을 것 같습니다.
-              
-              <p>
-              <a class="pure-button button-xsmall" href="http://hatemogi.com/post/2012/koreangit/">더보기</a>
-              </p>
-              
-            </div>
+        </div>
+      
+        <div>
+        <h2>
+          <a href="http://hatemogi.com/holiday-project-day-09">프로젝트 9일: Node.js로 Git저장소 다루기</a>
+          <small class="pull-right"><i class="fa fa-calendar-o"></i>
+          2014-05-15
+          </small>
+        </h2>
+        </div>
+        <div class="post-meta">
+          <p class="meta">
+          </p>
+        </div>
+        <div class="post-description">
+          나는 30일간의 안식휴가 중이다. 휴가 동안 개인 개발 프로젝트를 진행하고 있고, 오늘은 그 9일째다. GitHub API 오전에, GitHub API: Getting Started를 비롯해, API 설명서를 읽었다. 프로젝트에서 사용할 기능을 깃헙이 제공하는 API를 써서 구현 가능한지 판단하는 것이 주요목표였고, 결론을 먼저 말하면, 당연히 사용할 수 있었다. 문제없이 진행할 수 있겠다. 살펴보면서 느낀 점은 &ldquo;깃헙 개발자 API 설명이 참 잘 돼있다&rdquo;는 것이다. 눈으로 쭉 읽기만 해도 어떻게 돌아갈지 잘 와 닿았고, 특히 그 어렵고 복잡한 OAuth 테스트를 위해서 개발자용 토큰을 웹에서 발급 받을 수 있다는 점이 마음에 들었다.
           
-            <h2 class="post-header">
-            <a href="http://hatemogi.com/post/2012/dynamodb/">Amazon DynamoDB 살펴보기</a>
-            </h2>
-            <p class="post-meta">
-              <p class="meta">
-                <small>&nbsp;<i class="fa fa-calendar-o"></i>
-                2012-02-18
-                </small>
-              </p>
-            </p>
-            <div class="post-description">
-              지난달 18일, Amazon.com의 CTO인 Werner Vogels의 블로그 포스트와 함께, 또 하나의 NoSQL Database서비스가 공개되었습니다. 서비스 이름은 Amazon DynamoDB입니다. 대규모 인터넷 애플리케이션을 위해 설계한 빠르고, 확장성 좋은(scalable) NoSQL 데이타베이스 서비스라고 소개됐습니다. 또 하나라고 말했을 때 눈치채셨을지도 모르겠습니다만, Amazon.com에는 이미 SimpleDB라는 NoSQL 서비스가 있습니다. 이미 SimpleDB가 있는데 왜 DynamoDB를 새로 만들어 공개했을까요? 공개된 서비스 소개 동영상에 언급된 내용중, SimpleDB 대비 강조된 특이사항은 두가지입니다. 원하는 요청처리속도(reqs/sec)를 설정하고 조정해서 사용 SSD를 써서 빠른 속도를 제공 아마도 첫번째 언급한 요청처리속도(reqs/sec)을 설정해서 사용한다는 점이 더 중요한 차이점이 아닐까 생각합니다.
-              
-              <p>
-              <a class="pure-button button-xsmall" href="http://hatemogi.com/post/2012/dynamodb/">더보기</a>
-              </p>
-              
-            </div>
+          ... <a class="btn btn-default btn-xs" href="http://hatemogi.com/holiday-project-day-09">더 읽기</a>
           
-            <h2 class="post-header">
-            <a href="http://hatemogi.com/post/2012/embedded_fun/">R/C 자동차 제어 시스템 개발기</a>
-            </h2>
-            <p class="post-meta">
-              <p class="meta">
-                <small>&nbsp;<i class="fa fa-calendar-o"></i>
-                2012-01-09
-                </small>
-              </p>
-            </p>
-            <div class="post-description">
-              2010년 Daum 개발자 컨퍼런스 출품작 2010년 사내 개발자 컨퍼런스를 위해 개발했던 프로젝트 이야기입니다. &ldquo;아이폰으로 장난감 무선조종 자동차를 제어하는 임베디드 시스템&rdquo;을 개발해서 전시했었는데요, 기억을 잘 되살려, 그 관련한 이야기를 정리해보려합니다. 아래는 그 때 전시회장에서 시연을 준비중인 모습입니다. 전날 밤까지도 펌웨어(firmware)를 다 개발하지 못해서 초조했었는데, 운 좋게도 당일 새벽에 잘 마무리가 되어서 전시할 수 있었습니다. 사진의 표정으로보니, 역시 꽤 즐거운 작업이었던것 같습니다. 전시 때의 동영상도 찍어두었었는데, 어디로 갔는지 찾지를 못했습니다. 아래는, 추후에 집에서 촬영한 시연 동영상입니다.
-              
-              <p>
-              <a class="pure-button button-xsmall" href="http://hatemogi.com/post/2012/embedded_fun/">더보기</a>
-              </p>
-              
-            </div>
+        </div>
+      
+        <div>
+        <h2>
+          <a href="http://hatemogi.com/holiday-project-day-08">프로젝트 8일: D3.js 트랜지션(Transitions)</a>
+          <small class="pull-right"><i class="fa fa-calendar-o"></i>
+          2014-05-14
+          </small>
+        </h2>
+        </div>
+        <div class="post-meta">
+          <p class="meta">
+          </p>
+        </div>
+        <div class="post-description">
+          나는 30일간의 안식휴가 중이다. 휴가 동안 개인 개발 프로젝트를 진행하고 있다. 어제와 오늘, D3.js API 레퍼런스의 Selections 부분과 Transitions 부분을 읽었다. 그제 처음으로 D3.js를 연습해보며 대충만 추측하고 넘어갔던 부분들이 조금은 더 이해가 되기 시작했다. Selections의 한쪽에, selection#data() 함수를 설명하는 부분에 데이터 바인딩과 관련해서 소개된 글, Thinking With Joins도 읽어보게 됐는데, 본문에 아래와 같은 내용이 있었다. Here’s the deal. Instead of telling D3 how to do something, tell D3 what you want.
           
-            <h2 class="post-header">
-            <a href="http://hatemogi.com/post/2011/eventmachine/">EventMachine으로 만든 HTTP 프록시 서버</a>
-            </h2>
-            <p class="post-meta">
-              <p class="meta">
-                <small>&nbsp;<i class="fa fa-calendar-o"></i>
-                2011-12-27
-                </small>
-              </p>
-            </p>
-            <div class="post-description">
-              HTTP Proxy 서버 HTTP 클라이언트의 네트워크 요청을 대신 받아서, 불특정 외부 서버에 대한 요청을 대신 처리해주는 중계 서버를 HTTP forward 프록시 서버라고 부릅니다. 다음과 같은 경우에 HTTP Proxy 서버가 유용히 쓰일 수 있습니다. 외부 네트워크 트래픽을 줄이거나 속도를 높이기 위한 캐싱(caching)용도 HTTP 프로토콜 관련한 개발 작업중에 테스트 또는 디버깅 용도 공인 IP가 할당되지 않고, NAT도 안걸려있는 사설 IP환경의 서버이거나, 네트워크 보안정책에 의해 외부의 HTTP 접근이 차단된 서버에서 외부 HTTP서버로의 접근이 필요한 경우 만약, 첫번째로 적은 캐싱용도라면 varnish나 squid를 설치해서 사용했겠습니다만, 제 경우에는 마지막에 해당된 상황이었습니다.
-              
-              <p>
-              <a class="pure-button button-xsmall" href="http://hatemogi.com/post/2011/eventmachine/">더보기</a>
-              </p>
-              
-            </div>
+          ... <a class="btn btn-default btn-xs" href="http://hatemogi.com/holiday-project-day-08">더 읽기</a>
           
-      </div>
+        </div>
+      
+        <div>
+        <h2>
+          <a href="http://hatemogi.com/holiday-project-day-07">프로젝트 7일:  graphviz 노드에 웹 링크 걸기</a>
+          <small class="pull-right"><i class="fa fa-calendar-o"></i>
+          2014-05-13
+          </small>
+        </h2>
+        </div>
+        <div class="post-meta">
+          <p class="meta">
+          </p>
+        </div>
+        <div class="post-description">
+          나는 30일간의 안식휴가 중이다. 휴가 동안 개인 개발 프로젝트를 진행하고 있다. 원래는 어제 해결하려다, 다른 주제 D3.js에 마음을 빼앗겨 해결하지 못했던 문제로 돌아왔다. graphviz의 노드에 웹 링크(href)를 걸기 찾아보니 싱겁게도, 설명서의 각종 속성을 지정하는 부분에 너무도 간단히, 그것도 아주 뻔한 href라는 속성으로 지정할 수 있다고 쓰여있었다. 지정할 수 있는 속성이 너무 많아서 일일이 살펴보기 어렵다는 점이 있다고 핑계를 대고 싶지만, 아, 너무도 뻔한 속성값이다. 어쨌든, 한번 연습 삼아서 링크를 걸어서 graphviz로 svg 그래프 하나 그려보는 걸로 일단락하기로 한다.
+          
+          ... <a class="btn btn-default btn-xs" href="http://hatemogi.com/holiday-project-day-07">더 읽기</a>
+          
+        </div>
+      
+        <div>
+        <h2>
+          <a href="http://hatemogi.com/holiday-project-day-06">프로젝트 6일: 그래프 그리기 - graphviz &amp; D3.js</a>
+          <small class="pull-right"><i class="fa fa-calendar-o"></i>
+          2014-05-12
+          </small>
+        </h2>
+        </div>
+        <div class="post-meta">
+          <p class="meta">
+          </p>
+        </div>
+        <div class="post-description">
+          나는 30일간의 안식휴가 중이다. 휴가 동안 개인 개발 프로젝트를 진행하고 있고, 오늘은 그 엿새째로, 웹 페이지에서 그래프를 그려서 보여주는 방법을 알아보려 한다. graphviz 예전에, 그래프를 그리는 소프트웨어로 graphviz를 간단히 써봤었다. 그래프를 dot이라는 도메인 특화 언어(DSL)로 작성하고 명령어를 실행하면, png, pdf, svg 파일로 시각화해서 보여준다. 예를 들어, 아래와 같은 sample.dot 파일을 준비하고, sample.dot digraph G { node [style=filled, fillcolor=steelblue, fontsize=10]; 가 -&gt; 나; 가 -&gt; 다; 다 -&gt; 나 [constraint=false]; } 아래의 dot 명령어로 SVG파일을 만들 수 있다.
+          
+          ... <a class="btn btn-default btn-xs" href="http://hatemogi.com/holiday-project-day-06">더 읽기</a>
+          
+        </div>
+      
+        <div>
+        <h2>
+          <a href="http://hatemogi.com/holiday-project-day-05">프로젝트 5일: 문법 하이라이팅 - highlight.js</a>
+          <small class="pull-right"><i class="fa fa-calendar-o"></i>
+          2014-05-11
+          </small>
+        </h2>
+        </div>
+        <div class="post-meta">
+          <p class="meta">
+          </p>
+        </div>
+        <div class="post-description">
+          나는 30일간의 안식휴가 중이다. 휴가 동안 개인 개발 프로젝트를 진행하고 있고, 오늘은 그 닷새째다. 어제까지 기본적인 웹 브라우저 측과 서버 측의 테스트 환경을 구축하고 웹 패키지 매니저 bower의 기본 사용법을 살펴봤다. 개인 블로그에 일지를 적다 보니, 소스코드가 아무런 색상 없이 밋밋하게 보이는 것이 눈에 걸렸다. 당장 쓰임새가 있는 주제는 아닌데, 종종 필요로 하는 주제고, 당장 이 일지에 필요하다고 여겨서, 오늘은 소스 코드에 문법 색상을 적용해서 보이는 방법을 연습해보기로 한다. 정확한 용어는 아마도 문법 하이라이팅(Syntax Highlighting)일테고, 텍스트 편집기나 IDE 등에서는 Color Scheme이나 Color Theme을 지정해서 보이는 문법에 따른 색상 기능이라고 보면 될 것 같다.
+          
+          ... <a class="btn btn-default btn-xs" href="http://hatemogi.com/holiday-project-day-05">더 읽기</a>
+          
+        </div>
+      
+        <div>
+        <h2>
+          <a href="http://hatemogi.com/holiday-project-day-04">프로젝트 4일: 웹 환경 패키지 매니저 - bower</a>
+          <small class="pull-right"><i class="fa fa-calendar-o"></i>
+          2014-05-10
+          </small>
+        </h2>
+        </div>
+        <div class="post-meta">
+          <p class="meta">
+          </p>
+        </div>
+        <div class="post-description">
+          나는 30일간의 안식휴가 중이다. 휴가 동안 개인 개발 프로젝트를 진행하고 있고, 오늘은 그 나흘째다. 어제까지는 기본적인 테스트 환경을 구축했다. 절묘하게도 어젯밤 자정, 테스트 환경 준비에 열을 올린 최근에 걸맞은 타이밍으로, &ldquo;Is TDD Dead?&ldquo;라는 주제로 온라인 토론회가 진행되었다. 개발자들 사이에 연예인이라고 봐도 무방할 유명인들인 마틴 파울러(Martin Fowler), 켄트 벡(Kent Beck), 데이비드 하이네마이어 한슨(David Heinemeier Hansson)이 구글 행아웃으로 모여 각자의 주장을 펼쳤으며, TDD를 창시한 켄트 벡과, 최근 TDD는 죽었다고 블로깅한 DHH간의 설전으로 이어지지 않을까 기대했던 이벤트였다.
+          
+          ... <a class="btn btn-default btn-xs" href="http://hatemogi.com/holiday-project-day-04">더 읽기</a>
+          
+        </div>
+      
+        <div>
+        <h2>
+          <a href="http://hatemogi.com/holiday-project-day-03">프로젝트 3일: express 테스트 환경 - supertest</a>
+          <small class="pull-right"><i class="fa fa-calendar-o"></i>
+          2014-05-09
+          </small>
+        </h2>
+        </div>
+        <div class="post-meta">
+          <p class="meta">
+          </p>
+        </div>
+        <div class="post-description">
+          나는 30일간의 안식휴가 중이다. 휴가 동안 개인 개발 프로젝트를 진행하고 있고, 오늘은 그 사흘째다. 첫날과 어제는, 클라이언트 측과 서버사이드에서의 자바스크립트 테스팅 환경을 구축했다. 하나 더 테스트를 위해 고려할만한 사항이 있다면, 이것을 유닛테스트라고 부르든 통합테스트라고 부르든, express로 제공할 HTTP 요청에 대한 테스트 환경도 준비해보고자 한다. 일일이 HTTP 요청을 별도로 보내 보는 것이 아니라, 가짜(mock) 요청을 테스팅 프레임워크 수준에서 보내보고 결과를 확인하는 일이다. express의 모태인 Ruby Sinatra의 경우 Rack::Test를 사용해서 했던 일이다. express 사이트에 테스트는 어떻게 하는지 설명이 있을 거라고 예상했는데, 아쉽게도 찾지 못했다.
+          
+          ... <a class="btn btn-default btn-xs" href="http://hatemogi.com/holiday-project-day-03">더 읽기</a>
+          
+        </div>
+      
+        <div>
+        <h2>
+          <a href="http://hatemogi.com/holiday-project-day-02">프로젝트 2일: 서버 측 JS 테스트 환경</a>
+          <small class="pull-right"><i class="fa fa-calendar-o"></i>
+          2014-05-08
+          </small>
+        </h2>
+        </div>
+        <div class="post-meta">
+          <p class="meta">
+          </p>
+        </div>
+        <div class="post-description">
+          나는 30일간의 안식휴가 중이다. 휴가 동안 개인 개발 프로젝트를 진행하고 있고, 오늘은 그 둘째 날이다. 첫날은, 클라이언트 측에서의 자바스크립트 테스팅환경을 엉성하게나마 만들었다. 출발이 좋다. 좋다. 그럼 서버사이드에서의 테스팅은 어쩐다? Node.js로 돌아가는 express로 웹사이트를 구축하려 마음먹은 상태이니, Node.js용 테스팅 프레임워크를 찾아봤다. mocha, vows, expresso, should.js, nodeunit, jasmine 대충 찾아봐도 우후죽순 쏟아진다. 루비용 테스팅 프레임워크를 고를 때도, 기본 RSpec을 쓸지 MiniTest를 쓸지 Shoulda를 쓸지 고민해보았지만, 결론은, 많이 쓰이는 프레임워크는 다 좋다. 워낙 다들 수준이 높아서, 약간의 개인적 호불호가 나뉠 뿐, 우열을 가르는 것이 큰 의미 없어 보인다.
+          
+          ... <a class="btn btn-default btn-xs" href="http://hatemogi.com/holiday-project-day-02">더 읽기</a>
+          
+        </div>
+      
+        <div>
+        <h2>
+          <a href="http://hatemogi.com/holiday-project-day-01">프로젝트 1일: 웹 브라우저 JS 테스트 환경</a>
+          <small class="pull-right"><i class="fa fa-calendar-o"></i>
+          2014-05-07
+          </small>
+        </h2>
+        </div>
+        <div class="post-meta">
+          <p class="meta">
+          </p>
+        </div>
+        <div class="post-description">
+          나는 30일간의 안식휴가 중이다. 오늘은 그 첫날이다. 근무하는 회사는 여러모로 개발자로 일하기에 참 좋은 환경을 갖추고 있다. 그중에서도 가장 감사한 것은 &ldquo;안식 휴가 제도&rdquo;다. 직원들이 근속연수와 상관없이 매년 15일의 유급 휴가를 사용할 수 있고, 추가로, 3년마다 안식휴가를 준다. 3년 근속 시 10일, 6년 근속 시 30일, 그리고 9년 근속 시 60일의 유급 휴가를 준다. 9년 차 안식휴가의 경우, 30일씩 두 번에 나누어 사용할 수 있고, 나는 9년 차 안식휴가를 30일로 나눠서 사용 중이다.
+          
+          ... <a class="btn btn-default btn-xs" href="http://hatemogi.com/holiday-project-day-01">더 읽기</a>
+          
+        </div>
+      
+        <div>
+        <h2>
+          <a href="http://hatemogi.com/semver">유의적 버전 (Semantic Versioning) 번역</a>
+          <small class="pull-right"><i class="fa fa-calendar-o"></i>
+          2014-05-06
+          </small>
+        </h2>
+        </div>
+        <div class="post-meta">
+          <p class="meta">
+          </p>
+        </div>
+        <div class="post-description">
+          node.js용 모듈이나 ruby gem 패키지를 살펴보다 보면, &lsquo;해당 패키지는 SemVer를 따르고 있다&rsquo;라는 표현을 종종 접하게 된다. 해당 패키지가 버전을 정하는 모종의 규칙을 따르고 있으므로, 쓰는 사람도 그 의미를 파악해서 잘 쓰라는 의미인데, 원문를 참조하라고 적힌 곳이 더러 있었다. 해당 사이트를 살펴보니, 버전을 정하고 올리는 규칙이 잘 정리돼 있었으며, 그 취지가 설득력 있게 느껴져서, 따라해서 사용하고 싶어졌다. 한편 아쉽게도, 다른 여러 나라의 언어로 번역이 되어있으면서도, 아직 한국어 번역이 링크돼있지 않았다. 이런 상황을 볼 때마다 아쉬운 마음이 들지만, 이걸 번역을 하는 수고보다는, 그냥 차근히 해석해가며 읽는 것이 더 부담이 적은 것이 당연한 일이다.
+          
+          ... <a class="btn btn-default btn-xs" href="http://hatemogi.com/semver">더 읽기</a>
+          
+        </div>
+      
+        <div>
+        <h2>
+          <a href="http://hatemogi.com/post/2012/wernervogels/">Amazon CTO, Werner Vogels와의 저녁식사</a>
+          <small class="pull-right"><i class="fa fa-calendar-o"></i>
+          2012-07-05
+          </small>
+        </h2>
+        </div>
+        <div class="post-meta">
+          <p class="meta">
+          </p>
+        </div>
+        <div class="post-description">
+          블로그에 남겨야겠다고 생각한 내용이었는데, 벌써 한달이 넘게 지난 일이군요. 지난 얘기지만, 꼭 남겨두고 싶은 얘기들이 있어서 메모를 뒤적이며 기억을 되살려 남겨봅니다. 5월말 Werner Vogels박사 방한에 관련한 내용입니다. Werner Vogels 아마존닷컴의 부사장이자 CTO인 Werner Vogels 박사님이 방한했습니다. All Things Distributed라는 테크니컬 블로그를 통해, 많은 개발자가 익히 알고 있는 분입니다. 모든 NoSQL 바람의 시초라고 할 수 있는 Amazon Dynamo 논문을 알게된 이래로, 블로그 피드도 구독하고 있으며, 그의 업적으로 전세계에 서비스중인 Amazon Web Services도 큰 관심을 두고 있습니다.
+          
+          ... <a class="btn btn-default btn-xs" href="http://hatemogi.com/post/2012/wernervogels/">더 읽기</a>
+          
+        </div>
+      
+        <div>
+        <h2>
+          <a href="http://hatemogi.com/post/2012/saas_score/">Software Engineering for SaaS 수료</a>
+          <small class="pull-right"><i class="fa fa-calendar-o"></i>
+          2012-04-16
+          </small>
+        </h2>
+        </div>
+        <div class="post-meta">
+          <p class="meta">
+          </p>
+        </div>
+        <div class="post-description">
+          소프트웨어 공학 수업 수료 지난 포스트에서 소개드렸던 &lsquo;Software Engineering for SaaS&rsquo; 수업의 5주과정이 모두 끝났습니다. 총 2만여명이 하나 이상의 강의 영상을 보았고, 1만여명이 한 번 이상의 과제 제출이나 퀴즈 응시를 했다는군요. 수료 기준은 총 과제 점수의 절반 이상, 그리고 총 퀴즈 점수의 절반 이상을 받는 것이었으며, 약 3,500명 정도가 수료 대상이라고 합니다. 저랑 같이 일하는 개발자 한 분도 이 수업 내용을 극찬했었는데요, 이렇게 좋은 수업의 내용을 전세계에서 3,500명이 열심히 들었다고 하니, 현업 종사자로서 위기감이 들기까지 합니다.
+          
+          ... <a class="btn btn-default btn-xs" href="http://hatemogi.com/post/2012/saas_score/">더 읽기</a>
+          
+        </div>
+      
+        <div>
+        <h2>
+          <a href="http://hatemogi.com/post/2012/saas_class/">Software Engineering for SaaS</a>
+          <small class="pull-right"><i class="fa fa-calendar-o"></i>
+          2012-03-05
+          </small>
+        </h2>
+        </div>
+        <div class="post-meta">
+          <p class="meta">
+          </p>
+        </div>
+        <div class="post-description">
+          클라우드환경의 소프트웨어공학 수업 Coursera라는 단체(?)를 통해 무료로 제공되는 공개 수업을 소개합니다. 공개 수업 제목은 &lsquo;Software Engineering for Software as a Service&rsquo;입니다. 총 5주 과정으로, 현재 3주차과정이 진행되고 있습니다. 루비온레일스로 Software-as-a-Service 애플리케이션을 개발하고 배포하는 애자일 개발에 대해 알려줍니다. 버클리 대학에서 실제 했던 수업내용을 녹화해서 제공하는것 같구요, 버클리 학생들은 이 수업을 위해 주당 5~10시간정도를 할애했다고 합니다. 강의 내용은 약간의 프로그래밍을 해 본 사람이 웹서비스 애플리케이션을 개발해서 배포하는 것까지 다 해볼 수 있도록 탄탄하게 구성된 것 같습니다.
+          
+          ... <a class="btn btn-default btn-xs" href="http://hatemogi.com/post/2012/saas_class/">더 읽기</a>
+          
+        </div>
+      
+        <div>
+        <h2>
+          <a href="http://hatemogi.com/post/2012/gcj2012kr/">Google Code Jam Korea 2012 참가후기</a>
+          <small class="pull-right"><i class="fa fa-calendar-o"></i>
+          2012-02-28
+          </small>
+        </h2>
+        </div>
+        <div class="post-meta">
+          <p class="meta">
+          </p>
+        </div>
+        <div class="post-description">
+          2000년도, 첫 직장에 다니던 때에는 &lsquo;10년 경력&rsquo;이라는 표현은 나와는 상관 없는 일이었습니다. 그저 &lsquo;10년 경력이면 대단한 실력의 프로그래머가 되겠구나&rsquo;라고 막연히 생각했었죠. 그야말로 어느덧 시간이 흘러 경력 햇수는 쌓였는데, 꼭 그만한 실력이 함께 쌓이는 것은 아닌가 봅니다. 10년 내내 열심히 실력을 연마하지 않은거겠죠. 이 글은, 그런 10년 경력의 프로그래머가 구글 코드 잼 코리아 2012(Google Code Jam Korea 2012)에 참가한 뒤 쓰는 후기입니다. Google Code Jam Google Code Jam는 2003년 부터 매년 구글에서 개최하는 프로그래밍 경진 대회로, 참가자가 본인이 선호하는 프로그래밍 언어로 제한된 시간 안에 주어진 복잡한 알고리즘 문제를 해결하는 대회입니다.
+          
+          ... <a class="btn btn-default btn-xs" href="http://hatemogi.com/post/2012/gcj2012kr/">더 읽기</a>
+          
+        </div>
+      
+        <div>
+        <h2>
+          <a href="http://hatemogi.com/post/2012/koreangit/">한국의 Git 소셜 코딩 커뮤니티가 필요할까요?</a>
+          <small class="pull-right"><i class="fa fa-calendar-o"></i>
+          2012-02-22
+          </small>
+        </h2>
+        </div>
+        <div class="post-meta">
+          <p class="meta">
+          </p>
+        </div>
+        <div class="post-description">
+          GitHub을 소개한 글 엊그제 류광님의 웹 항해일지 - GitHub 특집을 읽었습니다. GitHub에 관련한 소개와 함께 유용한 관련 링크를 알려주셨습니다. 덕분에 GitHub/git에 관심있는 다른 분들의 블로그도 찾아가 볼 수 있었지요. 그 글에도 처음으로 언급돼있듯이, 석찬님이 이미 2009년 1월에 Github, 코드 개발 기반 소셜 네트웍이라는 글로 아주 상세하게 잘 설명해 주셨더군요. 두 글을 읽어보시면, 아 &lsquo;나도 Git/GitHub을 써야겠구나&rsquo;하는 생각이 들게끔 잘 소개해주신 것 같습니다. Git: 분산 버전 관리 시스템 Git의 장점은 여러가지가 있지만, 저는 강력한 브랜치/머지 기능과 GitHub의 존재를 가장 먼저 꼽을 것 같습니다.
+          
+          ... <a class="btn btn-default btn-xs" href="http://hatemogi.com/post/2012/koreangit/">더 읽기</a>
+          
+        </div>
+      
+        <div>
+        <h2>
+          <a href="http://hatemogi.com/post/2012/dynamodb/">Amazon DynamoDB 살펴보기</a>
+          <small class="pull-right"><i class="fa fa-calendar-o"></i>
+          2012-02-18
+          </small>
+        </h2>
+        </div>
+        <div class="post-meta">
+          <p class="meta">
+          </p>
+        </div>
+        <div class="post-description">
+          지난달 18일, Amazon.com의 CTO인 Werner Vogels의 블로그 포스트와 함께, 또 하나의 NoSQL Database서비스가 공개되었습니다. 서비스 이름은 Amazon DynamoDB입니다. 대규모 인터넷 애플리케이션을 위해 설계한 빠르고, 확장성 좋은(scalable) NoSQL 데이타베이스 서비스라고 소개됐습니다. 또 하나라고 말했을 때 눈치채셨을지도 모르겠습니다만, Amazon.com에는 이미 SimpleDB라는 NoSQL 서비스가 있습니다. 이미 SimpleDB가 있는데 왜 DynamoDB를 새로 만들어 공개했을까요? 공개된 서비스 소개 동영상에 언급된 내용중, SimpleDB 대비 강조된 특이사항은 두가지입니다. 원하는 요청처리속도(reqs/sec)를 설정하고 조정해서 사용 SSD를 써서 빠른 속도를 제공 아마도 첫번째 언급한 요청처리속도(reqs/sec)을 설정해서 사용한다는 점이 더 중요한 차이점이 아닐까 생각합니다.
+          
+          ... <a class="btn btn-default btn-xs" href="http://hatemogi.com/post/2012/dynamodb/">더 읽기</a>
+          
+        </div>
+      
+        <div>
+        <h2>
+          <a href="http://hatemogi.com/post/2012/embedded_fun/">R/C 자동차 제어 시스템 개발기</a>
+          <small class="pull-right"><i class="fa fa-calendar-o"></i>
+          2012-01-09
+          </small>
+        </h2>
+        </div>
+        <div class="post-meta">
+          <p class="meta">
+          </p>
+        </div>
+        <div class="post-description">
+          2010년 Daum 개발자 컨퍼런스 출품작 2010년 사내 개발자 컨퍼런스를 위해 개발했던 프로젝트 이야기입니다. &ldquo;아이폰으로 장난감 무선조종 자동차를 제어하는 임베디드 시스템&rdquo;을 개발해서 전시했었는데요, 기억을 잘 되살려, 그 관련한 이야기를 정리해보려합니다. 아래는 그 때 전시회장에서 시연을 준비중인 모습입니다. 전날 밤까지도 펌웨어(firmware)를 다 개발하지 못해서 초조했었는데, 운 좋게도 당일 새벽에 잘 마무리가 되어서 전시할 수 있었습니다. 사진의 표정으로보니, 역시 꽤 즐거운 작업이었던것 같습니다. 전시 때의 동영상도 찍어두었었는데, 어디로 갔는지 찾지를 못했습니다. 아래는, 추후에 집에서 촬영한 시연 동영상입니다.
+          
+          ... <a class="btn btn-default btn-xs" href="http://hatemogi.com/post/2012/embedded_fun/">더 읽기</a>
+          
+        </div>
+      
+        <div>
+        <h2>
+          <a href="http://hatemogi.com/post/2011/eventmachine/">EventMachine으로 만든 HTTP 프록시 서버</a>
+          <small class="pull-right"><i class="fa fa-calendar-o"></i>
+          2011-12-27
+          </small>
+        </h2>
+        </div>
+        <div class="post-meta">
+          <p class="meta">
+          </p>
+        </div>
+        <div class="post-description">
+          HTTP Proxy 서버 HTTP 클라이언트의 네트워크 요청을 대신 받아서, 불특정 외부 서버에 대한 요청을 대신 처리해주는 중계 서버를 HTTP forward 프록시 서버라고 부릅니다. 다음과 같은 경우에 HTTP Proxy 서버가 유용히 쓰일 수 있습니다. 외부 네트워크 트래픽을 줄이거나 속도를 높이기 위한 캐싱(caching)용도 HTTP 프로토콜 관련한 개발 작업중에 테스트 또는 디버깅 용도 공인 IP가 할당되지 않고, NAT도 안걸려있는 사설 IP환경의 서버이거나, 네트워크 보안정책에 의해 외부의 HTTP 접근이 차단된 서버에서 외부 HTTP서버로의 접근이 필요한 경우 만약, 첫번째로 적은 캐싱용도라면 varnish나 squid를 설치해서 사용했겠습니다만, 제 경우에는 마지막에 해당된 상황이었습니다.
+          
+          ... <a class="btn btn-default btn-xs" href="http://hatemogi.com/post/2011/eventmachine/">더 읽기</a>
+          
+        </div>
+      
     </div>
   </div>
 </main>
@@ -672,5 +678,14 @@
   <footer>
     copyright(c) 2015 hatemogi
   </footer>
+  <script type="text/javascript">
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-8995709-3', 'auto');
+  ga('send', 'pageview');
+  </script>
 </body>
 </html>

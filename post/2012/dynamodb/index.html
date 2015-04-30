@@ -6,53 +6,60 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Amazon DynamoDB 살펴보기</title>
   <link rel="canonical" href="http://hatemogi.com/post/2012/dynamodb/">
-  <link rel="stylesheet" href="/css/pure/pure-min.css">
-  <link rel="stylesheet" href="/css/pure/grids-responsive-min.css">
+  <link rel="stylesheet" href="/css/bootstrap.flatly.css">
+  <link rel="stylesheet" href="/css/bootstrap-social.css">
   <link rel="stylesheet" href="/css/highlight/github.css">
   <link rel="stylesheet" href="/css/font-awesome.min.css">
   <link rel="stylesheet" href="/css/awjordan.css">
+  <script src="/js/jquery.min.js"></script>
+  <script src="/js/bootstrap.min.js"></script>
   <script src="/js/highlight.pack.js"></script>
   <script src="/js/d3.min.js"></script>
-  <script src="/js/jquery.min.js"></script>
-  <script>hljs.initHighlightingOnLoad();</script>
+  <script src="/js/hatemogi.js"></script>
 </head>
 <body>
 
-<nav>
-  <h1 class="site-logo"><a href="/">hatemogi</a></h1>
-  <ul class="site-links">
-    <li><a href="/about">소개</a></li>
-    <li><a href="/post">블로그</a></li>
-    <li><a href="/project">프로젝트</a></li>
-    
+<nav class="navbar navbar-default navbar-static-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand logo" href="/">
+      hatemogi
+      </a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li><a href="/about">소개</a></li>
+      <li><a href="/post">블로그</a></li>
+      
+      
     </ul>
-  <ul class="social-links">
-    <li><a href="https://twitter.com/@hatemogi"><i class="fa fa-twitter fa-lg"></i></a></li>
-    <li><a href="https://github.com/hatemogi"><i class="fa fa-github fa-lg"></i></a></li>
-    <li><a href="https://medium.com/hatemogi"><i class="fa fa-medium fa-lg"></i></a></li>
-  </ul>
+    <ul class="nav navbar-nav hidden-xs navbar-right">
+      <li><a href="https://twitter.com/@hatemogi"><i class="fa fa-twitter fa-lg"></i></a></li>
+      <li><a href="https://github.com/hatemogi"><i class="fa fa-github fa-lg"></i></a></li>
+      <li><a href="https://medium.com/hatemogi"><i class="fa fa-medium fa-lg"></i></a></li>
+    </ul>
+  </div>
 </nav>
 
-<main class="pure-g layout">
-  <div class="pure-u-1">
-    
-    <div class="posts">
-      
-      <article>
-        <header class="post-header">
-          <h2>
-            Amazon DynamoDB 살펴보기
-          </h2>
+<main class="layout">
+    <ol class="breadcrumb">
+    <li><a href="/">홈</a></li>
+    <li><a href="/post"> 블로그</a></li>
+    <li class="active"> Amazon DynamoDB 살펴보기</li>
+  </ol>
 
-          <p class="post-meta">
-            <i class="fa fa-calendar-o"></i>
-            2012-02-18
-            
-          </p>
-        </header>
-
-        <div class="post-description">
-          <p>지난달 18일, <a href="http://www.allthingsdistributed.com/2012/01/amazon-dynamodb.html">Amazon.com의 CTO인 Werner Vogels의 블로그 포스트</a>와 함께, <em>또 하나의</em> NoSQL Database서비스가 공개되었습니다. 서비스 이름은 Amazon DynamoDB입니다. 대규모 인터넷 애플리케이션을 위해 설계한  빠르고, 확장성 좋은(scalable) NoSQL 데이타베이스 서비스라고 소개됐습니다. 또 하나라고 말했을 때 눈치채셨을지도 모르겠습니다만, Amazon.com에는 <strong>이미</strong> <a href="http://aws.amazon.com/simpledb/">SimpleDB</a>라는 NoSQL 서비스가 있습니다. 이미 SimpleDB가 있는데 왜 DynamoDB를 새로 만들어 공개했을까요?</p>
+  <article>
+    <div class="post-header">
+      <h2>
+        Amazon DynamoDB 살펴보기
+      </h2>
+      <div class="post-meta clearfix">
+        <div class="pull-right"><i class="fa fa-calendar-o"></i> 2012-02-18</div>
+        <div class="keywords">
+        
+        </div>
+      </div>
+    </div>
+    <p>지난달 18일, <a href="http://www.allthingsdistributed.com/2012/01/amazon-dynamodb.html">Amazon.com의 CTO인 Werner Vogels의 블로그 포스트</a>와 함께, <em>또 하나의</em> NoSQL Database서비스가 공개되었습니다. 서비스 이름은 Amazon DynamoDB입니다. 대규모 인터넷 애플리케이션을 위해 설계한  빠르고, 확장성 좋은(scalable) NoSQL 데이타베이스 서비스라고 소개됐습니다. 또 하나라고 말했을 때 눈치채셨을지도 모르겠습니다만, Amazon.com에는 <strong>이미</strong> <a href="http://aws.amazon.com/simpledb/">SimpleDB</a>라는 NoSQL 서비스가 있습니다. 이미 SimpleDB가 있는데 왜 DynamoDB를 새로 만들어 공개했을까요?</p>
 
 <p>공개된 서비스 소개 동영상에 언급된 내용중, SimpleDB 대비 강조된 특이사항은 두가지입니다.</p>
 
@@ -93,20 +100,31 @@
 
 <p>개인적으로 만드는 애플리케이션이 과연 &ldquo;대규모&rdquo;가 될지는 모르겠습니다만, 대규모가 된다 싶으면 신속히 옮겨서 이용해볼만한 서비스라고 생각합니다. 그런 행복한 수고를 할 날이 언제가 될 지 기대되는군요.</p>
 
-        </div>
-      </article>
-    </div>
-  </div>
-  <div class="content pure-u-1">
-    <ul class="pure-paginator">
-      &nbsp;<li><a class="pure-button" href="http://hatemogi.com/post/2012/koreangit/"> 한국의 Git 소셜 코딩 커뮤니티가 필요할까요?</a></li>
-      &nbsp;<li><a class="pure-button" href="http://hatemogi.com/post/2012/embedded_fun/"> R/C 자동차 제어 시스템 개발기</a></li>
-    </ul>
-  </div>
+
+  </article>
 </main>
+<nav class="container">
+  <ul class="pager">
+    
+      <li class="previous"><a href="http://hatemogi.com/post/2012/embedded_fun/"><i class="fa fa-chevron-left"></i> R/C 자동차 제어 시스템 개발기 </a></li>
+    
+    
+      <li class="next"><a href="http://hatemogi.com/post/2012/koreangit/">한국의 Git 소셜 코딩 커뮤니티가 필요할까요? <i class="fa fa-chevron-right"></i></a></li>
+    
+  </ul>
+</nav>
 
   <footer>
     copyright(c) 2015 hatemogi
   </footer>
+  <script type="text/javascript">
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-8995709-3', 'auto');
+  ga('send', 'pageview');
+  </script>
 </body>
 </html>

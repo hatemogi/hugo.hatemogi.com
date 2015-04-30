@@ -6,53 +6,64 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>팀장직 내려놓기</title>
   <link rel="canonical" href="http://hatemogi.com/post/2014/0713-no-more-managing/">
-  <link rel="stylesheet" href="/css/pure/pure-min.css">
-  <link rel="stylesheet" href="/css/pure/grids-responsive-min.css">
+  <link rel="stylesheet" href="/css/bootstrap.flatly.css">
+  <link rel="stylesheet" href="/css/bootstrap-social.css">
   <link rel="stylesheet" href="/css/highlight/github.css">
   <link rel="stylesheet" href="/css/font-awesome.min.css">
   <link rel="stylesheet" href="/css/awjordan.css">
+  <script src="/js/jquery.min.js"></script>
+  <script src="/js/bootstrap.min.js"></script>
   <script src="/js/highlight.pack.js"></script>
   <script src="/js/d3.min.js"></script>
-  <script src="/js/jquery.min.js"></script>
-  <script>hljs.initHighlightingOnLoad();</script>
+  <script src="/js/hatemogi.js"></script>
 </head>
 <body>
 
-<nav>
-  <h1 class="site-logo"><a href="/">hatemogi</a></h1>
-  <ul class="site-links">
-    <li><a href="/about">소개</a></li>
-    <li><a href="/post">블로그</a></li>
-    <li><a href="/project">프로젝트</a></li>
-    
+<nav class="navbar navbar-default navbar-static-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand logo" href="/">
+      hatemogi
+      </a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li><a href="/about">소개</a></li>
+      <li><a href="/post">블로그</a></li>
+      
+      
     </ul>
-  <ul class="social-links">
-    <li><a href="https://twitter.com/@hatemogi"><i class="fa fa-twitter fa-lg"></i></a></li>
-    <li><a href="https://github.com/hatemogi"><i class="fa fa-github fa-lg"></i></a></li>
-    <li><a href="https://medium.com/hatemogi"><i class="fa fa-medium fa-lg"></i></a></li>
-  </ul>
+    <ul class="nav navbar-nav hidden-xs navbar-right">
+      <li><a href="https://twitter.com/@hatemogi"><i class="fa fa-twitter fa-lg"></i></a></li>
+      <li><a href="https://github.com/hatemogi"><i class="fa fa-github fa-lg"></i></a></li>
+      <li><a href="https://medium.com/hatemogi"><i class="fa fa-medium fa-lg"></i></a></li>
+    </ul>
+  </div>
 </nav>
 
-<main class="pure-g layout">
-  <div class="pure-u-1">
-    
-    <div class="posts">
-      
-      <article>
-        <header class="post-header">
-          <h2>
-            팀장직 내려놓기
-          </h2>
+<main class="layout">
+    <ol class="breadcrumb">
+    <li><a href="/">홈</a></li>
+    <li><a href="/post"> 블로그</a></li>
+    <li class="active"> 팀장직 내려놓기</li>
+  </ol>
 
-          <p class="post-meta">
-            <i class="fa fa-calendar-o"></i>
-            2014-07-13
-            
-          </p>
-        </header>
-
-        <div class="post-description">
-          <p>2년 남짓 맡아왔던 개발팀장직을 내려놓았다. 연초부터 고민했던 일인데, 출산휴가와 안식휴가 2달을 틈타 고민도 더 하고, 결정도 미뤄왔던 일이다.</p>
+  <article>
+    <div class="post-header">
+      <h2>
+        팀장직 내려놓기
+      </h2>
+      <div class="post-meta clearfix">
+        <div class="pull-right"><i class="fa fa-calendar-o"></i> 2014-07-13</div>
+        <div class="keywords">
+        
+          <span class="label label-info">매니저</span>
+        
+          <span class="label label-info">개발</span>
+        
+        </div>
+      </div>
+    </div>
+    <p>2년 남짓 맡아왔던 개발팀장직을 내려놓았다. 연초부터 고민했던 일인데, 출산휴가와 안식휴가 2달을 틈타 고민도 더 하고, 결정도 미뤄왔던 일이다.</p>
 
 <p>주변에 보면 적지 않은 개발자가, 순수(?) 개발 일을 계속하고자 하지만, 결국 나이가 들면 안팍의 압력에 못 이기고, 매니저의 길로 들어서는 모습을 흔히 볼 수 있다. 나역시 어느정도 우리회사에서의 적정 나이(?)가 되어 팀장직을 맡게된 것이기도 했던 것같다.</p>
 
@@ -68,20 +79,29 @@
 
 <p>의외로, 이제야 조금 마음이 놓인다.</p>
 
-        </div>
-      </article>
-    </div>
-  </div>
-  <div class="content pure-u-1">
-    <ul class="pure-paginator">
-      &nbsp;<li><a class="pure-button" href="http://hatemogi.com/project/aewolinput/"> 애월입력기</a></li>
-      &nbsp;<li><a class="pure-button" href="http://hatemogi.com/holiday-project-day-last/"> 프로젝트 마지막날: 결과물 미리보기</a></li>
-    </ul>
-  </div>
+
+  </article>
 </main>
+<nav class="container">
+  <ul class="pager">
+    
+      <li class="previous"><a href="http://hatemogi.com/holiday-project-day-last/"><i class="fa fa-chevron-left"></i> 프로젝트 마지막날: 결과물 미리보기 </a></li>
+    
+    
+  </ul>
+</nav>
 
   <footer>
     copyright(c) 2015 hatemogi
   </footer>
+  <script type="text/javascript">
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-8995709-3', 'auto');
+  ga('send', 'pageview');
+  </script>
 </body>
 </html>

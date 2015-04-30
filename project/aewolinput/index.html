@@ -6,67 +6,64 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>애월입력기</title>
   <link rel="canonical" href="http://hatemogi.com/project/aewolinput/">
-  <link rel="stylesheet" href="/css/pure/pure-min.css">
-  <link rel="stylesheet" href="/css/pure/grids-responsive-min.css">
+  <link rel="stylesheet" href="/css/bootstrap.flatly.css">
+  <link rel="stylesheet" href="/css/bootstrap-social.css">
   <link rel="stylesheet" href="/css/highlight/github.css">
   <link rel="stylesheet" href="/css/font-awesome.min.css">
   <link rel="stylesheet" href="/css/awjordan.css">
+  <script src="/js/jquery.min.js"></script>
+  <script src="/js/bootstrap.min.js"></script>
   <script src="/js/highlight.pack.js"></script>
   <script src="/js/d3.min.js"></script>
-  <script src="/js/jquery.min.js"></script>
-  <script>hljs.initHighlightingOnLoad();</script>
+  <script src="/js/hatemogi.js"></script>
 </head>
 <body>
 
-<nav>
-  <h1 class="site-logo"><a href="/">hatemogi</a></h1>
-  <ul class="site-links">
-    <li><a href="/about">소개</a></li>
-    <li><a href="/post">블로그</a></li>
-    <li><a href="/project">프로젝트</a></li>
-    
+<nav class="navbar navbar-default navbar-static-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand logo" href="/">
+      hatemogi
+      </a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li><a href="/about">소개</a></li>
+      <li><a href="/post">블로그</a></li>
+      
+      
     </ul>
-  <ul class="social-links">
-    <li><a href="https://twitter.com/@hatemogi"><i class="fa fa-twitter fa-lg"></i></a></li>
-    <li><a href="https://github.com/hatemogi"><i class="fa fa-github fa-lg"></i></a></li>
-    <li><a href="https://medium.com/hatemogi"><i class="fa fa-medium fa-lg"></i></a></li>
-  </ul>
+    <ul class="nav navbar-nav hidden-xs navbar-right">
+      <li><a href="https://twitter.com/@hatemogi"><i class="fa fa-twitter fa-lg"></i></a></li>
+      <li><a href="https://github.com/hatemogi"><i class="fa fa-github fa-lg"></i></a></li>
+      <li><a href="https://medium.com/hatemogi"><i class="fa fa-medium fa-lg"></i></a></li>
+    </ul>
+  </div>
 </nav>
 
-<main class="pure-g layout">
-  <div class="pure-u-1">
-    
-    <div class="posts">
-      
-      <article>
-        <header class="post-header">
-          <h2>
-            애월입력기
-          </h2>
+<main class="layout">
+  <h2>애월입력기</h2>
+  <p>어쩌다 멀쩡히 잘 쓰던 기본 영문 자판을 두고 Dvorak이라는 생소한 자판 배열에 관심을 두게 됐을까요? 괜한 고생문을 연 것 같아서 이제라도 그냥 기본 키보드 배열을 다시 쓸까도 생각했지만, 직업이 프로그래머인지라 괜한 오기가 발동했습니다.</p>
 
-          <p class="post-meta">
-            <i class="fa fa-calendar-o"></i>
-            2014-11-11
-            
-          </p>
-        </header>
+<p>같은 문제 상황에 처한 사람은 얼마 없겠지만, 그래도 나름 개발자인데 나만을 위해서라도 직접 문제를 해결해볼까?
+해결하고자 한 문제가 무엇이었는지 말씀드리기 전에, 배경 설명이 필요합니다.</p>
 
-        <div class="post-description">
-          
-        </div>
-      </article>
-    </div>
-  </div>
-  <div class="content pure-u-1">
-    <ul class="pure-paginator">
-      &nbsp;<li><a class="pure-button" href="http://hatemogi.com/about/"> 소개</a></li>
-      &nbsp;<li><a class="pure-button" href="http://hatemogi.com/post/2014/0713-no-more-managing/"> 팀장직 내려놓기</a></li>
-    </ul>
-  </div>
+<blockquote>
+<p><a href="https://medium.com/happyprogrammer-in-jeju/dvorak과-한글-입력기-개발-8940bc4714a1">https://medium.com/happyprogrammer-in-jeju/dvorak과-한글-입력기-개발-8940bc4714a1</a></p>
+</blockquote>
+
 </main>
 
   <footer>
     copyright(c) 2015 hatemogi
   </footer>
+  <script type="text/javascript">
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-8995709-3', 'auto');
+  ga('send', 'pageview');
+  </script>
 </body>
 </html>

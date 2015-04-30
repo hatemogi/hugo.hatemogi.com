@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tag1 on hatemogi&#39;s blog</title>
+    <link>http://hatemogi.com/tags/tag1/</link>
+    <description>Recent content in Tag1 on hatemogi&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <lastBuildDate>Sat, 11 Apr 2015 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://hatemogi.com/tags/tag1/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title></title>
+      <link>http://hatemogi.com/about/</link>
+      <pubDate>Sat, 11 Apr 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://hatemogi.com/about/</guid>
+      <description>&lt;div class=&#34;container-fluid&#34;&gt;
+  &lt;div class=&#34;row&#34;&gt;
+    &lt;div class=&#34;col-sm-3 col-xs-3&#34;&gt;
+      &lt;img src=&#34;http://hatemogi.com/img/profile.jpg&#34;&gt;
+      &lt;h4&gt;김대현&lt;/h4&gt;
+      &lt;i class=&#34;fa fa-server&#34;&gt;&lt;/i&gt; 서버 프로그래머
+    &lt;/div&gt;
+    &lt;div class=&#34;col-sm-9&#34;&gt;
+      &lt;p&gt;
+        소프트웨어 개발자. 어려서 Apple IIe로 독학 프로그래밍에 빠져든 이래 개발을 취미이자 직업으로 삼았습니다. 홍익대에서 컴퓨터공학을 전공하고, 다음커뮤니케이션에서 클라우드기술팀 팀장을 거치며 만 10년 근무한 뒤, 지금은 프리랜서로 활동합니다.
+      &lt;/p&gt;
+      &lt;p&gt;
+        Ruby나 Java로 서버사이드 개발을 해왔고, Angular.js를 다루는 프론트엔드 기술이나, iOS 애플리케이션을 만드는 일도 마다하지 않습니다. 최근에는 로망의 언어 Lisp 패밀리, 그중에서도 Clojure에 관심을 갖고 유심히 살피고 있습니다.
+      &lt;/p&gt;
+      &lt;p&gt;이 개인 사이트는 관심있는 기술 주제를 정리하는 공간으로 활용하려고 합니다. 아래의 소셜 사이트에서도 종종 활동합니다.&lt;/p&gt;
+
+      &lt;ul class=&#34;list-unstyled&#34;&gt;
+        &lt;li&gt;&lt;a href=&#34;https://github.com/hatemogi&#34;&gt;&lt;i class=&#34;fa fa-github&#34;&gt;&lt;/i&gt;  https://github.com/hatemogi&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://twitter.com/hatemogi&#34;&gt;&lt;i class=&#34;fa fa-twitter&#34;&gt;&lt;/i&gt; https://twitter.com/hatemogi&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;https://medium.com/@hatemogi&#34;&gt;&lt;i class=&#34;fa fa-medium&#34;&gt;&lt;/i&gt;  https://medium.com/@hatemogi&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;p&gt;개인적 연락은 gmail의 제 아이디 앞으로 메일 주시면 답장드립니다. 감사합니다!&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

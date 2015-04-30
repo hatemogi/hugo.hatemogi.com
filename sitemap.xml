@@ -18,6 +18,11 @@
   </url>
   
   <url>
+    <loc>http://hatemogi.com/project/30days/</loc>
+    <lastmod>2014-11-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://hatemogi.com/post/2014/0713-no-more-managing/</loc>
     <lastmod>2014-07-13T00:00:00+00:00</lastmod>
   </url>
@@ -143,11 +148,6 @@
   </url>
   
   <url>
-    <loc>http://hatemogi.com/project/semver/</loc>
-    <lastmod>2014-05-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://hatemogi.com/post/2012/wernervogels/</loc>
     <lastmod>2012-07-05T00:00:00+00:00</lastmod>
   </url>
@@ -193,6 +193,18 @@
   
   <url>
     <loc>http://hatemogi.com/project/babytimer/</loc>
+  </url>
+  
+  <url>
+    <loc>http://hatemogi.com/project/resume/</loc>
+  </url>
+  
+  <url>
+    <loc>http://hatemogi.com/project/semver/</loc>
+  </url>
+  
+  <url>
+    <loc>http://hatemogi.com/project/show-your-work/</loc>
   </url>
   
 </urlset>

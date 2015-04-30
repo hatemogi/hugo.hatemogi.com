@@ -6,34 +6,47 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>프로젝트 마지막날: 결과물 미리보기</title>
   <link rel="canonical" href="http://hatemogi.com/holiday-project-day-last/">
-  <link rel="stylesheet" href="/css/pure/pure-min.css">
-  <link rel="stylesheet" href="/css/pure/grids-responsive-min.css">
+  <link rel="stylesheet" href="/css/bootstrap.flatly.css">
+  <link rel="stylesheet" href="/css/bootstrap-social.css">
   <link rel="stylesheet" href="/css/highlight/github.css">
   <link rel="stylesheet" href="/css/font-awesome.min.css">
   <link rel="stylesheet" href="/css/awjordan.css">
+  <script src="/js/jquery.min.js"></script>
+  <script src="/js/bootstrap.min.js"></script>
   <script src="/js/highlight.pack.js"></script>
   <script src="/js/d3.min.js"></script>
-  <script src="/js/jquery.min.js"></script>
-  <script>hljs.initHighlightingOnLoad();</script>
+  <script src="/js/hatemogi.js"></script>
 </head>
 <body>
 
-<nav>
-  <h1 class="site-logo"><a href="/">hatemogi</a></h1>
-  <ul class="site-links">
-    <li><a href="/about">소개</a></li>
-    <li><a href="/post">블로그</a></li>
-    <li><a href="/project">프로젝트</a></li>
-    
+<nav class="navbar navbar-default navbar-static-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand logo" href="/">
+      hatemogi
+      </a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li><a href="/about">소개</a></li>
+      <li><a href="/post">블로그</a></li>
+      
+      
     </ul>
-  <ul class="social-links">
-    <li><a href="https://twitter.com/@hatemogi"><i class="fa fa-twitter fa-lg"></i></a></li>
-    <li><a href="https://github.com/hatemogi"><i class="fa fa-github fa-lg"></i></a></li>
-    <li><a href="https://medium.com/hatemogi"><i class="fa fa-medium fa-lg"></i></a></li>
-  </ul>
+    <ul class="nav navbar-nav hidden-xs navbar-right">
+      <li><a href="https://twitter.com/@hatemogi"><i class="fa fa-twitter fa-lg"></i></a></li>
+      <li><a href="https://github.com/hatemogi"><i class="fa fa-github fa-lg"></i></a></li>
+      <li><a href="https://medium.com/hatemogi"><i class="fa fa-medium fa-lg"></i></a></li>
+    </ul>
+  </div>
 </nav>
 
-<div class="pure-g layout">
+<div class="layout">
+  <ol class="breadcrumb">
+    <li><a href="/">홈</a></li>
+    <li><a href="/post">블로그</a></li>
+    <li class="active">프로젝트 마지막날: 결과물 미리보기</li>
+  </ol>
+
   <div class="pure-u-1">
     
     <div class="posts">
@@ -95,8 +108,23 @@
       </section>
     </div>
   </div>
-  <div class="pure-u-1">
-    <ul>
+</div>
+
+<nav class="container">
+  <ul class="pager">
+    
+      <li class="previous"><a href="http://hatemogi.com/holiday-project-day-22/"><i class="fa fa-chevron-left"></i> 프로젝트 22일: Promise와 Async.js로 작성해본 콜백 코드 비교 </a></li>
+    
+    
+      <li class="next"><a href="http://hatemogi.com/post/2014/0713-no-more-managing/">팀장직 내려놓기 <i class="fa fa-chevron-right"></i></a></li>
+    
+  </ul>
+</nav>
+
+
+<div class="container layout">
+<h3>30일 프로젝트 글목록</h3>
+<ul class="list-unstyled">
   <li><a href="/holiday-project-day-01/">(05/07) 프로젝트 1일: 웹 브라우저 JS 테스트 환경 - karma &amp; jasmine</a></li>
   <li><a href="/holiday-project-day-02/">(05/08) 프로젝트 2일: 서버 측 JS 테스트 환경 - jasmine-node</a></li>
   <li><a href="/holiday-project-day-03/">(05/09) 프로젝트 3일: express 테스트 환경 - supertest</a></li>
@@ -121,18 +149,19 @@
   <li><a href="/holiday-project-day-22/">(05/31) 프로젝트 22일: Promise와 Async.js로 작성해본 콜백 코드 비교</a></li>
   <li><a href="/holiday-project-last-day/">(06/08) 프로젝트 마지막날: 결과물 미리보기</a></li>
 </ul>
-  </div>
-  <div class="content pure-u-1">
-    <ul class="pure-paginator">
-      &nbsp;<li><a class="pure-button" href="http://hatemogi.com/post/2014/0713-no-more-managing/"> 팀장직 내려놓기</a></li>
-      &nbsp;<li><a class="pure-button" href="http://hatemogi.com/holiday-project-day-22/"> 프로젝트 22일: Promise와 Async.js로 작성해본 콜백 코드 비교</a></li>
-    </ul>
-  </div>
 </div>
-
 
   <footer>
     copyright(c) 2015 hatemogi
   </footer>
+  <script type="text/javascript">
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-8995709-3', 'auto');
+  ga('send', 'pageview');
+  </script>
 </body>
 </html>
