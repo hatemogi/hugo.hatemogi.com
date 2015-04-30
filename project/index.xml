@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on hatemogi&#39;s blog</title>
+    <link>http://hatemogi.com/project/</link>
+    <description>Recent content in Projects on hatemogi&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <lastBuildDate>Tue, 11 Nov 2014 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://hatemogi.com/project/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>애월입력기</title>
+      <link>http://hatemogi.com/project/aewolinput/</link>
+      <pubDate>Tue, 11 Nov 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://hatemogi.com/project/aewolinput/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>유의적 버전 번역</title>
+      <link>http://hatemogi.com/project/semver/</link>
+      <pubDate>Thu, 01 May 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://hatemogi.com/project/semver/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>LaborTimer</title>
+      <link>http://hatemogi.com/project/babytimer/en/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://hatemogi.com/project/babytimer/en/</guid>
+      <description>&lt;div class=&#34;jumbotron&#34;&gt;
+  &lt;h1&gt;LaborTimer&lt;/h1&gt;
+  for iPhone, iPod touch, or iPad
+&lt;/div&gt;
+&lt;p&gt;
+  This app helps you time the period of labor pains. As you approach your due date, you need to know when is the proper time to go to hospital. Your doctor or mid-wife will ask you how close together your contractions are.
+&lt;/p&gt;
+
+&lt;p&gt;
+  This is an extremely simple timer app that only focuses to time the average period of labor pains. There is no other distracting features.
+&lt;/p&gt;
+
+&lt;h3&gt;How to Use&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt; Touch &#34;Labor&#34; button whenever each contraction starts.&lt;/li&gt;
+  &lt;li&gt; Touch &#34;Reset&#34; button if you&#39;d like to start over.&lt;/li&gt;
+  &lt;li&gt; Swipe and delete an entry if you have mistakenly touched &#34;Labor&#34; button.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Price&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Free&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Screenshot&lt;/h3&gt;
+
+&lt;img src=&#34;http://hatemogi.com/img/babytimer/iPhone_5s_Vert_screenshot.png&#34; style=&#34;width:390px; height: auto;&#34;/&gt;
+
+&lt;a href=&#34;https://itunes.apple.com/us/app/jintongtaimeo/id828849070?l=en&amp;amp;ls=1&amp;amp;mt=8&#34;&gt;
+  &lt;img src=&#34;http://hatemogi.com/img/babytimer/appstore_badge_135x40.svg&#34; style=&#34;width:135px; height: auto;&#34;/&gt;
+&lt;/a&gt;
+
+&lt;div class=&#34;panel panel-warning&#34;&gt;
+  &lt;div class=&#34;panel-heading&#34;&gt;
+    Caution
+  &lt;/div&gt;
+  &lt;div class=&#34;panel-body&#34;&gt;
+    This app helps you to time the period of labor pains. There is no medical responsibility. You need to contact your doctor or mid-wife for actual guide or instruction.
+  &lt;/div&gt;
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>진통타이머</title>
+      <link>http://hatemogi.com/project/babytimer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://hatemogi.com/project/babytimer/</guid>
+      <description>&lt;div class=&#34;jumbotron&#34;&gt;
+  &lt;h1&gt;진통타이머 앱&lt;/h1&gt;
+  iPhone, iPod touch, 또는 iPad용
+&lt;/div&gt;
+&lt;p&gt;
+  출산을 앞두고 계신가요? 출산예정일이 다가와서 진통이 시작되면, 가진통인지 아닌지를 판단하는 일부터, 언제 병원에 가야하는지 궁금해집니다. 병원에 연락하면 진통이 주기적으로 오는지를 묻고는 하는데요, 이 주기가 규칙적으로 몇 분이 되면 병원으로 오라는 안내를 받게 됩니다. 즉, 언제 병원에 가야할지를 판단하기 위해서는 그 진통 주기를 쟤야합니다. 이 앱은, 그 주기를 측정하는데 도움을 주는 간단한 타이머 앱입니다.
+&lt;/p&gt;
+
+
+&lt;h3&gt;문제 정의&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt; 출산예정일이 다가와서 진통이 시작된거 같은데, 언제 병원에 가야할까?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;이용대상&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;출산을 앞둔 임산부, 또는 그 배우자&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;이용환경&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;iPhone, iPod touch, iPad&lt;/li&gt;
+  &lt;li&gt;iOS 7.0 이상&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;이용방법&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;매번 진통이 시작될 때마다 빨간색 &lt;font color=&#34;red&#34;&gt;&#39;진통&#39;&lt;/font&gt;버튼을 터치합니다.&lt;/li&gt;
+  &lt;li&gt;잘못 판단한 진통의 경우 하단에 표시된 항목을 스와이프하여 삭제하도록 합니다.&lt;/li&gt;
+  &lt;li&gt;측정된 진통의 주기는 파란색으로 &lt;font color=&#34;blue&#34;&gt;평균 시간&lt;/font&gt;이 표기됩니다.&lt;/li&gt;
+  &lt;li&gt;이 평균시간을 참고로 병원에 갈 시기를 판단합니다.&lt;/li&gt;
+  &lt;li&gt;처음부터 다시 시작하려면 &#39;재설정&#39;버튼을 터치합니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;참고사항&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;진통이 불규칙적이면 실제 출산 진통에 앞선 &#39;가진통&#39;일 수 있습니다.&lt;/li&gt;
+  &lt;li&gt;실제 출산 진통이 시작되면, 이 앱으로 시간을 측정하기도 힘들 수 있으므로, 배우자가 대신 측정하는 것을 권장합니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;가격&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Free&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;스크린샷&lt;/h3&gt;
+
+&lt;img src=&#34;http://hatemogi.com/img/babytimer/iPhone_5s_Vert_screenshot.png&#34; style=&#34;width:390px; height: auto;&#34;/&gt;
+
+&lt;a href=&#34;https://itunes.apple.com/us/app/jintongtaimeo/id828849070?l=ko&amp;amp;ls=1&amp;amp;mt=8&#34;&gt;
+  &lt;img src=&#34;http://hatemogi.com/img/babytimer/appstore_badge_135x40.svg&#34; style=&#34;width:135px; height: auto;&#34;/&gt;
+&lt;/a&gt;
+
+
+&lt;div class=&#34;panel panel-warning&#34;&gt;
+  &lt;div class=&#34;panel-heading&#34;&gt;
+    주의사항
+  &lt;/div&gt;
+  &lt;div class=&#34;panel-body&#34;&gt;
+    이 앱은 진통의 주기를 측정하는데 도움을 줄 뿐, 어떠한 의학적 판단을 책임질 수 없습니다. 실제 출산에 관련한 내용은 전문의와 상담하십시오.
+  &lt;/div&gt;
+&lt;/div&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

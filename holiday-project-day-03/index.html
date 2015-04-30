@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>프로젝트 3일: express 테스트 환경 - supertest</title>
+  <link rel="canonical" href="http://hatemogi.com/holiday-project-day-03">
+  <link rel="stylesheet" href="/css/pure/pure-min.css">
+  <link rel="stylesheet" href="/css/pure/grids-responsive-min.css">
+  <link rel="stylesheet" href="/css/highlight/github.css">
+  <link rel="stylesheet" href="/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/css/awjordan.css">
+  <script src="/js/highlight.pack.js"></script>
+  <script src="/js/d3.min.js"></script>
+  <script src="/js/jquery.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+</head>
+<body>
+
+<nav>
+  <h1 class="site-logo"><a href="/">hatemogi</a></h1>
+  <ul class="site-links">
+    <li><a href="/about">소개</a></li>
+    <li><a href="/post">블로그</a></li>
+    <li><a href="/project">프로젝트</a></li>
+    
+    </ul>
+  <ul class="social-links">
+    <li><a href="https://twitter.com/@hatemogi"><i class="fa fa-twitter fa-lg"></i></a></li>
+    <li><a href="https://github.com/hatemogi"><i class="fa fa-github fa-lg"></i></a></li>
+    <li><a href="https://medium.com/hatemogi"><i class="fa fa-medium fa-lg"></i></a></li>
+  </ul>
+</nav>
+
+<div class="pure-g layout">
+  <div class="pure-u-1">
+    
+    <div class="posts">
+      
+      <section class="post">
+        <header class="post-header">
+          <h2 class="post-title">
+            프로젝트 3일: express 테스트 환경 - supertest
+          </h2>
+
+          <p class="post-meta">
+            <i class="fa fa-calendar-o"></i>
+            2014-05-09
+            
+          </p>
+        </header>
+
+        <div class="post-description">
+          
+
+<p>나는 30일간의 안식휴가 중이다. 휴가 동안 개인 개발 프로젝트를 진행하고 있고, 오늘은 그 사흘째다.</p>
+
+<p><a href="/holiday-project-day-01/">첫날</a>과 <a href="/holiday-project-day-02/">어제</a>는, 클라이언트 측과 서버사이드에서의 자바스크립트 테스팅 환경을 구축했다. 하나 더 테스트를 위해 고려할만한 사항이 있다면, 이것을 유닛테스트라고 부르든 통합테스트라고 부르든, <a href="http://expressjs.com/">express</a>로 제공할 HTTP 요청에 대한 테스트 환경도 준비해보고자 한다. 일일이 HTTP 요청을 별도로 보내 보는 것이 아니라, 가짜(mock) 요청을 테스팅 프레임워크 수준에서 보내보고 결과를 확인하는 일이다.</p>
+
+<p>express의 모태인 Ruby <a href="http://www.sinatrarb.com/testing.html">Sinatra의 경우 Rack::Test를 사용해서 했던 일</a>이다. express 사이트에 테스트는 어떻게 하는지 설명이 있을 거라고 예상했는데, 아쉽게도 찾지 못했다. 프레임워크나 사이트의 철학이 최소한의 기능과 설명을 추구하고 있는 듯하고, HTTP요청 수준의 테스팅은 고려하고 있지 않나 보다. 아니면, 알아서 잘 찾아 쓰라는 마인드인가?</p>
+
+<p>하는 수 없이, 구글링을 조금 해보니, 별도로 <a href="https://github.com/visionmedia/supertest">supertest</a>라고 잘 준비된 프레임워크가 있었다. <a href="https://github.com/visionmedia/supertest#readme">README</a> 문서를 훑어보니 한눈에 쏙 들어오는 예제코드가 마음에 띄었다.</p>
+
+<p>OK, 더 찾아보지 않고 이것으로 낙찰!</p>
+
+<p><a href="https://github.com/expressjs/generator">express-generator</a>로 만든 <a href="https://github.com/hatemogi/karma-practice">연습 프로젝트</a>의 <a href="https://github.com/hatemogi/karma-practice/blob/master/app.js">app.js</a>에 해당 테스트 코드를 붙여보았다.</p>
+
+<h3 id="express-기본-템플릿:15a4785c1c6005d7f7153a9954c7c0d9">express 기본 템플릿</h3>
+
+<p>테스트할 소스는 app.js에서 결국 읽어 들이는 <a href="https://github.com/hatemogi/karma-practice/blob/master/routes/index.js">routes/index.js</a>파일이고, 내용은 아래와 같다.</p>
+
+<pre><code class="language-javascript">var express = require('express');
+var router = express.Router();
+
+/* GET home page. */
+router.get('/', function(req, res) {
+  res.render('index', { title: 'Express' });
+});
+
+module.exports = router;
+</code></pre>
+
+<p>중간의 3줄이 핵심인데, <code>GET /</code>요청이 왔을 때, <code>index</code>템플릿을 렌더링할 것이며, <code>title</code>에는 <code>Express</code>라는 값을 바인딩 해서 하겠다는 뜻이다. 렌러링하고자하는 뷰 템플릿은 <code>views/index.jade</code>파일을 읽어서 처리하며, 그 내용은 아래와 같다.</p>
+
+<pre><code class="language-jade">extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+</code></pre>
+
+<p>이 <a href="http://jade-lang.com/">jade</a> 파일이 html로 변환돼 출력되고, 그 때 title 변수에는 <code>Express</code>가 들어있다. 여기까지는 [express-generator]로 기본 생성한 코드이고, 여기서부터 추가로 테스트 코드를 작성했다.</p>
+
+<h3 id="get-테스트코드-추가:15a4785c1c6005d7f7153a9954c7c0d9"><code>GET /</code> 테스트코드 추가</h3>
+
+<pre><code class="language-bash">npm install supertest --save-dev
+</code></pre>
+
+<p>위와 같이 <a href="https://github.com/visionmedia/supertest">supertest</a>를 현재 프로젝트에 설치했다. (참고로 <code>--save-dev</code> 옵션을 지정하면, 현재 프로젝트의 <code>package.json</code>에 devDependencies에 해당 모듈이 자동 추가된다.)</p>
+
+<h4 id="spec-app-spec-js-https-github-com-hatemogi-karma-practice-blob-master-spec-app-spec-js:15a4785c1c6005d7f7153a9954c7c0d9"><a href="https://github.com/hatemogi/karma-practice/blob/master/spec/app_spec.js">spec/app_spec.js</a></h4>
+
+<pre><code class="language-javascript">var app = require('../app');
+var request = require('supertest')
+
+describe('express 앱', function() {
+  it('GET /', function(done) {
+    request(app)
+      .get('/')
+      .expect('Content-Type', /html/)
+      .expect(200)
+      .expect(/Express/)
+      .end(function (err, res) {
+        if (err) done(err);
+        done();
+      });
+  });
+});
+</code></pre>
+
+<p>supertest에 준비된 메소드 <code>request</code>로 가짜 (1) <code>get('/')</code> 요청을 보내보고, 그 결과로 (2) <code>Content-Type</code> 헤더에는 <code>html</code>이 들어있는지, (3) 결과 HTTP Status Code는 <code>200</code>이 잘 찍혔는지, (4) 응답본문(response body)에는 <code>Express</code>라는 문구가 잘 들어있는지 확인한 뒤, 에러 여부에 따라 <code>done()</code>이나 <code>done(err)</code>를 호출해서 jasmine이 테스트코드 성패 여부를 알 수 있게 한다.</p>
+
+<p>이렇게 해서 <code>jasmine-node</code>로 테스트를 돌려본 결과는 아래와 같다.</p>
+
+<pre><code class="language-bash">$ jasmine-node --verbose spec
+GET / 200 188ms - 170b
+
+express 앱 - 218 ms
+    GET / - 218 ms
+
+자스민 써보기 - 1 ms
+    contains text property - 1 ms
+
+Finished in 0.221 seconds
+2 tests, 1 assertion, 0 failures, 0 skipped
+</code></pre>
+
+<p><a href="/holiday-project-day-02/">어제</a> 작성한 <code>자스민 써보기</code> 테스트케이스도 문제없이 잘 돌았고, 오늘 작성한 <code>express 앱의 GET /</code>테스트케이스 또한 문제없이 통과 했다.</p>
+
+<p>참고로, 작성하는 예제 프로젝트는</p>
+
+<blockquote>
+<p><a href="https://github.com/hatemogi/holiday-project">https://github.com/hatemogi/holiday-project</a></p>
+</blockquote>
+
+<p>에 올려놓고 있다.</p>
+
+<p>오늘은 여기까지, 모두 행복한 불금 되시길!</p>
+
+        </div>
+      </section>
+    </div>
+  </div>
+  <div class="pure-u-1">
+    <ul>
+  <li><a href="/holiday-project-day-01/">(05/07) 프로젝트 1일: 웹 브라우저 JS 테스트 환경 - karma &amp; jasmine</a></li>
+  <li><a href="/holiday-project-day-02/">(05/08) 프로젝트 2일: 서버 측 JS 테스트 환경 - jasmine-node</a></li>
+  <li><a href="/holiday-project-day-03/">(05/09) 프로젝트 3일: express 테스트 환경 - supertest</a></li>
+  <li><a href="/holiday-project-day-04/">(05/10) 프로젝트 4일: 웹 환경 패키지 매니저 - bower</a></li>
+  <li><a href="/holiday-project-day-05/">(05/11) 프로젝트 5일: 문법 하이라이팅 - highlight.js</a></li>
+  <li><a href="/holiday-project-day-06/">(05/12) 프로젝트 6일: 그래프 그리기 - graphviz &amp; D3.js</a></li>
+  <li><a href="/holiday-project-day-07/">(05/13) 프로젝트 7일: graphviz 노드에 웹 링크 걸기</a></li>
+  <li><a href="/holiday-project-day-08/">(05/14) 프로젝트 8일: D3.js 트랜지션(Transitions)</a></li>
+  <li><a href="/holiday-project-day-09/">(05/15) 프로젝트 9일: Node.js로 Git저장소 다루기</a></li>
+  <li><a href="/holiday-project-day-10/">(05/16) 프로젝트 10일: Async.js로 콜백 중첩을 풀기</a></li>
+  <li><a href="/holiday-project-day-11/">(05/17) 프로젝트 11일: Git 커밋 그래프 그리기 도전</a></li>
+  <li><a href="/holiday-project-day-12/">(05/18) 프로젝트 12일: 그래프 그리기 도전 #2</a></li>
+  <li><a href="/holiday-project-day-13/">(05/19) 프로젝트 13일: 컨테이너 기반 가상화 프레임워크 - Docker</a></li>
+  <li><a href="/holiday-project-day-14/">(05/20) 프로젝트 14일: Heroku에 Node.js 애플리케이션 배포</a></li>
+  <li><a href="/holiday-project-day-15/">(05/21) 프로젝트 15일: AngularJS 코드스쿨 강좌 소개</a></li>
+  <li><a href="/holiday-project-day-16/">(05/22) 프로젝트 16일: 중간 점검 - 왜 이 프로젝트를 하나?</a></li>
+  <li><a href="/holiday-project-day-17/">(05/23) 프로젝트 17일: Travis CI - 지속적 통합 서비스</a></li>
+  <li><a href="/holiday-project-day-18/">(05/24) 프로젝트 18일: Grunt - 자바스크립트 작업 실행기</a></li>
+  <li><a href="/holiday-project-day-19/">(05/25) 프로젝트 19일: RequireJS - 비동기(async) JS 로더’</a></li>
+  <li><a href="/holiday-project-day-20/">(05/26) 프로젝트 20일: 회사의 합병 소식</a></li>
+  <li><a href="/holiday-project-day-21/">(05/29) 프로젝트 21일: AngularJS 컨트롤러 테스트 코드</a></li>
+  <li><a href="/holiday-project-day-22/">(05/31) 프로젝트 22일: Promise와 Async.js로 작성해본 콜백 코드 비교</a></li>
+  <li><a href="/holiday-project-last-day/">(06/08) 프로젝트 마지막날: 결과물 미리보기</a></li>
+</ul>
+  </div>
+  <div class="content pure-u-1">
+    <ul class="pure-paginator">
+      &nbsp;<li><a class="pure-button" href="http://hatemogi.com/holiday-project-day-04"> 프로젝트 4일: 웹 환경 패키지 매니저 - bower</a></li>
+      &nbsp;<li><a class="pure-button" href="http://hatemogi.com/holiday-project-day-02"> 프로젝트 2일: 서버 측 JS 테스트 환경</a></li>
+    </ul>
+  </div>
+</div>
+
+
+  <footer>
+    copyright(c) 2015 hatemogi
+  </footer>
+</body>
+</html>

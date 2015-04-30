@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>프로젝트 4일: 웹 환경 패키지 매니저 - bower</title>
+  <link rel="canonical" href="http://hatemogi.com/holiday-project-day-04">
+  <link rel="stylesheet" href="/css/pure/pure-min.css">
+  <link rel="stylesheet" href="/css/pure/grids-responsive-min.css">
+  <link rel="stylesheet" href="/css/highlight/github.css">
+  <link rel="stylesheet" href="/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/css/awjordan.css">
+  <script src="/js/highlight.pack.js"></script>
+  <script src="/js/d3.min.js"></script>
+  <script src="/js/jquery.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+</head>
+<body>
+
+<nav>
+  <h1 class="site-logo"><a href="/">hatemogi</a></h1>
+  <ul class="site-links">
+    <li><a href="/about">소개</a></li>
+    <li><a href="/post">블로그</a></li>
+    <li><a href="/project">프로젝트</a></li>
+    
+    </ul>
+  <ul class="social-links">
+    <li><a href="https://twitter.com/@hatemogi"><i class="fa fa-twitter fa-lg"></i></a></li>
+    <li><a href="https://github.com/hatemogi"><i class="fa fa-github fa-lg"></i></a></li>
+    <li><a href="https://medium.com/hatemogi"><i class="fa fa-medium fa-lg"></i></a></li>
+  </ul>
+</nav>
+
+<div class="pure-g layout">
+  <div class="pure-u-1">
+    
+    <div class="posts">
+      
+      <section class="post">
+        <header class="post-header">
+          <h2 class="post-title">
+            프로젝트 4일: 웹 환경 패키지 매니저 - bower
+          </h2>
+
+          <p class="post-meta">
+            <i class="fa fa-calendar-o"></i>
+            2014-05-10
+            
+          </p>
+        </header>
+
+        <div class="post-description">
+          
+
+<p>나는 30일간의 안식휴가 중이다. 휴가 동안 개인 개발 프로젝트를 진행하고 있고, 오늘은 그 나흘째다.</p>
+
+<p>어제까지는 기본적인 테스트 환경을 구축했다. 절묘하게도 어젯밤 자정, 테스트 환경 준비에 열을 올린 최근에 걸맞은 타이밍으로, &ldquo;Is TDD Dead?&ldquo;라는 주제로 온라인 토론회가 진행되었다. 개발자들 사이에 연예인이라고 봐도 무방할 유명인들인 <a href="https://twitter.com/@martinfowler">마틴 파울러(Martin Fowler)</a>, <a href="https://twitter.com/@kentbeck">켄트 벡(Kent Beck)</a>, <a href="https://twitter.com/@dhh">데이비드 하이네마이어 한슨(David Heinemeier Hansson)</a>이 구글 행아웃으로 모여 각자의 주장을 펼쳤으며, TDD를 창시한 켄트 벡과, 최근 <a href="http://david.heinemeierhansson.com/2014/tdd-is-dead-long-live-testing.html">TDD는 죽었다고 블로깅</a>한 DHH간의 설전으로 이어지지 않을까 기대했던 이벤트였다. 당연한 얘기지만, 설전이나 공방은 없었고, 각자 나름의 정의와 이해, 그리고 의견을 피력한 시간이었던 것. 그래도, 쟁쟁한 사람들의 나름의 논리를 실시간으로 구경하고 있으니 적지 않은 재미가 있었다. 이벤트가 끝나고, 바로 <a href="https://www.youtube.com/watch?v=z9quxZsLcfo">녹화분</a>이 올라와서, 뒤늦게라도 다시 볼 수 있다. 다음 주, 같은 시간 (금요일 자정, 토요일 0시)에 또 구글 행아웃으로 이어서 진행한다고 한다.</p>
+
+<p>다시, 원래 개발 프로젝트 얘기로 돌아와서, 오늘은 <a href="http://bower.io/">bower</a>를 좀 살펴보기로 했다. bower는 <strong>웹을 위한 패키지 매니저</strong>로, node.js의 npm, ruby의 gem과 마찬가지로, 패키지 관리를 돕는 툴인데, 다른 점이 있다면 웹 환경을 위한 것이라는 점이다. 예를 들어, 개발하는 프로젝트에서 <a href="http://jquery.org/">jQuery</a>나 <a href="http://getbootstrap.com/">bootstrap</a>을 쓸 때, 일일이 다운로드 받아서 설치하면, 처음에야 별문제 없지만, 나중에 새 버전이 나와서 업그레이드하고자 할 때에 다시 같은 작업을 손으로 진행해야 한다는 불편함이 있다. <code>bower</code>를 써서 관리한다면, 간단한 커맨드로, 설치도 하고, 업그레이드도 할 수 있으며, 어떤 패키지를 위해 필요한 의존 패키지도 받아서 설치해주므로 편리하게 사용할 수 있다.</p>
+
+<p><em>(물론, bootstrap이나 jQuery등은 공개 CDN에 링크 걸어서 쓰는 게 가장 편리할 수 있다.)</em></p>
+
+<h3 id="bower-설치:828ff5df0899cc3a0c163d3f090b80ac"><a href="http://bower.io/">bower</a> 설치</h3>
+
+<pre><code class="language-bash">npm install -g bower
+</code></pre>
+
+<p>위의 npm 명령어로 bower를 설치하고,</p>
+
+<pre><code class="language-json">{
+  &quot;directory&quot;: &quot;public/bower_components&quot;
+}
+</code></pre>
+
+<p>위의 설정을 프로젝트 디렉터리에 <code>.bowerrc</code>라는 파일명으로 저장한다. 기본으로 bower 패키지를 설치하면 프로젝트 디렉터리의 <code>bower_components</code>라는 디렉터리 아래에 저장하는데, 위의 설정 값 파일을 넣어두면, <code>public/bower_components</code>에 저장한다. express에서 정적(static)파일로 바로 사용할 수 있게 하기 좋은 설정이다.</p>
+
+<p>그런 다음, <code>bower init</code>로 bower.json(패키지 설정 파일)을 생성한다. 터미널에서 몇가지 질문에 답하면 기본 뼈대가 생성되고, 여기에 아래 명령어로 몇 가지 패키지를 설치해봤다.</p>
+
+<pre><code class="language-bash">bower install bootstrap --save
+bower install angular#1.3.0-beta.8 --save
+bower install google-code-prettify --save
+bower install jasmine --save-dev
+</code></pre>
+
+<p>위의 석 줄은, bootstrap의 최신판과 <a href="http://angularjs.org">angular.js</a>의 현재 최신 베타버전, 그리고 <a href="https://code.google.com/p/google-code-prettify/">google-code-prettify</a>를 설치하고, <code>--save</code> 옵션으로 bower.json의 <code>dependencies</code> 항목에 추가하는 명령이다. 마지막 줄은 마찬가지 방식으로 jasmine을 설치하되, <code>--save-dev</code> 옵션으로 <code>devDependencies</code> 항목에 추가하겠다는 뜻이다. jasmine은 개발환경에서는 쓰겠지만, 프로덕션 환경에 추가될 필요는 없으니, 개발 패키지에만 포함한다.</p>
+
+<p>그렇게 해서, 만든 <code>bower.json</code>의 내용은 아래와 같다.</p>
+
+<pre><code class="language-json">{
+  &quot;name&quot;: &quot;karma-practice&quot;,
+  &quot;version&quot;: &quot;0.0.1&quot;,
+  &quot;homepage&quot;: &quot;https://github.com/hatemogi/karma-practice&quot;,
+  &quot;authors&quot;: [
+    &quot;DaeHyun Kim &lt;hatemogi at gmail.com&gt;&quot;
+  ],
+  &quot;description&quot;: &quot;to learn and practice Karma and Angular.js&quot;,
+  &quot;license&quot;: &quot;MIT&quot;,
+  &quot;private&quot;: true,
+  &quot;ignore&quot;: [
+    &quot;**/.*&quot;,
+    &quot;node_modules&quot;,
+    &quot;bower_components&quot;,
+    &quot;public/bower_components&quot;,
+    &quot;test&quot;,
+    &quot;tests&quot;
+  ],
+  &quot;dependencies&quot;: {
+    &quot;angular&quot;: &quot;1.3.0-beta.8&quot;,
+    &quot;bootstrap&quot;: &quot;~3.1.1&quot;,
+    &quot;google-code-prettify&quot;: &quot;~1.0.1&quot;
+  },
+  &quot;devDependencies&quot;: {
+    &quot;jasmine&quot;: &quot;~2.0.0&quot;
+  }
+}
+</code></pre>
+
+<p>이렇게 준비한 <code>bower.json</code>만 git 저장소에 넣어두고, 해당 프로젝트를 새로 클론 받았을 경우에는 <code>bower install</code>명령어 만으로 필요한 패키지들을 내려받을 수 있다. 즉, git 저장소에는 <code>public/bower_components</code>는 넣어 둘 필요 없다.</p>
+
+<p>참고로, 작성하는 예제 프로젝트는</p>
+
+<blockquote>
+<p><a href="https://github.com/hatemogi/holiday-project">https://github.com/hatemogi/holiday-project</a></p>
+</blockquote>
+
+<p>에 올려놓고 있다.</p>
+
+<p>오늘은 여기까지.</p>
+
+        </div>
+      </section>
+    </div>
+  </div>
+  <div class="pure-u-1">
+    <ul>
+  <li><a href="/holiday-project-day-01/">(05/07) 프로젝트 1일: 웹 브라우저 JS 테스트 환경 - karma &amp; jasmine</a></li>
+  <li><a href="/holiday-project-day-02/">(05/08) 프로젝트 2일: 서버 측 JS 테스트 환경 - jasmine-node</a></li>
+  <li><a href="/holiday-project-day-03/">(05/09) 프로젝트 3일: express 테스트 환경 - supertest</a></li>
+  <li><a href="/holiday-project-day-04/">(05/10) 프로젝트 4일: 웹 환경 패키지 매니저 - bower</a></li>
+  <li><a href="/holiday-project-day-05/">(05/11) 프로젝트 5일: 문법 하이라이팅 - highlight.js</a></li>
+  <li><a href="/holiday-project-day-06/">(05/12) 프로젝트 6일: 그래프 그리기 - graphviz &amp; D3.js</a></li>
+  <li><a href="/holiday-project-day-07/">(05/13) 프로젝트 7일: graphviz 노드에 웹 링크 걸기</a></li>
+  <li><a href="/holiday-project-day-08/">(05/14) 프로젝트 8일: D3.js 트랜지션(Transitions)</a></li>
+  <li><a href="/holiday-project-day-09/">(05/15) 프로젝트 9일: Node.js로 Git저장소 다루기</a></li>
+  <li><a href="/holiday-project-day-10/">(05/16) 프로젝트 10일: Async.js로 콜백 중첩을 풀기</a></li>
+  <li><a href="/holiday-project-day-11/">(05/17) 프로젝트 11일: Git 커밋 그래프 그리기 도전</a></li>
+  <li><a href="/holiday-project-day-12/">(05/18) 프로젝트 12일: 그래프 그리기 도전 #2</a></li>
+  <li><a href="/holiday-project-day-13/">(05/19) 프로젝트 13일: 컨테이너 기반 가상화 프레임워크 - Docker</a></li>
+  <li><a href="/holiday-project-day-14/">(05/20) 프로젝트 14일: Heroku에 Node.js 애플리케이션 배포</a></li>
+  <li><a href="/holiday-project-day-15/">(05/21) 프로젝트 15일: AngularJS 코드스쿨 강좌 소개</a></li>
+  <li><a href="/holiday-project-day-16/">(05/22) 프로젝트 16일: 중간 점검 - 왜 이 프로젝트를 하나?</a></li>
+  <li><a href="/holiday-project-day-17/">(05/23) 프로젝트 17일: Travis CI - 지속적 통합 서비스</a></li>
+  <li><a href="/holiday-project-day-18/">(05/24) 프로젝트 18일: Grunt - 자바스크립트 작업 실행기</a></li>
+  <li><a href="/holiday-project-day-19/">(05/25) 프로젝트 19일: RequireJS - 비동기(async) JS 로더’</a></li>
+  <li><a href="/holiday-project-day-20/">(05/26) 프로젝트 20일: 회사의 합병 소식</a></li>
+  <li><a href="/holiday-project-day-21/">(05/29) 프로젝트 21일: AngularJS 컨트롤러 테스트 코드</a></li>
+  <li><a href="/holiday-project-day-22/">(05/31) 프로젝트 22일: Promise와 Async.js로 작성해본 콜백 코드 비교</a></li>
+  <li><a href="/holiday-project-last-day/">(06/08) 프로젝트 마지막날: 결과물 미리보기</a></li>
+</ul>
+  </div>
+  <div class="content pure-u-1">
+    <ul class="pure-paginator">
+      &nbsp;<li><a class="pure-button" href="http://hatemogi.com/holiday-project-day-05"> 프로젝트 5일: 문법 하이라이팅 - highlight.js</a></li>
+      &nbsp;<li><a class="pure-button" href="http://hatemogi.com/holiday-project-day-03"> 프로젝트 3일: express 테스트 환경 - supertest</a></li>
+    </ul>
+  </div>
+</div>
+
+
+  <footer>
+    copyright(c) 2015 hatemogi
+  </footer>
+</body>
+</html>
