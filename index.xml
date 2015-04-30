@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>hatemogi&#39;s blog</title>
-    <link>http://localhost:1313/</link>
+    <link>http://hatemogi.com/</link>
     <description>Recent content on hatemogi&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <lastBuildDate>Thu, 30 Apr 2015 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://hatemogi.com/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>2015 블로그 업데이트와 근황</title>
-      <link>http://localhost:1313/post/2015/0430-update/</link>
+      <link>http://hatemogi.com/post/2015/0430-update/</link>
       <pubDate>Thu, 30 Apr 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/post/2015/0430-update/</guid>
+      <guid>http://hatemogi.com/post/2015/0430-update/</guid>
       <description>
 
 &lt;h3 id=&#34;hugo로-웹사이트-만들기:f123e9123c0e692add538cc883c04f28&#34;&gt;Hugo로 웹사이트 만들기&lt;/h3&gt;
@@ -49,14 +49,14 @@
     
     <item>
       <title></title>
-      <link>http://localhost:1313/about/</link>
+      <link>http://hatemogi.com/about/</link>
       <pubDate>Sat, 11 Apr 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/about/</guid>
+      <guid>http://hatemogi.com/about/</guid>
       <description>&lt;div class=&#34;container-fluid&#34;&gt;
   &lt;div class=&#34;row&#34;&gt;
     &lt;div class=&#34;col-sm-3 col-xs-3&#34;&gt;
-      &lt;img src=&#34;http://localhost:1313/img/profile.jpg&#34;&gt;
+      &lt;img src=&#34;http://hatemogi.com/img/profile.jpg&#34;&gt;
       &lt;h4&gt;김대현&lt;/h4&gt;
       &lt;i class=&#34;fa fa-server&#34;&gt;&lt;/i&gt; 서버 프로그래머
     &lt;/div&gt;
@@ -82,30 +82,20 @@
     </item>
     
     <item>
-      <title>test</title>
-      <link>http://localhost:1313/quote/test/</link>
-      <pubDate>Thu, 01 Jan 2015 20:39:24 +0900</pubDate>
-      
-      <guid>http://localhost:1313/quote/test/</guid>
-      <description>&lt;p&gt;한마디 남겨봅시다.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>30일간의 웹개발 프로젝트</title>
-      <link>http://localhost:1313/project/30days/</link>
+      <link>http://hatemogi.com/project/30days/</link>
       <pubDate>Tue, 11 Nov 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/project/30days/</guid>
+      <guid>http://hatemogi.com/project/30days/</guid>
       <description></description>
     </item>
     
     <item>
       <title>애월입력기</title>
-      <link>http://localhost:1313/project/aewolinput/</link>
+      <link>http://hatemogi.com/project/aewolinput/</link>
       <pubDate>Tue, 11 Nov 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/project/aewolinput/</guid>
+      <guid>http://hatemogi.com/project/aewolinput/</guid>
       <description>&lt;p&gt;어쩌다 멀쩡히 잘 쓰던 기본 영문 자판을 두고 Dvorak이라는 생소한 자판 배열에 관심을 두게 됐을까요? 괜한 고생문을 연 것 같아서 이제라도 그냥 기본 키보드 배열을 다시 쓸까도 생각했지만, 직업이 프로그래머인지라 괜한 오기가 발동했습니다.&lt;/p&gt;
 
 &lt;p&gt;같은 문제 상황에 처한 사람은 얼마 없겠지만, 그래도 나름 개발자인데 나만을 위해서라도 직접 문제를 해결해볼까?
@@ -119,10 +109,10 @@
     
     <item>
       <title>팀장직 내려놓기</title>
-      <link>http://localhost:1313/post/2014/0713-no-more-managing/</link>
+      <link>http://hatemogi.com/post/2014/0713-no-more-managing/</link>
       <pubDate>Sun, 13 Jul 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/post/2014/0713-no-more-managing/</guid>
+      <guid>http://hatemogi.com/post/2014/0713-no-more-managing/</guid>
       <description>&lt;p&gt;2년 남짓 맡아왔던 개발팀장직을 내려놓았다. 연초부터 고민했던 일인데, 출산휴가와 안식휴가 2달을 틈타 고민도 더 하고, 결정도 미뤄왔던 일이다.&lt;/p&gt;
 
 &lt;p&gt;주변에 보면 적지 않은 개발자가, 순수(?) 개발 일을 계속하고자 하지만, 결국 나이가 들면 안팍의 압력에 못 이기고, 매니저의 길로 들어서는 모습을 흔히 볼 수 있다. 나역시 어느정도 우리회사에서의 적정 나이(?)가 되어 팀장직을 맡게된 것이기도 했던 것같다.&lt;/p&gt;
@@ -143,10 +133,10 @@
     
     <item>
       <title>프로젝트 마지막날: 결과물 미리보기</title>
-      <link>http://localhost:1313/holiday-project-day-last/</link>
+      <link>http://hatemogi.com/holiday-project-day-last/</link>
       <pubDate>Sun, 08 Jun 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/holiday-project-day-last/</guid>
+      <guid>http://hatemogi.com/holiday-project-day-last/</guid>
       <description>
 
 &lt;p&gt;지금은 30여 일간의 휴가 마지막 날 밤이다. 한 달여 동안 알아보고 싶었던 주제들을 간략히나마 공부했고, 마지막 며칠 동안은 그 공부한 내용을 활용해보고자 간단한 웹서비스를 개발해 보고자 했다.&lt;/p&gt;
@@ -190,10 +180,10 @@
     
     <item>
       <title>프로젝트 22일: Promise와 Async.js로 작성해본 콜백 코드 비교</title>
-      <link>http://localhost:1313/holiday-project-day-22/</link>
+      <link>http://hatemogi.com/holiday-project-day-22/</link>
       <pubDate>Sat, 31 May 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/holiday-project-day-22/</guid>
+      <guid>http://hatemogi.com/holiday-project-day-22/</guid>
       <description>
 
 &lt;p&gt;오늘은 프로젝트 22일째 작성한 Async.js 코드와 Promise 코드를 비교해본다.&lt;/p&gt;
@@ -204,7 +194,7 @@
 
 &lt;p&gt;이 연속되는 콜백을 그냥 평범하게 코딩하면, 마치 예외처리 (try-catch-finally) 구문 없이 코딩하는 것처럼, 예외 처리에 대한 코드가 중간중간 끼어들어서 정상적인 로직 코드가 묻혀버리기 쉽다.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;http://localhost:1313/holiday-project-day-10/&#34;&gt;10일째 작성했던 코드를 다시 예로 들어보자.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://hatemogi.com/holiday-project-day-10/&#34;&gt;10일째 작성했던 코드를 다시 예로 들어보자.&lt;/a&gt;&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;nodegit = require(&amp;quot;nodegit&amp;quot;)
 
@@ -349,10 +339,10 @@ describe &#39;[CoffeeScript w/promise.js] nodegit 저장소&#39;, () -&amp;gt;
     
     <item>
       <title>프로젝트 21일: AngularJS 컨트롤러 테스트</title>
-      <link>http://localhost:1313/holiday-project-day-21/</link>
+      <link>http://hatemogi.com/holiday-project-day-21/</link>
       <pubDate>Thu, 29 May 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/holiday-project-day-21/</guid>
+      <guid>http://hatemogi.com/holiday-project-day-21/</guid>
       <description>
 
 &lt;p&gt;이 글을 작성하는 지금은, 개인 프로젝트 23일째, 지난 21일째부터 정리하지 못한 밀린 숙제를 한다.&lt;/p&gt;
@@ -361,7 +351,7 @@ describe &#39;[CoffeeScript w/promise.js] nodegit 저장소&#39;, () -&amp;gt;
 
 &lt;p&gt;21일째에는 AngularJS 코드를 테스트하려는 노력을 기울이다가, 블로그로 정리해야 할, 밤늦은 시간에 회사 동료들을 만나러 나갔다. 합병 소식에 허전해서였을까? 같은 단지에 사는 후배이자 동료를 불러봤는데, 마침 나올 수 있다고 했고, 그렇게 한 명 두 명 즉흥적으로 불러봤는데, 결국 5명이 모여서 늦은 시간까지 시끄럽게 떠들었다.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/img/post/holiday-project/kcircle_hagun_jhban.jpg&#34; style=&#34;width: 400px;&#34;/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://hatemogi.com/img/post/holiday-project/kcircle_hagun_jhban.jpg&#34; style=&#34;width: 400px;&#34;/&gt;&lt;/p&gt;
 
 &lt;p&gt;한 명 더 왔었는데, 그가 왔을 때 이미 난 사진을 찍을 만한 상황이 아니었던지라, 이 사진이 전부다. 사진 잘 나왔다. 모두 다음의 탑클래스 개발자들이다. 치맥을 먹으면서도 &lt;code&gt;git stash&lt;/code&gt;와 Scala의 immutable 변수 &lt;code&gt;val&lt;/code&gt;을 논하는 천상 개발자들이다.&lt;/p&gt;
 
@@ -398,7 +388,7 @@ describe &#39;[CoffeeScript w/promise.js] nodegit 저장소&#39;, () -&amp;gt;
 
 &lt;h2 id=&#34;promise와-async:0e9ecd02e6cef4cd5b278fbd6fbce4df&#34;&gt;Promise와 Async&lt;/h2&gt;
 
-&lt;p&gt;AngularJS의 컨트롤러 스펙을 간단히 작성해보고 뿌듯한 마음으로, &lt;a href=&#34;http://localhost:1313/holiday-project-day-20/&#34;&gt;20일째 조금 알아본 Promise&lt;/a&gt;에 대해서도 더 알아보기 시작했다. &lt;a href=&#34;holiday-project-day-10/&#34;&gt;10일째 콜백 중첩을 풀기 위해 사용했던 Async.js&lt;/a&gt;와 비교해보고 싶었다. 어떨 때 어떻게 어느 것을 사용하면 좋을지 궁금했던 것인데, 둘 다 작성해보고 결국 마음에 드는 결론을 얻은 것은 프로젝트 22일째였다. 22일째 기록에 해당 내용을 정리하기로 한다.&lt;/p&gt;
+&lt;p&gt;AngularJS의 컨트롤러 스펙을 간단히 작성해보고 뿌듯한 마음으로, &lt;a href=&#34;http://hatemogi.com/holiday-project-day-20/&#34;&gt;20일째 조금 알아본 Promise&lt;/a&gt;에 대해서도 더 알아보기 시작했다. &lt;a href=&#34;holiday-project-day-10/&#34;&gt;10일째 콜백 중첩을 풀기 위해 사용했던 Async.js&lt;/a&gt;와 비교해보고 싶었다. 어떨 때 어떻게 어느 것을 사용하면 좋을지 궁금했던 것인데, 둘 다 작성해보고 결국 마음에 드는 결론을 얻은 것은 프로젝트 22일째였다. 22일째 기록에 해당 내용을 정리하기로 한다.&lt;/p&gt;
 
 &lt;p&gt;오늘은 여기까지.&lt;/p&gt;
 </description>
@@ -406,17 +396,17 @@ describe &#39;[CoffeeScript w/promise.js] nodegit 저장소&#39;, () -&amp;gt;
     
     <item>
       <title>프로젝트 20일: 회사의 합병 소식</title>
-      <link>http://localhost:1313/holiday-project-day-20/</link>
+      <link>http://hatemogi.com/holiday-project-day-20/</link>
       <pubDate>Mon, 26 May 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/holiday-project-day-20/</guid>
+      <guid>http://hatemogi.com/holiday-project-day-20/</guid>
       <description>
 
 &lt;p&gt;개인 프로젝트 20일째, 오늘은 내가 근무하는 회사가 다른 회사와 합병한다고 공시가 났다.&lt;/p&gt;
 
 &lt;p&gt;겉으로야 합병이지만, 사실상 내용을 열어보면 우리가 인수당하는 입장이고, 앞으로 어떻게 될지는 알 수 없다. 당장 직속상관이 바뀌어도 업무가 확 바뀌는 것이 당연한데, 심지어 최대 주주가 바뀌는 일이니, 변화가 없을 수야 없겠지. 10년간 우리 회사가 다른 회사를 인수하거나 분사하는 것을 지켜봐 왔지만, 피인수는 처음이다. 나름 다채로운 근로자 생활이 되려나 보다.&lt;/p&gt;
 
-&lt;p&gt;회사 분위기도 살피고, 사장님 발표도 들으러 잠시 출근했다. 출근한 김에, 팀원들에게 &lt;a href=&#34;http://localhost:1313/holiday-project-day-19/&#34;&gt;어제 알아본 RequireJS&lt;/a&gt;와, Async와 Promise에 대해서도 물어봤다. 팀원들도 다행히 아직은 큰 동요가 없다, 아직 뭐 실감 날 일은 없으니까. 나도 아직은 멍하니 잘 모르겠고 말이다.&lt;/p&gt;
+&lt;p&gt;회사 분위기도 살피고, 사장님 발표도 들으러 잠시 출근했다. 출근한 김에, 팀원들에게 &lt;a href=&#34;http://hatemogi.com/holiday-project-day-19/&#34;&gt;어제 알아본 RequireJS&lt;/a&gt;와, Async와 Promise에 대해서도 물어봤다. 팀원들도 다행히 아직은 큰 동요가 없다, 아직 뭐 실감 날 일은 없으니까. 나도 아직은 멍하니 잘 모르겠고 말이다.&lt;/p&gt;
 
 &lt;h2 id=&#34;amd-잘-쓰고-있나:d31268641f886a2ce4116b78b1519f75&#34;&gt;AMD 잘 쓰고 있나?&lt;/h2&gt;
 
@@ -430,7 +420,7 @@ describe &#39;[CoffeeScript w/promise.js] nodegit 저장소&#39;, () -&amp;gt;
 
 &lt;h2 id=&#34;promise는:d31268641f886a2ce4116b78b1519f75&#34;&gt;Promise는?&lt;/h2&gt;
 
-&lt;p&gt;&lt;a href=&#34;http://localhost:1313/holiday-project-day-10/&#34;&gt;10일차에 알아본 Async.js로 콜백 중첩을 푸는 방법&lt;/a&gt;에 대해서도 찜찜한 구석이 있어서, 다른 대안인 Promise에 대해서도 물어봤다. 한 명은 Promise는 오버엔지니어링인 것 같고, Async.js를 만족스럽게 쓰고 있다 했고, 한 명은, Promise를 써보지는 않고 스펙만 보았으나, 괜찮아 보인다고 했다.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://hatemogi.com/holiday-project-day-10/&#34;&gt;10일차에 알아본 Async.js로 콜백 중첩을 푸는 방법&lt;/a&gt;에 대해서도 찜찜한 구석이 있어서, 다른 대안인 Promise에 대해서도 물어봤다. 한 명은 Promise는 오버엔지니어링인 것 같고, Async.js를 만족스럽게 쓰고 있다 했고, 한 명은, Promise를 써보지는 않고 스펙만 보았으나, 괜찮아 보인다고 했다.&lt;/p&gt;
 
 &lt;p&gt;아직 모르는 입장에서는 남의 의견이 궁금하고, 또 중요하지만, 스스로 느끼기에도 async.waterfall도 아직 콜백 지옥을 완전히 해결해주지 못하는 것 같아서, Promise 관련해서도 조금 더 봤다. 스펙이 정리되고 있는 단계인데, 아직 지원하지 않는 JS엔진들이 더러 있어서, 그걸 메꿔주는 모듈들이 있었다.&lt;/p&gt;
 
@@ -488,15 +478,15 @@ describe &#39;[CoffeeScript w/promise.js] nodegit 저장소&#39;, () -&amp;gt;
     
     <item>
       <title>프로젝트 19일: RequireJS - 비동기(async) JS 로더</title>
-      <link>http://localhost:1313/holiday-project-day-19/</link>
+      <link>http://hatemogi.com/holiday-project-day-19/</link>
       <pubDate>Sun, 25 May 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/holiday-project-day-19/</guid>
+      <guid>http://hatemogi.com/holiday-project-day-19/</guid>
       <description>
 
 &lt;p&gt;개인 프로젝트 19일째, 오늘은 비동기식 자바스크립트 로더, &lt;a href=&#34;http://requirejs.org/&#34;&gt;RequireJS&lt;/a&gt;에 대해 살펴봤다.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/img/holiday-project/requirejs-logo.png&#34; style=&#34;width: 200px;&#34;/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://hatemogi.com/img/holiday-project/requirejs-logo.png&#34; style=&#34;width: 200px;&#34;/&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;비동기-모듈-선언-amd:76bc47f87822f82bbf96592482914fb5&#34;&gt;비동기 모듈 선언 (AMD)&lt;/h2&gt;
 
@@ -512,7 +502,7 @@ describe &#39;[CoffeeScript w/promise.js] nodegit 저장소&#39;, () -&amp;gt;
 
 &lt;p&gt;조금 찾아보니, &lt;a href=&#34;https://en.wikipedia.org/wiki/Asynchronous_module_definition&#34;&gt;AMD&lt;/a&gt;라고 비동기 모듈 선언(Asynchronous Module Definition)이라는 주제를 찾을 수 있었다.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/img/holiday-project/AMD_overview.png&#34; alt=&#34;https://en.wikipedia.org/wiki/File:Asynchronous_Module_Definition_overview.png&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;http://hatemogi.com/img/holiday-project/AMD_overview.png&#34; alt=&#34;https://en.wikipedia.org/wiki/File:Asynchronous_Module_Definition_overview.png&#34; /&gt;
 &lt;/p&gt;
 
 &lt;p&gt;쉽게 말해서, 여러 JS 파일들을 하나씩 차례로 읽지 말고, 동시다발적으로 읽자는 얘기고, 그러면 당연히 여러 파일을 전부 다 읽는 데 필요한 시간이 줄어들 수 있다는 얘기다.&lt;/p&gt;
@@ -557,7 +547,7 @@ describe &#39;[CoffeeScript w/promise.js] nodegit 저장소&#39;, () -&amp;gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/hatemogi/holiday-project/tree/require.js&#34;&gt;https://github.com/hatemogi/holiday-project/tree/require.js&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;&lt;a href=&#34;http://localhost:1313/holiday-project-day-18&#34;&gt;어제&lt;/a&gt; 알아본 Grunt로 &lt;code&gt;karma&lt;/code&gt; 태스크를 넣어두었다.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://hatemogi.com/holiday-project-day-18&#34;&gt;어제&lt;/a&gt; 알아본 Grunt로 &lt;code&gt;karma&lt;/code&gt; 태스크를 넣어두었다.&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;grunt karma
 &lt;/code&gt;&lt;/pre&gt;
@@ -578,10 +568,10 @@ describe &#39;[CoffeeScript w/promise.js] nodegit 저장소&#39;, () -&amp;gt;
     
     <item>
       <title>프로젝트 18일: Grunt - 자바스크립트 작업 실행기</title>
-      <link>http://localhost:1313/holiday-project-day-18/</link>
+      <link>http://hatemogi.com/holiday-project-day-18/</link>
       <pubDate>Sat, 24 May 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/holiday-project-day-18/</guid>
+      <guid>http://hatemogi.com/holiday-project-day-18/</guid>
       <description>
 
 &lt;p&gt;개인 프로젝트 18일째, 오늘은 자바스크립트 작업 실행기(task runner), &lt;a href=&#34;http://gruntjs.com/&#34;&gt;Grunt&lt;/a&gt;를 프로젝트에 적용했다. 자동화 테스트를 실행하거나, 자바스크립트 파일들을 합치거나 최소화하는 일처럼 자주 반복하는 프로젝트 수반 작업을 편리하게 실행할 수 있게 해주는 도구다.&lt;/p&gt;
@@ -691,7 +681,7 @@ describe &#39;[CoffeeScript w/promise.js] nodegit 저장소&#39;, () -&amp;gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/hatemogi/holiday-project&#34;&gt;https://github.com/hatemogi/holiday-project&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;진행하는 내용은, &lt;a href=&#34;http://localhost:1313/holiday-project-day-17/&#34;&gt;어제 살펴본 Travis CI&lt;/a&gt;로 지속적으로 통합되며, &lt;a href=&#34;http://localhost:1313/holiday-project-day-14/&#34;&gt;Heroku&lt;/a&gt;에 이하 주소로 자동 스테이징되고 있다.&lt;/p&gt;
+&lt;p&gt;진행하는 내용은, &lt;a href=&#34;http://hatemogi.com/holiday-project-day-17/&#34;&gt;어제 살펴본 Travis CI&lt;/a&gt;로 지속적으로 통합되며, &lt;a href=&#34;http://hatemogi.com/holiday-project-day-14/&#34;&gt;Heroku&lt;/a&gt;에 이하 주소로 자동 스테이징되고 있다.&lt;/p&gt;
 
 &lt;blockquote&gt;
 &lt;p&gt;&lt;a href=&#34;https://holiday-project-staging.herokuapp.com&#34;&gt;https://holiday-project-staging.herokuapp.com&lt;/a&gt;&lt;/p&gt;
@@ -703,10 +693,10 @@ describe &#39;[CoffeeScript w/promise.js] nodegit 저장소&#39;, () -&amp;gt;
     
     <item>
       <title>프로젝트 17일: Travis CI, 지속적 통합 서비스</title>
-      <link>http://localhost:1313/holiday-project-day-17/</link>
+      <link>http://hatemogi.com/holiday-project-day-17/</link>
       <pubDate>Fri, 23 May 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/holiday-project-day-17/</guid>
+      <guid>http://hatemogi.com/holiday-project-day-17/</guid>
       <description>
 
 &lt;p&gt;개인 프로젝트 17일째, 오늘은 지속적 통합 서비스인 &lt;a href=&#34;https://travis-ci.org&#34;&gt;Travis CI&lt;/a&gt;를 살펴보고, 개인 프로젝트에 적용해봤다.&lt;/p&gt;
@@ -743,19 +733,19 @@ describe &#39;[CoffeeScript w/promise.js] nodegit 저장소&#39;, () -&amp;gt;
 
 &lt;h3 id=&#34;프로젝트-현재-상태-https-travis-ci-org-hatemogi-holiday-project-builds-25843181:cbcece881c9fc9ad90cee3dceeb8ea69&#34;&gt;&lt;a href=&#34;https://travis-ci.org/hatemogi/holiday-project/builds/25843181&#34;&gt;프로젝트 현재 상태&lt;/a&gt;&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/img/holiday-project/travis-current-status.png&#34; style=&#34;width: 600px;&#34;/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://hatemogi.com/img/holiday-project/travis-current-status.png&#34; style=&#34;width: 600px;&#34;/&gt;&lt;/p&gt;
 
 &lt;p&gt;간단히 적절한 설정을 한 뒤, 저장소에 &lt;code&gt;git push&lt;/code&gt;를 하고 나면, Travis CI가 테스트를 수행하고, 위와 같은 &lt;a href=&#34;https://travis-ci.org/hatemogi/holiday-project/builds/25843181&#34;&gt;결과 페이지&lt;/a&gt;를 볼 수 있다.&lt;/p&gt;
 
 &lt;h3 id=&#34;빌드-테스트-결과-로그:cbcece881c9fc9ad90cee3dceeb8ea69&#34;&gt;빌드 테스트 결과 로그&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/img/holiday-project/travis-test-result.png&#34; style=&#34;width: 600px;&#34;/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://hatemogi.com/img/holiday-project/travis-test-result.png&#34; style=&#34;width: 600px;&#34;/&gt;&lt;/p&gt;
 
 &lt;p&gt;상세한 빌드 로그도 살펴보고 무엇이 잘되고 잘못됐는지도 자세히 파악할 수 있다.&lt;/p&gt;
 
 &lt;h3 id=&#34;github-저장소-readme-https-github-com-hatemogi-holiday-project-readme:cbcece881c9fc9ad90cee3dceeb8ea69&#34;&gt;&lt;a href=&#34;https://github.com/hatemogi/holiday-project#readme&#34;&gt;GitHub 저장소 README&lt;/a&gt;&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/img/holiday-project/travis-build-status-img.png&#34; style=&#34;width: 600px;&#34;/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://hatemogi.com/img/holiday-project/travis-build-status-img.png&#34; style=&#34;width: 600px;&#34;/&gt;&lt;/p&gt;
 
 &lt;p&gt;최종 빌드 테스트의 성패에 따른 이미지 링크도 있어서, 저장소의 README파일에 링크를 걸어두면, 위와 같이 성공했을 경우, &lt;code&gt;build passing&lt;/code&gt;이라는 초록 버튼이 보이게 할 수 있다. 그리고, 해당 이미지 링크에 &lt;code&gt;branch&lt;/code&gt; 파라미터를 줘서 특정 Git 브랜치의 최종 커밋에 대한 이미지도 보일 수 있다.&lt;/p&gt;
 
@@ -785,7 +775,7 @@ describe &#39;[CoffeeScript w/promise.js] nodegit 저장소&#39;, () -&amp;gt;
 
 &lt;p&gt;이렇게 설정을 마치고, GitHub에 새로운 커밋을 push 했더니, 문제없이 빌드 테스트를 마쳤고, Heroku에도 자동으로 배포됐다.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;http://localhost:1313/holiday-project-day-14/&#34;&gt;14일째, 수동으로 Heroku에 배포한&lt;/a&gt; 실 서비스(?) 주소와 오늘부터 Travis CI가 자동 배포하는 스테이징 서버의 주소는 아래와 같다.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://hatemogi.com/holiday-project-day-14/&#34;&gt;14일째, 수동으로 Heroku에 배포한&lt;/a&gt; 실 서비스(?) 주소와 오늘부터 Travis CI가 자동 배포하는 스테이징 서버의 주소는 아래와 같다.&lt;/p&gt;
 
 &lt;blockquote&gt;
 &lt;ul&gt;
@@ -804,10 +794,10 @@ describe &#39;[CoffeeScript w/promise.js] nodegit 저장소&#39;, () -&amp;gt;
     
     <item>
       <title>프로젝트 16일: 중간 점검 - 왜 이 프로젝트를 하나?</title>
-      <link>http://localhost:1313/holiday-project-day-16/</link>
+      <link>http://hatemogi.com/holiday-project-day-16/</link>
       <pubDate>Thu, 22 May 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/holiday-project-day-16/</guid>
+      <guid>http://hatemogi.com/holiday-project-day-16/</guid>
       <description>
 
 &lt;p&gt;30일의 휴가 동안 개인적으로 진행하고 있는 프로젝트, 그 절반의 시간이 지났다. 사실 프로젝트라고 말하기는 어려울 수 있는 것이, 딱히 정해진 목표 결과물 없이, 그간 알아보고 싶었던 기술 주제를 공부해보고 있는 성격이 강해서, 정확히 말하면, &amp;ldquo;다양한 웹 개발 기술 셋 훑어보기 프로젝트&amp;rdquo;라고 해야 맞는 건지도 모르겠다.&lt;/p&gt;
@@ -855,7 +845,7 @@ describe &#39;[CoffeeScript w/promise.js] nodegit 저장소&#39;, () -&amp;gt;
 
 &lt;p&gt;정도가 될 수 있겠다. 언제 기회가 되면, &amp;ldquo;그런 생각이 있으면서도 왜 팀장직을 맡게 되었는가&amp;rdquo;에 대해서도 블로깅 해보고 싶다. 주변에 보면, 안이하게 막연히 &amp;ldquo;나이가 들어서도 계속 개발자 할래요&amp;rdquo;라는 사람들이 많아서, 어떤 점을 더 고려해야 하는지 따끔하게 알려주고 싶은 훈수 심리가 발동돼서 말이다.&lt;/p&gt;
 
-&lt;p&gt;어쨌건, 보름간을 되돌아 보니, &lt;a href=&#34;http://localhost:1313/holiday-project-day-01/&#34;&gt;첫날&lt;/a&gt; 언급했던 주요 관심 주제들을 거의 다 살펴본 것 같다. 정말 뜻밖에, 부족하게나마 &amp;ldquo;매일 블로깅 해보자&amp;rdquo;는 목표도 아직은 잘 달성하고 있다. 작심삼일로 끝날 줄 알았거늘, 이런 스스로 대견한 상황이라니! 내일 travis-ci까지만 더 알아보고, 그 뒤로는 뭐라도 만들어 보는 데 주력해 보겠다.&lt;/p&gt;
+&lt;p&gt;어쨌건, 보름간을 되돌아 보니, &lt;a href=&#34;http://hatemogi.com/holiday-project-day-01/&#34;&gt;첫날&lt;/a&gt; 언급했던 주요 관심 주제들을 거의 다 살펴본 것 같다. 정말 뜻밖에, 부족하게나마 &amp;ldquo;매일 블로깅 해보자&amp;rdquo;는 목표도 아직은 잘 달성하고 있다. 작심삼일로 끝날 줄 알았거늘, 이런 스스로 대견한 상황이라니! 내일 travis-ci까지만 더 알아보고, 그 뒤로는 뭐라도 만들어 보는 데 주력해 보겠다.&lt;/p&gt;
 
 &lt;p&gt;지난 보름간 가장 큰 소득을 꼽자면, D3.js를 새로이 알게 된 것과, AngularJS를 살펴본 것을 꼽을 수 있겠다. 너무 이른 판단인지 모르겠으나, 지금 jQuery나 트위터 부트스트랩이 아주 널리 쓰이듯이, 조만간 AngularJS도 웹애플리케이션 개발자라면 반드시 알고 써야할 프레임워크가 될 거라고, 감히 주제넘게, 단언한다.&lt;/p&gt;
 
@@ -869,10 +859,10 @@ describe &#39;[CoffeeScript w/promise.js] nodegit 저장소&#39;, () -&amp;gt;
     
     <item>
       <title>프로젝트 15일: AngularJS 코드스쿨 강좌 소개</title>
-      <link>http://localhost:1313/holiday-project-day-15/</link>
+      <link>http://hatemogi.com/holiday-project-day-15/</link>
       <pubDate>Wed, 21 May 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/holiday-project-day-15/</guid>
+      <guid>http://hatemogi.com/holiday-project-day-15/</guid>
       <description>&lt;p&gt;프로젝트 15일째, 오늘은 드디어 &lt;a href=&#34;https://angularjs.org/&#34;&gt;AngularJS&lt;/a&gt;를 살펴봤다.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://angularjs.org/&#34;&gt;AngularJS&lt;/a&gt;는 구글에서 만든 웹앱 개발을 돕는 자바스크립트 프레임워크로, 복잡한 웹애플리케이션을 만들기 쉽도록 도와준다. 호평을 들어온 터라 나도 언제 한번 써봐야지 생각했었는데, 때마침 &lt;a href=&#34;codeschool.com&#34;&gt;Code School&lt;/a&gt;에 &lt;a href=&#34;http://campus.codeschool.com/courses/shaping-up-with-angular-js/intro&#34;&gt;Angular 강의&lt;/a&gt;가 새로 올라와서 아주 편리하게 기초를 배워볼 수 있었다.&lt;/p&gt;
@@ -883,7 +873,7 @@ describe &#39;[CoffeeScript w/promise.js] nodegit 저장소&#39;, () -&amp;gt;
 
 &lt;p&gt;그전에는 &lt;a href=&#34;https://angularjs.org/&#34;&gt;AngularJS 공식사이트&lt;/a&gt;의 튜토리얼을 조금 따라 해보다가 말았는데, 이번에는 훨씬 쉽게 기본 개념을 익혀볼 수 있었다.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/img/holiday-project/angular-badge.png&#34; style=&#34;width: 300px;&#34;/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://hatemogi.com/img/holiday-project/angular-badge.png&#34; style=&#34;width: 300px;&#34;/&gt;&lt;/p&gt;
 
 &lt;p&gt;잠깐 다른 얘기로, 영어권 개발자에게는 이런 학습 자료와 잘 정리된 온라인 강의 사이트가 유용할 것 같아 참 부럽다. 한국어 자료로도 잘 되어 있으면 참 좋겠다. 참고로, 국내에는 이고잉님의 &lt;a href=&#34;http://opentutorials.org/&#34;&gt;생활코딩&lt;/a&gt;을 비롯해 매우 훌륭한 정리가 이미 많지만, 더 다양하고 활발한 정리와 공유가 이뤄지면 좋겠다.&lt;/p&gt;
 
@@ -891,11 +881,94 @@ describe &#39;[CoffeeScript w/promise.js] nodegit 저장소&#39;, () -&amp;gt;
 
 &lt;p&gt;그리고 한가지 기대 밖의 소득으로, 강의 마지막에 소개받은 앱이 있는데, 아주 마음에 들어서 바로 구매했다. &lt;a href=&#34;http://kapeli.com/dash&#34;&gt;Dash&lt;/a&gt;라는 앱인데, 각종 개발 문서들을 로컬에 받아서 오프라인 상태에서도 검색해가며 살펴볼 수 있는 맥 앱이다. 브라우저에서 북마크 찾아가며 각종 API 문서 뒤적이는 게 불편한 적이 많았는데, 이 앱 덕에 꽤 편리해질 듯하다.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/img/holiday-project/dash.png&#34;  style=&#34;width: 500px;&#34;/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://hatemogi.com/img/holiday-project/dash.png&#34;  style=&#34;width: 500px;&#34;/&gt;&lt;/p&gt;
 
 &lt;p&gt;오늘은 강의만 듣고, 별다른 진행이나 정리를 하지 못했다.&lt;/p&gt;
 
 &lt;p&gt;뭔가 찜찜하지만, 밤이 깊었으니, 오늘은 여기까지.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>프로젝트 14일: Heroku에 Node.js 애플리케이션 배포</title>
+      <link>http://hatemogi.com/holiday-project-day-14/</link>
+      <pubDate>Tue, 20 May 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://hatemogi.com/holiday-project-day-14/</guid>
+      <description>
+
+&lt;p&gt;프로젝트 14일째, 오늘은 데모 웹사이트를 만들어 올리기 위해, (1) 노드용 템플릿 엔진인 &lt;a href=&#34;http://jade-lang.com/&#34;&gt;Jade&lt;/a&gt;를 잠깐 써보고, (2) Heroku에 지금까지 만들고 있는 &lt;a href=&#34;https://github.com/hatemogi/holiday-project&#34;&gt;express 웹앱&lt;/a&gt;을 배포해봤다.&lt;/p&gt;
+
+&lt;h2 id=&#34;node-js-템플릿-엔진-jade:f1c5f909337c73dfa7f624663e8d9a59&#34;&gt;Node.js 템플릿 엔진 - Jade&lt;/h2&gt;
+
+&lt;p&gt;루비 쪽의 &lt;a href=&#34;http://haml.info/&#34;&gt;Haml&lt;/a&gt;과 같은 템플릿 엔진이다. 간결한 문법과 들여쓰기로, HTML/XML 태그를 여닫는 번거로움 없이 간편하게 결과 페이지를 만들 수 있다. 이하는 오늘 작성한 템플릿 레이아웃의 일부다.&lt;/p&gt;
+
+&lt;h3 id=&#34;layout-jade-https-github-com-hatemogi-holiday-project-blob-day-14-views-layout-jade-의-일부:f1c5f909337c73dfa7f624663e8d9a59&#34;&gt;&lt;a href=&#34;https://github.com/hatemogi/holiday-project/blob/day-14/views/layout.jade&#34;&gt;layout.jade&lt;/a&gt;의 일부&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-jade&#34;&gt;doctype html
+html
+  head(prefix=&amp;quot;og: http://ogp.me/ns#&amp;quot;)
+    meta(charset=&amp;quot;utf-8&amp;quot;)
+    meta(name=&amp;quot;viewport&amp;quot; content=&amp;quot;width=device-width, initial-scale=1&amp;quot;)
+    title= title
+    link(rel=&#39;stylesheet&#39; href=&#39;http://hatemogi.com/bower_components/bootstrap/dist/css/bootstrap.min.css&#39;)
+    script(src=&#39;/bower_components/jquery/dist/jquery.min.js&#39;)
+    script(src=&#39;/bower_components/bootstrap/dist/js/bootstrap.min.js&#39;)
+  body
+    block content
+    include ga
+    include github_badge
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;위와 같은 모습인데, HTML 문서의 태그를 들여쓰기로 어느 부분까지 감싸는 것인지 표현한다. 각종 태그를 그대로 쓰면 되고, 괄호 안의 속성값이 그대로 해당 element의 속성이 된다. 중간중간 현재 문맥에 바인딩 된 값을 가져다 쓸 수 있다. 위 레이아웃에서는 &lt;code&gt;title&lt;/code&gt; 태그의 값이 그렇게 사용된다.&lt;/p&gt;
+
+&lt;p&gt;body 태그 바로 아래에 &lt;code&gt;block content&lt;/code&gt; 부분이 실제 본문 내용이 대치/입력돼 최종 출력된다고 보면 된다. &lt;code&gt;include&lt;/code&gt;는 말 그대로 별도 템플릿을 읽는다.&lt;/p&gt;
+
+&lt;p&gt;템플릿 엔진이야 워낙 다양하고, 어떤 언어와 웹서비스 프레임워크를 쓰느냐 만큼 개인별 호불호가 달라서, 스스로 마음에 드는 템플릿 엔진을 골라서 사용하면 된다.&lt;/p&gt;
+
+&lt;h2 id=&#34;heroku에-배포:f1c5f909337c73dfa7f624663e8d9a59&#34;&gt;Heroku에 배포&lt;/h2&gt;
+
+&lt;p&gt;프로젝트가 잘 진행되어, 웹 애플리케이션을 올려서 공개한다면, 아마도 &lt;a href=&#34;http://aws.amazon.com/ko/ec2/&#34;&gt;AWS EC2&lt;/a&gt;나 &lt;a href=&#34;https://cloud.google.com/products/compute-engine/&#34;&gt;Google Compute Engine&lt;/a&gt;에 직접 구축해서 올릴 테지만, 아직 그런 단계는 아니고, 이 블로그를 읽고 있는 소수의 지인께만 보여드리는 데모 웹페이지가 필요한 정도다.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://heroku.com/&#34;&gt;Heroku&lt;/a&gt;는 각종 웹 애플리케이션을 올려서 서비스할 수 있는 클라우드 서비스인데, 스타트업들이 즐겨 사용하는 플랫폼이다. 개인적으로는 &lt;a href=&#34;http://hatemogi.com/saas_class/&#34;&gt;2012년에 Coursera에서 SaaS 수업&lt;/a&gt;을 들으며 써본 적이 있는데, 좋은 인상을 받았던 서비스다.&lt;/p&gt;
+
+&lt;p&gt;로컬에서 잘 개발하고, heroku에 생성한 앱의 git 저장소 주소로 push하면 해당 애플리케이션이 배포되며, 곧바로 &lt;code&gt;앱이름.herokuapp.com&lt;/code&gt;에서 접근해 확인할 수 있다. 직접 서버를 설치하고 구동하고 관리할 필요없이 &lt;code&gt;git push heroku&lt;/code&gt;만으로 배포되고, 그 후 운영은 heroku가 알아서 한다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://hatemogi.com/img/holiday-project/heroku-dashboard.png&#34; style=&#34;width: 600px;&#34;/&gt;&lt;/p&gt;
+
+&lt;p&gt;이번 데모를 위해서 최소 자원을 받았고, 개발용 Postgres 인스턴스도 add-on으로 붙인 화면이다. 비록 1만 레코드까지만 쓸 수 있는, 정말 개발시연용이지만, 지금의 목표에는 충분히 활용할 수 있다. 무엇보다도, 데모를 위한 규모에서는 &lt;strong&gt;무료로 서비스를 이용&lt;/strong&gt;할 수 있다. 보이는가? 월 예상비용 $0.00 !!!&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://twitter.com/hatemogi/status/399814963360849920&#34;&gt;개인적으로는 프로젝트 초기에는 그냥 간단히 가볍게 SQLite 활용하자는 마인드&lt;/a&gt;지만, Heroku 특성상, 일단 무료 Postgres를 써보기로 한다.&lt;/p&gt;
+
+&lt;p&gt;배포 중에 발생한 한가지 문제는, &lt;a href=&#34;http://hatemogi.com/holiday-project-day-04/&#34;&gt;프로젝트 4일 차에 알아본 Bower&lt;/a&gt;로 가져다 쓴 Bootstrap과 jQuery를 Heroku에 배포한 앱에서는 설치되지 않았던 점이 있다. 프로젝트 배포하고 &lt;code&gt;bower install&lt;/code&gt;을 실행해야 하는데, Heroku에서 기본으로 그 커맨드를 실행할 이유는 없는 것. 검색을 좀 해보니, 무슨 Heroku의 빌드팩이라는 걸 만들어서 해결하는 방법이 있던데, 뭘 그렇게까지 해야 하나 싶어서 좀 더 검색해보니, &lt;a href=&#34;http://xseignard.github.io/2013/02/18/use-bower-with-heroku/&#34;&gt;아주 간단하게 해결한 방법&lt;/a&gt;을 찾을 수 있었다.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;package.json&lt;/code&gt;의 &lt;code&gt;scripts&lt;/code&gt; 부분에 &lt;code&gt;postinstall&lt;/code&gt;이라는 항목에, 실행할 스크립트를 넣어 놓으면 &lt;code&gt;npm install&lt;/code&gt;이 진행되고 나서 이 스크립트를 실행하게 되는데, 이 부분을 이용하는 것.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-json&#34;&gt;  &amp;quot;scripts&amp;quot;: {
+    &amp;quot;start&amp;quot;: &amp;quot;node ./bin/www&amp;quot;,
+    &amp;quot;karma&amp;quot;: &amp;quot;./node_modules/karma/bin/karma start&amp;quot;,
+    &amp;quot;spec&amp;quot;: &amp;quot;./node_modules/jasmine-node/bin/jasmine-node --coffee --verbose spec&amp;quot;,
+    &amp;quot;postinstall&amp;quot;: &amp;quot;./node_modules/bower/bin/bower install&amp;quot;
+  },
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;이렇게 간단하게 웹서비스 실행 전에 &lt;code&gt;bower install&lt;/code&gt;을 실행할 수 있다. 한 가지 단점은, 이 커맨드를 실행하기 위해, (실제 실행 때에는 필요하지 않은) bower 의존성을 걸어야 한다는 점이 있으나, 무시할만하다.&lt;/p&gt;
+
+&lt;p&gt;그렇게 해서, 결국 데모 앱을 준비했다. 아직 뭐 하는 기능은 없고, 단지 Heroku에 &lt;strong&gt;텅 빈&lt;/strong&gt; express 앱을 띄워 놓은 것. 차차 여기에 살을 붙이기로 한다.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;http://holiday-project.hatemogi.com/&#34;&gt;http://holiday-project.hatemogi.com/&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;(위 주소에 heroku 서비스를 올려놓았으나, 아직은 방문하지 말아달라. ^^;)&lt;/p&gt;
+
+&lt;p&gt;한가지 전혀 다른 얘기로, Heroku add-on을 살펴보다가 Redis addon을 슬쩍 봤는데, 아래 캡처이미지에 보이듯, 3만8천 개 인스턴스를 서비스하고 있단다. 회사 업무로 우리 팀이 하는 일 중 하나가, 사내에 Redis 인스턴스 클라우드스럽게(?) 제공해주고 운영하는 일인데, 이거 외부에서 장사해도 될만한 일이었구나하는 뒤늦은 아쉬움이 든다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://hatemogi.com/img/holiday-project/redis-to-go.png&#34; style=&#34;width: 600px;&#34;/&gt;&lt;/p&gt;
+
+&lt;p&gt;3만8천 개라니&amp;hellip; 대단하다. 장사 잘되는구나?!&lt;/p&gt;
+
+&lt;p&gt;오늘은 여기까지.&lt;/p&gt;
 </description>
     </item>
     
