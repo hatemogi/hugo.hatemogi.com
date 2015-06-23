@@ -72,8 +72,7 @@
 
 <p>아래는 그 때 전시회장에서 시연을 준비중인 모습입니다.</p>
 
-<p><img src="/img/post/embedded_fun/at_ddc10.jpg" alt="전시회장에서" />
-</p>
+<p><img src="/img/post/embedded_fun/at_ddc10.jpg" alt="전시회장에서" /></p>
 
 <p>전날 밤까지도 펌웨어(firmware)를 다 개발하지 못해서 초조했었는데, 운 좋게도 당일 새벽에 잘 마무리가 되어서  전시할 수 있었습니다. 사진의 표정으로보니, 역시 꽤 즐거운 작업이었던것 같습니다.</p>
 
@@ -89,8 +88,7 @@
 
 <p>임베디드 시스템은 더 큰 시스템 내부에서 특화된 제어기능을 위해 만든 컴퓨터 시스템을 부르는 말입니다 <sup class="footnote-ref" id="fnref:6874d6c8d49a55090f1708c5305f50ef:1"><a rel="footnote" href="#fn:6874d6c8d49a55090f1708c5305f50ef:1">1</a></sup>. 제 프로젝트에서는, 장난감 무선조정 자동차를 커다란 시스템이라고 보면 되고, 그 장난감 자동차 안에, 자동차를 제어하기 위해 넣어둔 간단하고 작은 컴퓨터 시스템을 임베디드 시스템이라고 부를 수 있습니다.</p>
 
-<p><img src="/img/post/embedded_fun/gti.jpg" alt="GTI, the larger system" />
-</p>
+<p><img src="/img/post/embedded_fun/gti.jpg" alt="GTI, the larger system" /></p>
 
 <p>시중 장난감샵에서 골프 GTI 한대 뽑았어요. 이 장난감 자동차에 무선 송수신기를 연결해서 조종할 수 있습니다. 저 자동차의 무선 신호 수신용 부품을 직접만든 임베디드 시스템으로 교체하고, 그 임베디드 시스템과 아이폰이 무선 통신을 하게 만들었습니다. 자동차의 구동은 결국, 2개의 <a href="http://en.wikipedia.org/wiki/Servo_(radio_control">서보모터</a>)라고 불리는 부품을 조작하면 되더군요. 각각의 서보모터는 앞바퀴 스티어링과, 뒷바퀴의 구동모터를 제어하는 역할을 합니다. 생소한 서보모터의 디테일은 생략하고, 간단하게 정리합니다.</p>
 
@@ -102,8 +100,7 @@
 
 <p>한편, 임베디드 시스템의 입력(Input)은 조금 자유롭게 설정할 수 있습니다. 무선통신을 위해서, <a href="http://en.wikipedia.org/wiki/WiFi">WiFi</a>, <a href="http://en.wikipedia.org/wiki/Bluetooth">Bluetooth</a>를 고려해봤습니다. 일단, 배터리팩에서 전원을 공급받아서 사용해야하고, 그 전력의 대부분은 자동차 모터제어에 사용되어야하므로, 블루투스가 더 나을 것 같았습니다. 마침, 아이폰에도 블루투스 장치가 있으므로, 간단하게 서로 통신할 수 있을거라 기대했죠.</p>
 
-<p><img src="/img/post/embedded_fun/diagram1.png" alt="diagram1" />
-</p>
+<p><img src="/img/post/embedded_fun/diagram1.png" alt="diagram1" /></p>
 
 <p>(나름 열심히 그렸으나 대충 그린 걸로 보이는) 그림으로 살펴보죠. 이 프로젝트의 주인공인 임베디드 시스템은 아이폰으로부터 블루투스(Bluetooth) 무선신호를 받아서 나름의 계산(컴퓨팅!)을 한 뒤, 적절한 PWM신호를 만들어 서보모터 #1과 #2에 각각 공급합니다. 임베디드 시스템은 자동차 본체에 부착하였으며, 서보모터들과는 전선으로 연결됩니다.</p>
 
